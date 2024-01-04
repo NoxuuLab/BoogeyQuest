@@ -1,0 +1,1074 @@
+[
+  {
+    "ID": 1,
+    "Name": "The seven o'clock man",
+    "Country": "Canada",
+    "Characteristics": "",
+    "Image": "the_seven_oclock_man.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 2,
+    "Name": "La Sucia",
+    "Country": "Honduras",
+    "Characteristics": "",
+    "Image": "la_sucia.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 3,
+    "Name": "La Cegua",
+    "Country": "Nicaragua",
+    "Characteristics": "",
+    "Image": "la_cegua.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 4,
+    "Name": "El Sombrerón",
+    "Country": "Guatemala",
+    "Characteristics": "",
+    "Image": "el_sombreron.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 5,
+    "Name": "Black Cadejo",
+    "Country": "El Salvador",
+    "Characteristics": "",
+    "Image": "black_cadejo.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 6,
+    "Name": "El Coco",
+    "Country": "Mexico",
+    "Characteristics": "",
+    "Image": "el_coco.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 6,
+    "Name": "El Coco",
+    "Country": "Colombia",
+    "Characteristics": "",
+    "Image": "el_coco.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 7,
+    "Name": "Jersey Devil",
+    "Country": "USA",
+    "Characteristics": "",
+    "Image": "jersey_devil.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 8,
+    "Name": "Tata Duende",
+    "Country": "Belize",
+    "Characteristics": "",
+    "Image": "tata_duende.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 9,
+    "Name": "La Tulevieja",
+    "Country": "Panama",
+    "Characteristics": "",
+    "Image": "la_tulevieja.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 10,
+    "Name": "La Ciguapa",
+    "Country": "Dominican Republic",
+    "Characteristics": "",
+    "Image": "la_ciguapa.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 11,
+    "Name": "Mètminwi",
+    "Country": "Haity",
+    "Characteristics": "",
+    "Image": "mètminwi.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 12,
+    "Name": "Logaroo",
+    "Country": "Grenada",
+    "Characteristics": "",
+    "Image": "logaroo.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 13,
+    "Name": "El Cuco",
+    "Country": "Costa Rica",
+    "Characteristics": "",
+    "Image": "el_cuco.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 13,
+    "Name": "El Cuco",
+    "Country": "Cuba",
+    "Characteristics": "",
+    "Image": "el_cuco.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 13,
+    "Name": "Cuco",
+    "Country": "Uruguay",
+    "Characteristics": "",
+    "Image": "el_cuco.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 14,
+    "Name": "Jumbee",
+    "Country": "Antigua and Barbuda",
+    "Characteristics": "",
+    "Image": "jumbee.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 14,
+    "Name": "Jumbee",
+    "Country": "Bahamas",
+    "Characteristics": "",
+    "Image": "jumbee.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 14,
+    "Name": "Jumbee",
+    "Country": "Barbados",
+    "Characteristics": "",
+    "Image": "jumbee.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 14,
+    "Name": "Jumbee",
+    "Country": "Jamaica",
+    "Characteristics": "",
+    "Image": "jumbee.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 14,
+    "Name": "Jumbee",
+    "Country": "Trinidat and Tobago",
+    "Characteristics": "",
+    "Image": "jumbee.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 14,
+    "Name": "Jumbee",
+    "Country": "Guyana",
+    "Characteristics": "",
+    "Image": "jumbee.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 14,
+    "Name": "Jumbee",
+    "Country": "Venezuela",
+    "Characteristics": "",
+    "Image": "jumbee.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 15,
+    "Name": "Asema",
+    "Country": "Suriname",
+    "Characteristics": "",
+    "Image": "asema.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 16,
+    "Name": "Cuca",
+    "Country": "Brazil",
+    "Characteristics": "",
+    "Image": "cuca.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 18,
+    "Name": "El Viejo De La Bolsa",
+    "Country": "Chile",
+    "Characteristics": "",
+    "Image": "el_viejo_de_la_bolsa.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 18,
+    "Name": "El Viejo De La Bolsa",
+    "Country": "Argentina",
+    "Characteristics": "",
+    "Image": "el_viejo_de_la_bolsa.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 17,
+    "Name": "Yasy Yatere",
+    "Country": "Paraguay",
+    "Characteristics": "",
+    "Image": "yasi_yatere.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 19,
+    "Name": "Pishataco",
+    "Country": "Peru",
+    "Characteristics": "",
+    "Image": "pishataco.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 19,
+    "Name": "Pishataco",
+    "Country": "Bolicia",
+    "Characteristics": "",
+    "Image": "pishataco.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 20,
+    "Name": "Kuartam",
+    "Country": "Ecuador",
+    "Characteristics": "",
+    "Image": "kuartam.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 21,
+    "Name": "Bokkenrijders",
+    "Country": "Netherland",
+    "Characteristics": "",
+    "Image": "bokkenrijders.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 22,
+    "Name": "Kelpie",
+    "Country": "Scotland",
+    "Characteristics": "",
+    "Image": "kelpie.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 23,
+    "Name": "Gryla",
+    "Country": "Iceland",
+    "Characteristics": "",
+    "Image": "gryla.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 24,
+    "Name": "De Béise Monni",
+    "Country": "Luxembourg",
+    "Characteristics": "",
+    "Image": "de_beise_monni.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 25,
+    "Name": "Bussenmand",
+    "Country": "Denmark",
+    "Characteristics": "",
+    "Image": "bussenmand.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 26,
+    "Name": "Kludde",
+    "Country": "Belgium",
+    "Characteristics": "",
+    "Image": "kludde.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 27,
+    "Name": "Nokken",
+    "Country": "Norway",
+    "Characteristics": "",
+    "Image": "nokken.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 27,
+    "Name": "Nokken",
+    "Country": "Sweden",
+    "Characteristics": "",
+    "Image": "nokken.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 28,
+    "Name": "Mörkö",
+    "Country": "Finland",
+    "Characteristics": "",
+    "Image": "morko.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 29,
+    "Name": "Butzemann",
+    "Country": "Germany",
+    "Characteristics": "",
+    "Image": "butzemann.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 30,
+    "Name": "Boogeyman",
+    "Country": "United Kingdom",
+    "Characteristics": "",
+    "Image": "boogeyman.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 31,
+    "Name": "Sluagh",
+    "Country": "Ireland (Northern)",
+    "Characteristics": "",
+    "Image": "sluagh.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 32,
+    "Name": "Bodach",
+    "Country": "Republic of Irland",
+    "Characteristics": "",
+    "Image": "bodach.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 33,
+    "Name": "Black Annis",
+    "Country": "England",
+    "Characteristics": "",
+    "Image": "black_annis.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 34,
+    "Name": "Hans Trapp",
+    "Country": "France",
+    "Characteristics": "",
+    "Image": "hans_trapp.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 35,
+    "Name": "Afanc",
+    "Country": "Wales",
+    "Characteristics": "",
+    "Image": "afanc.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 36,
+    "Name": "Coco",
+    "Country": "Portugal",
+    "Characteristics": "",
+    "Image": "coco.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 37,
+    "Name": "El Hombre Del Saco",
+    "Country": "Spain",
+    "Characteristics": "",
+    "Image": "el_hombre_del_saco.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 38,
+    "Name": "Böögg",
+    "Country": "Switzerland",
+    "Characteristics": "",
+    "Image": "boogg.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 39,
+    "Name": "Krampus",
+    "Country": "Austria",
+    "Characteristics": "",
+    "Image": "krampus.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 40,
+    "Name": "Shrtiga",
+    "Country": "Albania",
+    "Characteristics": "",
+    "Image": "shrtiga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 41,
+    "Name": "The Guschg Herdsmen's Doll",
+    "Country": "Liechtenstein",
+    "Characteristics": "",
+    "Image": "the_guschg_herdsmens_doll.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 42,
+    "Name": "Babaroga",
+    "Country": "Bosnia and Herzegovina",
+    "Characteristics": "",
+    "Image": "babaroga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 42,
+    "Name": "Babaroga",
+    "Country": "Croatia",
+    "Characteristics": "",
+    "Image": "babaroga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 42,
+    "Name": "Babaroga",
+    "Country": "Kosovo",
+    "Characteristics": "",
+    "Image": "babaroga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 42,
+    "Name": "Babaroga",
+    "Country": "Moldova",
+    "Characteristics": "",
+    "Image": "babaroga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 42,
+    "Name": "Babaroga",
+    "Country": "Macedonia",
+    "Characteristics": "",
+    "Image": "babaroga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 42,
+    "Name": "Babaroga",
+    "Country": "Serbia",
+    "Characteristics": "",
+    "Image": "babaroga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 43,
+    "Name": "Babau",
+    "Country": "Italy",
+    "Characteristics": "",
+    "Image": "babau.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 44,
+    "Name": "Babaw",
+    "Country": "Malta",
+    "Characteristics": "",
+    "Image": "babaw.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 45,
+    "Name": "Bubus",
+    "Country": "Hungary",
+    "Characteristics": "",
+    "Image": "bubus.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 46,
+    "Name": "Baubus",
+    "Country": "Latvia",
+    "Characteristics": "",
+    "Image": "baubus.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 46,
+    "Name": "Baubus",
+    "Country": "Lithuania",
+    "Characteristics": "",
+    "Image": "baubus.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 47,
+    "Name": "Vodyanoy",
+    "Country": "Czech Republic",
+    "Characteristics": "",
+    "Image": "vodyanoy.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 47,
+    "Name": "Vodyanoy",
+    "Country": "Slovakia",
+    "Characteristics": "",
+    "Image": "vodyanoy.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 47,
+    "Name": "Vodyanoy",
+    "Country": "Slovenia",
+    "Characteristics": "",
+    "Image": "vodyanoy.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 48,
+    "Name": "Baba Yaga",
+    "Country": "Belarus",
+    "Characteristics": "",
+    "Image": "baba_yaga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 48,
+    "Name": "Baba Yaga",
+    "Country": "Poland",
+    "Characteristics": "",
+    "Image": "baba_yaga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 48,
+    "Name": "Baba Yaga",
+    "Country": "Russia",
+    "Characteristics": "",
+    "Image": "baba_yaga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 48,
+    "Name": "Baba Yaga",
+    "Country": "Ukraine",
+    "Characteristics": "",
+    "Image": "baba_yaga.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 49,
+    "Name": "Bau Bau",
+    "Country": "Romania",
+    "Characteristics": "",
+    "Image": "bau_bau.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 50,
+    "Name": "Ali",
+    "Country": "Georgia",
+    "Characteristics": "",
+    "Image": "ali.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 51,
+    "Name": "Div",
+    "Country": "Armenia",
+    "Characteristics": "",
+    "Image": "div.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 51,
+    "Name": "Div",
+    "Country": "Azerbaijan",
+    "Characteristics": "",
+    "Image": "div.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 52,
+    "Name": "Kkullas",
+    "Country": "Cyprus",
+    "Characteristics": "",
+    "Image": "kkullas.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 53,
+    "Name": "Baboulos",
+    "Country": "Greece",
+    "Characteristics": "",
+    "Image": "baboulos.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 54,
+    "Name": "Psoglav",
+    "Country": "Montenegro",
+    "Characteristics": "",
+    "Image": "psoglav.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 55,
+    "Name": "Karakondjul",
+    "Country": "Bulgaria",
+    "Characteristics": "",
+    "Image": "karakondjul.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 56,
+    "Name": "Abu I Kees",
+    "Country": "Lebanon",
+    "Characteristics": "",
+    "Image": "abu_i_kees.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 57,
+    "Name": "Karankoncolos",
+    "Country": "Turkey",
+    "Characteristics": "",
+    "Image": "karankoncolos.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 58,
+    "Name": "Madar-i-al",
+    "Country": "Afganistan",
+    "Characteristics": "",
+    "Image": "madar-i-al.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 59,
+    "Name": "Dybbuk",
+    "Country": "Israel",
+    "Characteristics": "",
+    "Image": "dybbuk.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 60,
+    "Name": "Saalua",
+    "Country": "Iraq",
+    "Characteristics": "",
+    "Image": "saalua.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 61,
+    "Name": "Nasnãs",
+    "Country": "Yemen",
+    "Characteristics": "",
+    "Image": "nasnas.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 62,
+    "Name": "Süräle",
+    "Country": "Uzbekistan",
+    "Characteristics": "",
+    "Image": "surale.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 63,
+    "Name": "Zhalmauyz Kempir",
+    "Country": "Kazakhstan",
+    "Characteristics": "",
+    "Image": "zhalmauyz_kempir.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 63,
+    "Name": "Zhalmauyz Kempir",
+    "Country": "Kyrgyzstan",
+    "Characteristics": "",
+    "Image": "zhalmauyz_kempir.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 64,
+    "Name": "Basty",
+    "Country": "Turkmenistan",
+    "Characteristics": "",
+    "Image": "basty.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 65,
+    "Name": "Looloo Khor Khoreh",
+    "Country": "Iran",
+    "Characteristics": "",
+    "Image": "looloo_khor_khoreh.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 65,
+    "Name": "Looloo Khor Khoreh",
+    "Country": "Tajikistan",
+    "Characteristics": "",
+    "Image": "looloo_khor_khoreh.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 66,
+    "Name": "Dojairah and Umna Al Ghola",
+    "Country": "Saudi Arabia",
+    "Characteristics": "",
+    "Image": "dojairah.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 67,
+    "Name": "The Mum",
+    "Country": "Pakistan",
+    "Characteristics": "",
+    "Image": "the_mum.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 68,
+    "Name": "Gurumapa",
+    "Country": "Nepal",
+    "Characteristics": "",
+    "Image": "gurumapa.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 69,
+    "Name": "Bhoot",
+    "Country": "India",
+    "Characteristics": "",
+    "Image": "bhoot.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 69,
+    "Name": "Bhoot",
+    "Country": "Bangladesh",
+    "Characteristics": "",
+    "Image": "bhoot.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 70,
+    "Name": "Kinduri",
+    "Country": "Sri Lanka",
+    "Characteristics": "",
+    "Image": "kinduri.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 71,
+    "Name": "Krahang",
+    "Country": "Thailand",
+    "Characteristics": "",
+    "Image": "krahang.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 72,
+    "Name": "Santu Sakai",
+    "Country": "Malaysia",
+    "Characteristics": "",
+    "Image": "santu_sakai.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 73,
+    "Name": "Wewe Gombel",
+    "Country": "Indonesia",
+    "Characteristics": "",
+    "Image": "wewe_gombel.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 74,
+    "Name": "Bunyip",
+    "Country": "Australia",
+    "Characteristics": "",
+    "Image": "bunyip.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 75,
+    "Name": "Grandmother Tiger",
+    "Country": "China",
+    "Characteristics": "",
+    "Image": "grandmother_tiger.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 75,
+    "Name": "Grandmother Tiger",
+    "Country": "Taiwan",
+    "Characteristics": "",
+    "Image": "grandmother_tiger.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 76,
+    "Name": "Almas",
+    "Country": "Mongolia",
+    "Characteristics": "",
+    "Image": "almas.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 77,
+    "Name": "Ahp",
+    "Country": "Cambodia",
+    "Characteristics": "",
+    "Image": "ahp.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 78,
+    "Name": "Namahage",
+    "Country": "Japan",
+    "Characteristics": "",
+    "Image": "namahage.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 79,
+    "Name": "Mang-Tae-Gi-Hal-A-Buh-Ji",
+    "Country": "North Korea",
+    "Characteristics": "",
+    "Image": "mang-tae-gi-hal-a-buh-ji.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 79,
+    "Name": "Mang-Tae-Gi-Hal-A-Buh-Ji",
+    "Country": "South Korea",
+    "Characteristics": "",
+    "Image": "mang-tae-gi-hal-a-buh-ji.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 80,
+    "Name": "Ông Ba Bi",
+    "Country": "Vietnam",
+    "Characteristics": "",
+    "Image": "ong_ba_bi.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 81,
+    "Name": "Aswang",
+    "Country": "Philippines",
+    "Characteristics": "",
+    "Image": "aswang.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 82,
+    "Name": "Langsuyar",
+    "Country": "Singapore",
+    "Characteristics": "",
+    "Image": "langsuyar.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 83,
+    "Name": "Patupaiarehe",
+    "Country": "New Zealand",
+    "Characteristics": "",
+    "Image": "patupaiarehe.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 84,
+    "Name": "Lamia",
+    "Country": "Libya",
+    "Characteristics": "",
+    "Image": "lamia.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 85,
+    "Name": "H'Awouahoua",
+    "Country": "Algeria",
+    "Characteristics": "",
+    "Image": "h_awouahoua.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 86,
+    "Name": "Boukencha",
+    "Country": "Marocco",
+    "Characteristics": "",
+    "Image": "boukencha.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 87,
+    "Name": "Ninki Nanka",
+    "Country": "Senegal",
+    "Characteristics": "",
+    "Image": "ninki_nanka.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 87,
+    "Name": "Ninki Nanka",
+    "Country": "The Gambia",
+    "Characteristics": "",
+    "Image": "ninki_nanka.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 88,
+    "Name": "Adze",
+    "Country": "Ghana",
+    "Characteristics": "",
+    "Image": "adze.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 88,
+    "Name": "Adze",
+    "Country": "Togo",
+    "Characteristics": "",
+    "Image": "adze.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 89,
+    "Name": "Whistling Demons",
+    "Country": "Nigeria",
+    "Characteristics": "",
+    "Image": "whistling_demons.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 90,
+    "Name": "Eloko",
+    "Country": "Democratic Republic of the Congo",
+    "Characteristics": "",
+    "Image": "eloko.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 91,
+    "Name": "Tokoloshe",
+    "Country": "Lesotho",
+    "Characteristics": "",
+    "Image": "tokoloshe.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 91,
+    "Name": "Tokoloshe",
+    "Country": "South Africa",
+    "Characteristics": "",
+    "Image": "tokoloshe.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 92,
+    "Name": "Songomby",
+    "Country": "Madagascar",
+    "Characteristics": "",
+    "Image": "songomby.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 93,
+    "Name": "Tuyewera",
+    "Country": "Malawi",
+    "Characteristics": "",
+    "Image": "tuyewera.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 93,
+    "Name": "Tuyewera",
+    "Country": "Zambia",
+    "Characteristics": "",
+    "Image": "tuyewera.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 94,
+    "Name": "Popobawa",
+    "Country": "Tanzania",
+    "Characteristics": "",
+    "Image": "popobawa.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 95,
+    "Name": "Rompo",
+    "Country": "Uganda",
+    "Characteristics": "",
+    "Image": "rompo.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 95,
+    "Name": "Rompo",
+    "Country": "Zimbabwe",
+    "Characteristics": "",
+    "Image": "rompo.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 96,
+    "Name": "Werehyena",
+    "Country": "Ethiopia",
+    "Characteristics": "",
+    "Image": "werehyena.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 96,
+    "Name": "Werehyena",
+    "Country": "Somalia",
+    "Characteristics": "",
+    "Image": "werehyena.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 96,
+    "Name": "Werehyena",
+    "Country": "South Sudan",
+    "Characteristics": "",
+    "Image": "werehyena.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 96,
+    "Name": "Werehyena",
+    "Country": "Sudan",
+    "Characteristics": "",
+    "Image": "werehyena.jpg",
+    "Description": ""
+  },
+  {
+    "ID": 97,
+    "Name": "Abu Rigl Maslukha",
+    "Country": "Egypt",
+    "Characteristics": "",
+    "Image": "abu_rigl_maslukha.jpg",
+    "Description": ""
+  }
+]
