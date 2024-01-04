@@ -234,7 +234,7 @@
   {
     "ID": 19,
     "Name": "Pishataco",
-    "Country": "Bolicia",
+    "Country": "Bolivia",
     "Characteristics": "",
     "Image": "pishataco.jpg",
     "Description": ""
@@ -250,7 +250,7 @@
   {
     "ID": 21,
     "Name": "Bokkenrijders",
-    "Country": "Netherland",
+    "Country": "Netherlands",
     "Characteristics": "",
     "Image": "bokkenrijders.jpg",
     "Description": ""
@@ -346,7 +346,7 @@
   {
     "ID": 32,
     "Name": "Bodach",
-    "Country": "Republic of Irland",
+    "Country": "Ireland",
     "Characteristics": "",
     "Image": "bodach.jpg",
     "Description": ""
@@ -466,7 +466,7 @@
   {
     "ID": 42,
     "Name": "Babaroga",
-    "Country": "Serbia",
+    "Country": "Republic of Serbia",
     "Characteristics": "",
     "Image": "babaroga.jpg",
     "Description": ""
@@ -548,16 +548,16 @@
     "Name": "Baba Yaga",
     "Country": "Poland",
     "Characteristics": "",
-    "Image": "baba_yaga.jpg",
+    "Image": "baba_yaga.png",
     "Description": ""
   },
   {
     "ID": 48,
     "Name": "Baba Yaga",
     "Country": "Russia",
-    "Characteristics": "",
+    "Characteristics": "lorem ipsum lorem ipsum",
     "Image": "baba_yaga.jpg",
-    "Description": ""
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia pellentesque erat, sit amet varius est faucibus non. Aenean vitae convallis dolor. Suspendisse commodo nunc aliquet finibus eleifend. Maecenas aliquet nunc non dui blandit vulputate. Donec ut risus sed magna placerat lacinia a vitae neque. Fusce ut hendrerit tellus. Nam molestie magna vel massa dignissim, sit amet pellentesque elit maximus. Nulla non augue nec lorem mattis accumsan."
   },
   {
     "ID": 48,
@@ -650,7 +650,7 @@
   {
     "ID": 58,
     "Name": "Madar-i-al",
-    "Country": "Afganistan",
+    "Country": "Afghanistan",
     "Characteristics": "",
     "Image": "madar-i-al.jpg",
     "Description": ""
@@ -914,7 +914,7 @@
   {
     "ID": 86,
     "Name": "Boukencha",
-    "Country": "Marocco",
+    "Country": "Morocco",
     "Characteristics": "",
     "Image": "boukencha.jpg",
     "Description": ""
@@ -1010,7 +1010,7 @@
   {
     "ID": 94,
     "Name": "Popobawa",
-    "Country": "Tanzania",
+    "Country": "United Republic of Tanzania",
     "Characteristics": "",
     "Image": "popobawa.jpg",
     "Description": ""

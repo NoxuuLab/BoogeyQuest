@@ -7,12 +7,35 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
-
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>The Boogeymans</title>
 </head>
 <body>
-    <svg id="my_dataviz" width="800" height="600"></svg>
+
+
+    <div class="main-container">
+        <div class="map-container" id="mapContainer"></div>
+        <div class="boogeyman-card" id="boogeymanCard">
+            <div class="boogeyman-name" id="boogeymanName"></div>
+            <div class="boogeyman-image" id="boogeymanImage"></div>
+            <div class="boogeyman-info">
+                <p id="boogeymanCountry"></p>
+                <div class="boogeyman-header">Characteristics:
+                    <div class="boogeyman-characteristics" id="boogeymanCharacteristics"></div>
+                </div>
+                <div class="boogeyman-header" >Description:</div>
+                <div class="boogeyman-description"></div>
+                
+            
+        </div>
+      </div>
+
+
+
+   
+
 
     <script src="script.js"></script>
 </body>
 </html>
+

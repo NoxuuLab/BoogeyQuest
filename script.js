@@ -1,6 +1,13 @@
-var svg = d3.select("svg"),
-  width = +svg.attr("width"),
-  height = +svg.attr("height");
+var mapContainer = d3.select("#mapContainer");
+
+var svg = mapContainer.append("svg")
+  .attr("width", "100%")
+  .attr("height", "100%");
+
+// Adjust the width and height based on the size of the map container
+var width = mapContainer.node().getBoundingClientRect().width;
+var height = mapContainer.node().getBoundingClientRect().height;
+
 
 // Map and projection
 var path = d3.geoPath();
@@ -13,6 +20,33 @@ var projection = d3.geoMercator()
 var tooltip = d3.select("body").append("div")
   .attr("class", "tooltip")
   .style("opacity", 0);
+
+// Define a zoom behavior
+var zoom = d3.zoom()
+  .scaleExtent([1, 8])
+  .on("zoom", zoomed);
+
+// Apply zoom behavior to the SVG
+svg.call(zoom);
+
+// Function to handle zooming
+function zoomed(event) {
+    svg.selectAll('path')
+      .attr("transform", event.transform);
+  }
+
+// Function to update the boogeyman card
+function updateBoogeymanCard(boogeymanInfo) {
+    // Update the card content based on the boogeyman information
+    document.getElementById("boogeymanImage").style.backgroundImage = `url(${boogeymanInfo.Image})`;
+    document.getElementById("boogeymanName").innerText = boogeymanInfo.Name;
+    document.getElementById("boogeymanCountry").innerText = `Country: ${boogeymanInfo.Country}`;
+    document.querySelector(".boogeyman-characteristics").innerText = `Characteristics: ${boogeymanInfo.Characteristics}`;
+    document.querySelector(".boogeyman-description").innerText = `Description: ${boogeymanInfo.Description}`;
+  
+    // Show the boogeyman card
+    document.getElementById("boogeymanCard").style.display = "block";
+}
 
 // Load boogeyman data from JSON file
 d3.json('data/boogeyman.json').then(function (boogeymanData) {
@@ -27,12 +61,12 @@ d3.json('data/boogeyman.json').then(function (boogeymanData) {
       boogeymanMap.set(d.Country, d);
     });
 
-    // Draw the map
+// Draw the map
     svg.append("g")
-      .selectAll("path")
-      .data(geojson.features)
-      .enter()
-      .append("path")
+        .selectAll("path")
+        .data(geojson.features)
+        .enter()
+        .append("path")
         .attr("d", path.projection(projection))
         .attr("fill", function (d) {
           // Check if the country has boogeyman information
@@ -48,18 +82,23 @@ d3.json('data/boogeyman.json').then(function (boogeymanData) {
         .attr("class", function(d){ return "Country" } )
         .style("opacity", .8)
         .on("mouseover", function(event, d) {
-          // Show tooltip with boogeyman name
-          if (countriesWithBoogeyman.includes(d.properties.name)) {
-            const boogeymanInfo = boogeymanMap.get(d.properties.name);
-            if (boogeymanInfo) {
-              tooltip.transition()
-                .duration(200)
-                .style("opacity", .9);
-              tooltip.html(`<strong>${d.properties.name}</strong><br>${boogeymanInfo.Name}`)
-                .style("left", (event.pageX) + "px")
-                .style("top", (event.pageY - 28) + "px");
-            }
-          }
+            // Show tooltip with country name (and boogeyman name if available)
+            tooltip.transition()
+            .duration(200)
+            .style("opacity", .9);
+
+            if (countriesWithBoogeyman.includes(d.properties.name)) {
+                const boogeymanInfo = boogeymanMap.get(d.properties.name);
+                if (boogeymanInfo)  {
+                    // Call the updateBoogeymanCard function with the boogeymanInfo
+                    updateBoogeymanCard(boogeymanInfo);
+                  }
+              } else {
+                tooltip.html(`<strong>${d.properties.name}</strong>`);
+              }
+
+              tooltip.style("left", (event.pageX) + "px").style("top", (event.pageY - 28) + "px");
+
 
           // Highlight country on mouseover
           d3.select(this)
