@@ -2115,6 +2115,7 @@
     "Country": "New Zealand",
     "Characteristics": {
       "PhysicalAppearance": ["Supernatural", "Fairy-like Beings"],
+      "Gender": "Varies",
       "Nature": ["Māori Folklore"],
       "Behavior": ["Guardians of Natural Spaces", "Shy and Elusive"],
       "Origin": "Māori Mythology",
@@ -2125,7 +2126,7 @@
       "RegionalTraits": ["Māori Folklore"]
     },
     "Image": "images/patupaiarehe.jpg",
-    "Description": "Patupaiarehe, mystical beings from Māori folklore in New Zealand, are characterized by their supernatural, fairy-like appearance. These entities act as guardians of natural spaces, maintaining a shy and elusive nature. Rooted in Māori mythology, Patupaiarehe are associated with creating mists and playing flute sounds to communicate. Cultural themes tied to Patupaiarehe include a profound connection to nature and their role as spiritual guardians. Their fear factor lies in their mysterious and elusive presence, featuring common attributes like a fair complexion and a mystical aura. In the rich tapestry of Māori folklore, Patupaiarehe play a significant role as enigmatic and ethereal entities."
+    "Description": "Patupaiarehe, mystical beings deeply entrenched in Māori folklore within New Zealand, are characterized by their supernatural, fairy-like appearance. These entities, with a varying gender identity, serve as guardians of natural spaces, exhibiting a shy and elusive nature. Rooted in Māori mythology, Patupaiarehe are intrinsically tied to the creation of mists and the enchanting sounds of their flutes. Cultural themes interwoven with Patupaiarehe encompass a profound connection to nature, emphasizing their role as spiritual guardians. Their fear factor emanates from their mysterious and elusive presence, marked by common attributes such as a fair complexion and a mystical aura. Within the rich tapestry of Māori folklore, Patupaiarehe stand as significant, enigmatic, and ethereal entities."
   },
   {
     "ID": 84,
@@ -2133,6 +2134,7 @@
     "Country": "Libya",
     "Characteristics": {
       "PhysicalAppearance": ["Supernatural", "Serpentine"],
+      "Gender": "Female",
       "Nature": ["Greek Mythology"],
       "Behavior": ["Seductive", "Predatory"],
       "Origin": "Ancient Greek Mythology",
@@ -2143,7 +2145,7 @@
       "RegionalTraits": ["Greek Mythology Influence"]
     },
     "Image": "images/lamia.jpg",
-    "Description": "Lamia, originating from ancient Greek mythology and found in the cultural lore of Libya, is a supernatural being with a serpentine nature. Known for her seductive and predatory behavior, Lamia lures victims and feeds on their life essence. Rooted in Greek mythology, Lamia serves as a mythological being with moral warnings. The fear factor associated with Lamia lies in her seductive deception, featuring common attributes of a human and serpent hybrid. In the rich tapestry of Greek mythology, Lamia's tale serves as a cautionary narrative, and her presence in Libyan lore reflects the enduring influence of ancient myths."
+    "Description": "Lamia, with origins in ancient Greek mythology and a prominent presence in the cultural lore of Libya, is a supernatural being with a serpentine nature. As a female entity, Lamia is known for her seductive and predatory behavior, luring victims and feeding on their life essence. Emerging from the rich tapestry of Greek mythology, Lamia represents a mythological being with moral warnings embedded in her narrative. The fear factor associated with Lamia is rooted in her seductive deception, characterized by the common attributes of a human and serpent hybrid. Within the cultural landscape of Libyan lore, Lamia's story serves as a cautionary tale, reflecting the enduring influence of ancient myths in the region."
   },
   {
     "ID": 85,
@@ -2151,6 +2153,7 @@
     "Country": "Algeria",
     "Characteristics": {
       "PhysicalAppearance": ["Supernatural", "Jinn-like"],
+      "Gender": "Varies",
       "Nature": ["Algerian Folklore"],
       "Behavior": ["Mysterious", "Guardian Spirit"],
       "Origin": "Local Folk Beliefs",
@@ -2161,23 +2164,45 @@
       "RegionalTraits": ["Algerian Folklore Influence"]
     },
     "Image": "images/h_awouahoua.jpg",
-    "Description": "H'Awouahoua, a supernatural being from Algerian folklore, is jinn-like in appearance and behavior. Embraced by local folk beliefs, H'Awouahoua is a mysterious guardian spirit known for protecting locals and bestowing blessings upon them. Rooted in Algerian folklore, H'Awouahoua embodies folkloric entities and the concept of spiritual guardianship. The fear factor associated with H'Awouahoua arises from its mysterious presence, featuring common attributes like an ethereal glow and shape-shifting abilities. In the rich cultural tapestry of Algerian folklore, H'Awouahoua stands as a revered and enigmatic figure, embodying the spiritual essence of the region."
+    "Description": "H'Awouahoua, a supernatural being from Algerian folklore, manifests in a jinn-like form with a varying gender identity. Embraced by local folk beliefs, H'Awouahoua serves as a mysterious guardian spirit, dedicated to protecting locals and bestowing blessings upon them. Originating from the rich tapestry of Algerian folklore, H'Awouahoua embodies the essence of folkloric entities and the spiritual guardianship intrinsic to the culture. The fear factor associated with H'Awouahoua is heightened by its mysterious presence, characterized by an ethereal glow and shape-shifting abilities. Within the cultural landscape of Algerian folklore, H'Awouahoua stands as a revered and enigmatic figure, contributing to the spiritual fabric of the region."
   },
   {
     "ID": 86,
     "Name": "Boukencha",
     "Country": "Morocco",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shape-shifter"],
+      "Gender": "Varies",
+      "Nature": ["Moroccan Folklore"],
+      "Behavior": ["Trickster", "Guardian of Nature"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Playing Tricks", "Protecting Natural Spaces"],
+      "CulturalThemes": ["Folkloric Deception", "Harmony with Nature"],
+      "FearFactor": ["Illusory Transformations"],
+      "CommonAttributes": ["Elusive Form", "Connection to Natural Elements"],
+      "RegionalTraits": ["Moroccan Folklore Influence"]
+    },
     "Image": "images/boukencha.jpg",
-    "Description": ""
+    "Description": "Boukencha, a supernatural being from Moroccan folklore, manifests as a shape-shifter and trickster with a diverse gender identity. Revered as both a trickster and a guardian of nature, Boukencha is deeply rooted in local folk beliefs. Its modus operandi involves playing tricks on those who encounter it while also ensuring the protection of natural spaces. Cultural themes associated with Boukencha include folkloric deception and the harmonious coexistence between supernatural entities and nature. The fear factor associated with Boukencha arises from its illusory transformations, featuring common attributes such as an elusive form and a profound connection to natural elements. Within the cultural context of Moroccan folklore, Boukencha embodies the enigmatic and mischievous spirit that coexists with the natural landscape."
   },
   {
     "ID": 87,
     "Name": "Ninki Nanka",
     "Country": "Senegal",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Reptilian", "Serpentine", "Dragon-like"],
+      "Gender": "Unknown",
+      "Nature": ["Folklore", "Cryptid"],
+      "Behavior": ["Nocturnal", "Elusive", "Territorial"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Lurking in Swamps", "Avoiding Human Contact"],
+      "CulturalThemes": ["African Folklore", "Mythical Creatures"],
+      "FearFactor": ["Fear of the Unknown", "Dangerous Creature"],
+      "CommonAttributes": ["Serpentine Features", "Scaly Skin"],
+      "RegionalTraits": ["Senegalese Folklore"]
+    },
     "Image": "images/ninki_nanka.jpg",
-    "Description": ""
+    "Description": "Ninki Nanka is a cryptid creature deeply embedded in the folklore of Senegal. Described as a reptilian and serpentine entity with dragon-like features, Ninki Nanka is known for its elusive and nocturnal behavior, lurking in swamps and avoiding human contact. This mythical creature is rooted in African folklore and represents the fear of the unknown, embodying the danger associated with its existence. The tales surrounding Ninki Nanka are characterized by its scaly skin and the belief that encountering this creature is a rare and potentially perilous experience according to Senegalese folklore."
   },
   {
     "ID": 87,
@@ -2188,139 +2213,327 @@
     "Description": ""
   },
   {
-    "ID": 88,
-    "Name": "Adze",
-    "Country": "Ghana",
-    "Characteristics": "",
-    "Image": "images/adze.jpg",
-    "Description": ""
+    "ID": 87,
+    "Name": "Ninki Nanka",
+    "Country": "The Gambia",
+    "Characteristics": {
+      "PhysicalAppearance": ["Reptilian", "Serpentine", "Dragon-like"],
+      "Gender": "Unknown",
+      "Nature": ["Folklore", "Cryptid"],
+      "Behavior": ["Nocturnal", "Elusive", "Territorial"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Lurking in Swamps", "Avoiding Human Contact"],
+      "CulturalThemes": ["African Folklore", "Mythical Creatures"],
+      "FearFactor": ["Fear of the Unknown", "Dangerous Creature"],
+      "CommonAttributes": ["Serpentine Features", "Scaly Skin"],
+      "RegionalTraits": ["Gambian Folklore"]
+    },
+    "Image": "images/ninki_nanka.jpg",
+    "Description": "Ninki Nanka is a cryptid creature deeply ingrained in the folklore of The Gambia. Described as a reptilian and serpentine entity with dragon-like features, Ninki Nanka is known for its elusive and nocturnal behavior, lurking in swamps and avoiding human contact. This mythical creature is rooted in African folklore, specifically Gambian folklore, and represents the fear of the unknown, embodying the danger associated with its existence. The tales surrounding Ninki Nanka in The Gambia are characterized by its scaly skin, and the belief that encountering this creature is a rare and potentially perilous experience according to Gambian folklore."
   },
   {
     "ID": 88,
     "Name": "Adze",
     "Country": "Togo",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Vampiric", "Shape-shifter", "Appears as Firefly"],
+      "Gender": "Unknown",
+      "Nature": ["Folklore", "Supernatural Being"],
+      "Behavior": ["Nocturnal", "Bloodsucking", "Shape-shifting"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Transforming into a Firefly", "Drinking Blood"],
+      "CulturalThemes": ["African Folklore", "Vampiric Entities"],
+      "FearFactor": ["Night Terrors", "Bloodsucking"],
+      "CommonAttributes": ["Shape-shifting Abilities", "Firefly Appearance"],
+      "RegionalTraits": ["Togolese Folklore"]
+    },
     "Image": "images/adze.jpg",
-    "Description": ""
+    "Description": "Adze is a supernatural being deeply rooted in the folklore of Togo. This vampiric entity is characterized by its ability to shape-shift, often appearing as a firefly. Adze is known for its nocturnal behavior, bloodsucking tendencies, and the ability to transform into a firefly. Rooted in African folklore, specifically Togolese folklore, the tales surrounding Adze evoke night terrors and the fear associated with bloodsucking entities. The cultural themes surrounding Adze are connected to the broader category of vampiric entities, and encountering this supernatural being is believed to be a frightening experience according to Togolese folklore."
   },
   {
     "ID": 89,
     "Name": "Whistling Demons",
     "Country": "Nigeria",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Shadowy", "Ethereal"],
+      "Gender": "Varies",
+      "Nature": ["Folklore", "Supernatural Beings"],
+      "Behavior": ["Nocturnal", "Whistling Sounds", "Causing Fear"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Whistling to Attract Attention", "Causing Nightmares"],
+      "CulturalThemes": ["African Folklore", "Spiritual Entities"],
+      "FearFactor": ["Night Terrors", "Eerie Whistling Sounds"],
+      "CommonAttributes": ["Shadowy Presence", "Ethereal Appearance"],
+      "RegionalTraits": ["Nigerian Folklore"]
+    },
     "Image": "images/whistling_demons.jpg",
-    "Description": ""
+    "Description": "Whistling Demons are supernatural beings deeply ingrained in the folklore of Nigeria. Characterized by their shadowy and ethereal appearance, these demons exhibit nocturnal behavior and are known for producing eerie whistling sounds that evoke fear. Rooted in African folklore, specifically Nigerian folklore, the tales surrounding Whistling Demons include their modus operandi of whistling to attract attention and causing nightmares. The cultural themes associated with Whistling Demons are connected to the broader category of spiritual entities, and encountering these supernatural beings is believed to induce night terrors through their mysterious and haunting presence according to Nigerian folklore."
   },
   {
     "ID": 90,
     "Name": "Eloko",
     "Country": "Democratic Republic of the Congo",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Small Stature", "Humanoid", "Large Eyes"],
+      "Gender": "Varies",
+      "Nature": ["Folklore", "Forest Spirits"],
+      "Behavior": ["Mischievous", "Kidnapping Children", "Guardian of the Forest"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Luring Children into the Forest", "Creating Illusions"],
+      "CulturalThemes": ["African Folklore", "Forest Spirits"],
+      "FearFactor": ["Child Abduction", "Forest Mischief"],
+      "CommonAttributes": ["Small Stature", "Large Eyes"],
+      "RegionalTraits": ["Congolese Folklore"]
+    },
     "Image": "images/eloko.jpg",
-    "Description": ""
+    "Description": "Eloko is a mythical creature deeply entrenched in the folklore of the Democratic Republic of the Congo. Characterized by its small stature, humanoid appearance, and large eyes, Eloko is considered a forest spirit with mischievous tendencies. Rooted in African folklore, specifically Congolese folklore, the tales surrounding Eloko involve its behavior of kidnapping children and acting as a guardian of the forest. Eloko is known for luring children into the forest and creating illusions to play tricks on those who venture too close. The cultural themes associated with Eloko are connected to the broader category of forest spirits, and encountering this mythical creature is believed to instill fear through its child abduction and forest mischief according to Congolese folklore."
   },
   {
     "ID": 91,
     "Name": "Tokoloshe",
     "Country": "Lesotho",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Small Humanoid", "Ugly", "Hairy"],
+      "Gender": "Male",
+      "Nature": ["Folklore", "Malevolent Spirit"],
+      "Behavior": ["Night Mischief", "Causing Illness", "Mischievous"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Entering Homes at Night", "Terrorizing People"],
+      "CulturalThemes": ["African Folklore", "Malevolent Spirits"],
+      "FearFactor": ["Night Terrors", "Illness"],
+      "CommonAttributes": ["Small Stature", "Ugly Features"],
+      "RegionalTraits": ["Basotho Folklore"]
+    },
     "Image": "images/tokoloshe.jpg",
-    "Description": ""
+    "Description": "Tokoloshe is a malevolent spirit deeply rooted in the folklore of Lesotho. Characterized by its small humanoid stature, ugly features, and hairy appearance, Tokoloshe is known for causing night mischief and illnesses. Rooted in African folklore, specifically Basotho folklore, the tales surrounding Tokoloshe include its behavior of entering homes at night and terrorizing people. This malevolent spirit is associated with night terrors and the fear of falling victim to its mischievous actions and illnesses. The cultural themes surrounding Tokoloshe are connected to the broader category of malevolent spirits, and encountering this supernatural being is believed to bring about fear and discomfort according to Basotho folklore."
   },
   {
     "ID": 91,
     "Name": "Tokoloshe",
     "Country": "South Africa",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Small Humanoid", "Ugly", "Hairy"],
+      "Gender": "Male",
+      "Nature": ["Folklore", "Malevolent Spirit"],
+      "Behavior": ["Night Mischief", "Causing Illness", "Mischievous"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Entering Homes at Night", "Terrorizing People"],
+      "CulturalThemes": ["African Folklore", "Malevolent Spirits"],
+      "FearFactor": ["Night Terrors", "Illness"],
+      "CommonAttributes": ["Small Stature", "Ugly Features"],
+      "RegionalTraits": ["South African Folklore"]
+    },
     "Image": "images/tokoloshe.jpg",
-    "Description": ""
+    "Description": "Tokoloshe is a malevolent spirit deeply ingrained in the folklore of South Africa. Characterized by its small humanoid stature, ugly features, and hairy appearance, Tokoloshe is known for causing night mischief and illnesses. Rooted in African folklore, specifically South African folklore, the tales surrounding Tokoloshe include its behavior of entering homes at night and terrorizing people. This malevolent spirit is associated with night terrors and the fear of falling victim to its mischievous actions and illnesses. The cultural themes surrounding Tokoloshe are connected to the broader category of malevolent spirits, and encountering this supernatural being is believed to bring about fear and discomfort according to South African folklore."
   },
   {
     "ID": 92,
     "Name": "Songomby",
     "Country": "Madagascar",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Hairy", "Giant", "Fanged"],
+      "Gender": "Varies",
+      "Nature": ["Folklore", "Monster"],
+      "Behavior": ["Nocturnal", "Kidnapping Children", "Lurking in Forests"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Stealthy Abduction", "Creating Fear"],
+      "CulturalThemes": ["African Folklore", "Monster Myths"],
+      "FearFactor": ["Child Abduction", "Monstrous Appearance"],
+      "CommonAttributes": ["Hairy Body", "Giant Stature"],
+      "RegionalTraits": ["Malagasy Folklore"]
+    },
     "Image": "images/songomby.jpg",
-    "Description": ""
+    "Description": "Songomby is a monstrous creature deeply rooted in the folklore of Madagascar. Characterized by its hairy, giant stature and fanged appearance, Songomby is known for its nocturnal behavior, stealthy abduction of children, and lurking in forests. Rooted in African folklore, specifically Malagasy folklore, the tales surrounding Songomby include its modus operandi of creating fear through its monstrous appearance and the fear of child abduction. The cultural themes associated with Songomby are connected to the broader category of monster myths, and encountering this legendary creature is believed to instill fear through its imposing and monstrous presence according to Malagasy folklore."
   },
   {
     "ID": 93,
     "Name": "Tuyewera",
     "Country": "Malawi",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Tall", "Thin", "Glowing Eyes"],
+      "Gender": "Unknown",
+      "Nature": ["Folklore", "Spiritual Entity"],
+      "Behavior": ["Night Wanderer", "Appearing in Dreams", "Guiding Souls"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Wandering at Night", "Communicating Through Dreams"],
+      "CulturalThemes": ["African Folklore", "Spiritual Entities"],
+      "FearFactor": ["Unknown Presence", "Spiritual Connections"],
+      "CommonAttributes": ["Tall Stature", "Glowing Eyes"],
+      "RegionalTraits": ["Malawian Folklore"]
+    },
     "Image": "images/tuyewera.jpg",
-    "Description": ""
+    "Description": "Tuyewera is a spiritual entity deeply ingrained in the folklore of Malawi. Characterized by its tall, thin stature and glowing eyes, Tuyewera is known as a night wanderer who appears in dreams and guides souls. Rooted in African folklore, specifically Malawian folklore, the tales surrounding Tuyewera include its modus operandi of wandering at night and communicating through dreams. Tuyewera is associated with an unknown and mystical presence, creating a sense of fear through its spiritual connections. The cultural themes surrounding Tuyewera are connected to the broader category of spiritual entities, and encountering this mystical being is believed to bring about a sense of awe and fear according to Malawian folklore."
   },
   {
     "ID": 93,
     "Name": "Tuyewera",
     "Country": "Zambia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Tall", "Thin", "Glowing Eyes"],
+      "Gender": "Unknown",
+      "Nature": ["Folklore", "Spiritual Entity"],
+      "Behavior": ["Night Wanderer", "Appearing in Dreams", "Guiding Souls"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Wandering at Night", "Communicating Through Dreams"],
+      "CulturalThemes": ["African Folklore", "Spiritual Entities"],
+      "FearFactor": ["Unknown Presence", "Spiritual Connections"],
+      "CommonAttributes": ["Tall Stature", "Glowing Eyes"],
+      "RegionalTraits": ["Zambian Folklore"]
+    },
     "Image": "images/tuyewera.jpg",
-    "Description": ""
+    "Description": "Tuyewera is a spiritual entity deeply ingrained in the folklore of Zambia. Characterized by its tall, thin stature and glowing eyes, Tuyewera is known as a night wanderer who appears in dreams and guides souls. Rooted in African folklore, specifically Zambian folklore, the tales surrounding Tuyewera include its modus operandi of wandering at night and communicating through dreams. Tuyewera is associated with an unknown and mystical presence, creating a sense of fear through its spiritual connections. The cultural themes surrounding Tuyewera are connected to the broader category of spiritual entities, and encountering this mystical being is believed to bring about a sense of awe and fear according to Zambian folklore."
   },
   {
     "ID": 94,
     "Name": "Popobawa",
     "Country": "United Republic of Tanzania",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Shapeshifter", "Bat-Like", "Strong Odor"],
+      "Gender": "Unknown",
+      "Nature": ["Folklore", "Malevolent Spirit"],
+      "Behavior": ["Night Attacks", "Shapeshifting", "Causing Fear"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Visiting Homes at Night", "Assaulting Individuals"],
+      "CulturalThemes": ["African Folklore", "Malevolent Spirits"],
+      "FearFactor": ["Night Terrors", "Shapeshifting"],
+      "CommonAttributes": ["Bat-Like Features", "Strong Odor"],
+      "RegionalTraits": ["Tanzanian Folklore"]
+    },
     "Image": "images/popobawa.jpg",
-    "Description": ""
+    "Description": "Popobawa is a malevolent spirit deeply rooted in the folklore of the United Republic of Tanzania. Characterized by its shapeshifting abilities, bat-like features, and a strong odor, Popobawa is known for night attacks and causing fear. Rooted in African folklore, specifically Tanzanian folklore, the tales surrounding Popobawa include its modus operandi of visiting homes at night and assaulting individuals. Popobawa is associated with night terrors and the fear of its shapeshifting abilities. The cultural themes surrounding Popobawa are connected to the broader category of malevolent spirits, and encountering this supernatural being is believed to bring about fear and distress according to Tanzanian folklore."
   },
   {
     "ID": 95,
     "Name": "Rompo",
     "Country": "Uganda",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Giant", "Hairy", "Cloven Hooves"],
+      "Gender": "Male",
+      "Nature": ["Folklore", "Mythical Beast"],
+      "Behavior": ["Night Roaming", "Territorial", "Frightening Sounds"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Roaming in the Dark", "Frightening Wanderers"],
+      "CulturalThemes": ["African Folklore", "Mythical Beasts"],
+      "FearFactor": ["Night Terrors", "Terrifying Appearance"],
+      "CommonAttributes": ["Giant Stature", "Cloven Hooves"],
+      "RegionalTraits": ["Ugandan Folklore"]
+    },
     "Image": "images/rompo.jpg",
-    "Description": ""
+    "Description": "Rompo is a mythical beast deeply ingrained in the folklore of Uganda. Characterized by its giant stature, hairy appearance, and cloven hooves, Rompo is known for night roaming, territorial behavior, and emitting frightening sounds. Rooted in African folklore, specifically Ugandan folklore, the tales surrounding Rompo include its modus operandi of roaming in the dark and frightening wanderers. Rompo is associated with night terrors and the fear induced by its terrifying appearance. The cultural themes surrounding Rompo are connected to the broader category of mythical beasts, and encountering this legendary creature is believed to evoke fear and awe according to Ugandan folklore."
   },
   {
     "ID": 95,
     "Name": "Rompo",
     "Country": "Zimbabwe",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Giant", "Hairy", "Cloven Hooves"],
+      "Gender": "Male",
+      "Nature": ["Folklore", "Mythical Beast"],
+      "Behavior": ["Night Roaming", "Territorial", "Frightening Sounds"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Roaming in the Dark", "Frightening Wanderers"],
+      "CulturalThemes": ["African Folklore", "Mythical Beasts"],
+      "FearFactor": ["Night Terrors", "Terrifying Appearance"],
+      "CommonAttributes": ["Giant Stature", "Cloven Hooves"],
+      "RegionalTraits": ["Zimbabwean Folklore"]
+    },
     "Image": "images/rompo.jpg",
-    "Description": ""
+    "Description": "Rompo is a mythical beast deeply ingrained in the folklore of Zimbabwe. Characterized by its giant stature, hairy appearance, and cloven hooves, Rompo is known for night roaming, territorial behavior, and emitting frightening sounds. Rooted in African folklore, specifically Zimbabwean folklore, the tales surrounding Rompo include its modus operandi of roaming in the dark and frightening wanderers. Rompo is associated with night terrors and the fear induced by its terrifying appearance. The cultural themes surrounding Rompo are connected to the broader category of mythical beasts, and encountering this legendary creature is believed to evoke fear and awe according to Zimbabwean folklore."
   },
   {
     "ID": 96,
     "Name": "Werehyena",
     "Country": "Ethiopia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Human-Animal Hybrid", "Hyena Features"],
+      "Gender": "Varies",
+      "Nature": ["Folklore", "Shape-shifter"],
+      "Behavior": ["Nocturnal", "Hunting in Packs", "Cunning"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shape-shifting", "Preying on Livestock"],
+      "CulturalThemes": ["African Folklore", "Shape-shifting Entities"],
+      "FearFactor": ["Night Terrors", "Livestock Predation"],
+      "CommonAttributes": ["Hyena-Like Features", "Cunning Behavior"],
+      "RegionalTraits": ["Ethiopian Folklore"]
+    },
     "Image": "images/werehyena.jpg",
-    "Description": ""
+    "Description": "The Werehyena, deeply rooted in Ethiopian folklore, is a mysterious human-animal hybrid with distinct hyena features. Known for its nocturnal behavior, hunting in packs, and cunning nature, the Werehyena is a shape-shifter preying on livestock. Ethiopian tales describe the fear-inducing night terrors associated with encounters with the Werehyena and the dread of livestock predation. The cultural themes surrounding the Werehyena are connected to the broader category of shape-shifting entities, and encountering this mythical being is believed to bring about a sense of fear and apprehension according to Ethiopian folklore."
   },
   {
     "ID": 96,
     "Name": "Werehyena",
     "Country": "Somalia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Human-Animal Hybrid", "Hyena Features"],
+      "Gender": "Varies",
+      "Nature": ["Folklore", "Shape-shifter"],
+      "Behavior": ["Nocturnal", "Hunting in Packs", "Cunning"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shape-shifting", "Preying on Livestock"],
+      "CulturalThemes": ["African Folklore", "Shape-shifting Entities"],
+      "FearFactor": ["Night Terrors", "Livestock Predation"],
+      "CommonAttributes": ["Hyena-Like Features", "Cunning Behavior"],
+      "RegionalTraits": ["Somali Folklore"]
+    },
     "Image": "images/werehyena.jpg",
-    "Description": ""
+    "Description": "The Werehyena, deeply rooted in Somali folklore, is a mysterious human-animal hybrid with distinct hyena features. Known for its nocturnal behavior, hunting in packs, and cunning nature, the Werehyena is a shape-shifter preying on livestock. Somali tales describe the fear-inducing night terrors associated with encounters with the Werehyena and the dread of livestock predation. The cultural themes surrounding the Werehyena are connected to the broader category of shape-shifting entities, and encountering this mythical being is believed to bring about a sense of fear and apprehension according to Somali folklore."
   },
   {
     "ID": 96,
     "Name": "Werehyena",
     "Country": "South Sudan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Human-Animal Hybrid", "Hyena Features"],
+      "Gender": "Varies",
+      "Nature": ["Folklore", "Shape-shifter"],
+      "Behavior": ["Nocturnal", "Hunting in Packs", "Cunning"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shape-shifting", "Preying on Livestock"],
+      "CulturalThemes": ["African Folklore", "Shape-shifting Entities"],
+      "FearFactor": ["Night Terrors", "Livestock Predation"],
+      "CommonAttributes": ["Hyena-Like Features", "Cunning Behavior"],
+      "RegionalTraits": ["South Sudanese Folklore"]
+    },
     "Image": "images/werehyena.jpg",
-    "Description": ""
+    "Description": "The Werehyena, deeply rooted in South Sudanese folklore, is a mysterious human-animal hybrid with distinct hyena features. Known for its nocturnal behavior, hunting in packs, and cunning nature, the Werehyena is a shape-shifter preying on livestock. South Sudanese tales describe the fear-inducing night terrors associated with encounters with the Werehyena and the dread of livestock predation. The cultural themes surrounding the Werehyena are connected to the broader category of shape-shifting entities, and encountering this mythical being is believed to bring about a sense of fear and apprehension according to South Sudanese folklore."
   },
   {
     "ID": 96,
     "Name": "Werehyena",
     "Country": "Sudan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Human-Animal Hybrid", "Hyena Features"],
+      "Gender": "Varies",
+      "Nature": ["Folklore", "Shape-shifter"],
+      "Behavior": ["Nocturnal", "Hunting in Packs", "Cunning"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shape-shifting", "Preying on Livestock"],
+      "CulturalThemes": ["African Folklore", "Shape-shifting Entities"],
+      "FearFactor": ["Night Terrors", "Livestock Predation"],
+      "CommonAttributes": ["Hyena-Like Features", "Cunning Behavior"],
+      "RegionalTraits": ["Sudanese Folklore"]
+    },
     "Image": "images/werehyena.jpg",
-    "Description": ""
-  },
+    "Description": "The Werehyena, deeply rooted in Sudanese folklore, is a mysterious human-animal hybrid with distinct hyena features. Known for its nocturnal behavior, hunting in packs, and cunning nature, the Werehyena is a shape-shifter preying on livestock. Sudanese tales describe the fear-inducing night terrors associated with encounters with the Werehyena and the dread of livestock predation. The cultural themes surrounding the Werehyena are connected to the broader category of shape-shifting entities, and encountering this mythical being is believed to bring about a sense of fear and apprehension according to Sudanese folklore."
+  },  
   {
     "ID": 97,
     "Name": "Abu Rigl Maslukha",
     "Country": "Egypt",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Tall", "Thin", "Charred Limbs"],
+      "Gender": "Male",
+      "Nature": ["Folklore", "Malevolent Spirit"],
+      "Behavior": ["Night Wanderer", "Causing Nightmares", "Chasing Intruders"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Roaming in the Dark", "Terrifying Dreams"],
+      "CulturalThemes": ["Arab Folklore", "Malevolent Spirits"],
+      "FearFactor": ["Night Terrors", "Chasing Nightmares"],
+      "CommonAttributes": ["Tall Stature", "Charred Limbs"],
+      "RegionalTraits": ["Egyptian Folklore"]
+    },
     "Image": "images/abu_rigl_maslukha.jpg",
-    "Description": ""
+    "Description": "Abu Rigl Maslukha is a malevolent spirit deeply ingrained in the folklore of Egypt. Characterized by his tall, thin stature and charred limbs, Abu Rigl Maslukha is known as a night wanderer who causes nightmares and chases intruders. Rooted in Arab folklore, specifically Egyptian folklore, the tales surrounding Abu Rigl Maslukha include his modus operandi of roaming in the dark and inducing terrifying dreams. Abu Rigl Maslukha is associated with night terrors and the fear of encountering this malevolent spirit, especially in the dark. The cultural themes surrounding Abu Rigl Maslukha are connected to the broader category of malevolent spirits, and encountering this supernatural being is believed to bring about fear and dread according to Egyptian folklore."
   }
+  
 ]

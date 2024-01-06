@@ -40,8 +40,8 @@ function updateBoogeymanCard(boogeymanInfo) {
     // Update the card content based on the boogeyman information
     document.getElementById("boogeymanImage").style.backgroundImage = `url(${boogeymanInfo.Image})`;
     document.getElementById("boogeymanName").innerText = boogeymanInfo.Name;
-    document.getElementById("boogeymanCountry").innerText = `Country: ${boogeymanInfo.Country}`;
-    document.querySelector(".boogeyman-description").innerText = `Description: ${boogeymanInfo.Description}`;
+    document.getElementById("boogeymanCountry").innerText = boogeymanInfo.Country;
+    document.querySelector(".boogeyman-description").innerText = boogeymanInfo.Description;
   
     // Show the boogeyman card
     document.getElementById("boogeymanCard").style.display = "block";
