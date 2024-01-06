@@ -1,11 +1,22 @@
 [
   {
     "ID": 1,
-    "Name": "The seven o'clock man",
+    "Name": "The Seven O'Clock Man",
     "Country": "Canada",
-    "Characteristics": "",
-    "Image": "images/the_seven_oclock_man.jpg",
-    "Description": ""
+    "Characteristics": {
+      "PhysicalAppearance": ["Humanoid", "Mysterious"],
+      "Gender": "Varies (Often considered male)",
+      "Nature": ["Urban Legend"],
+      "Behavior": ["Night Stalker", "Child Abductor"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Mysterious Appearances", "Whistling at Seven O'Clock"],
+      "CulturalThemes": ["Cautionary Tales"],
+      "FearFactor": ["Fear of the Dark", "Fear of Disobedience"],
+      "CommonAttributes": ["Mysterious Appearance"],
+      "RegionalTraits": ["Urban Settings"]
+    },
+    "Image": "images/the_seven_o_clock_man.jpg",
+    "Description": "The Seven O'Clock Man is a mysterious figure from Canadian urban legend. Described as a humanoid entity, the gender of the Seven O'Clock Man varies in different accounts, often considered male. This urban legend is associated with nighttime, as the figure is known to appear at seven o'clock, striking fear into the hearts of those who encounter it. The Seven O'Clock Man is notorious for being a night stalker and child abductor, with sightings accompanied by a chilling whistle. This local legend serves as a cautionary tale, instilling fear of the dark and disobedience among those who grew up hearing about the mysterious figure."
   },
   {
     "ID": 2,
@@ -108,7 +119,7 @@
     "Name": "El Cuco",
     "Country": "Costa Rica",
     "Characteristics": "",
-    "Image": "images/el_cuco.jpg",
+    "Image": "images/cuco.jpg",
     "Description": ""
   },
   {
@@ -116,7 +127,7 @@
     "Name": "El Cuco",
     "Country": "Cuba",
     "Characteristics": "",
-    "Image": "images/el_cuco.jpg",
+    "Image": "images/cuco.jpg",
     "Description": ""
   },
   {
@@ -124,7 +135,7 @@
     "Name": "Cuco",
     "Country": "Uruguay",
     "Characteristics": "",
-    "Image": "images/el_cuco.jpg",
+    "Image": "images/cuco.jpg",
     "Description": ""
   },
   {
@@ -284,7 +295,7 @@
     "Name": "Bussenmand",
     "Country": "Denmark",
     "Characteristics": "",
-    "Image": "images/bussenmand.jpg",
+    "Image": "images/bussemand.jpg",
     "Description": ""
   },
   {
@@ -540,7 +551,7 @@
     "Name": "Baba Yaga",
     "Country": "Belarus",
     "Characteristics": "",
-    "Image": "images/images/baba_yaga.jpg",
+    "Image": "images/baba_yaga.jpg",
     "Description": ""
   },
   {
@@ -548,7 +559,7 @@
     "Name": "Baba Yaga",
     "Country": "Poland",
     "Characteristics": "",
-    "Image": "images/images/baba_yaga.png",
+    "Image": "images/baba_yaga.jpg",
     "Description": ""
   },
   {
@@ -556,7 +567,7 @@
     "Name": "Baba Yaga",
     "Country": "Russia",
     "Characteristics": "lorem ipsum lorem ipsum",
-    "Image": "images/images/baba_yaga.jpg",
+    "Image": "images/baba_yaga.jpg",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia pellentesque erat, sit amet varius est faucibus non. Aenean vitae convallis dolor. Suspendisse commodo nunc aliquet finibus eleifend. Maecenas aliquet nunc non dui blandit vulputate. Donec ut risus sed magna placerat lacinia a vitae neque. Fusce ut hendrerit tellus. Nam molestie magna vel massa dignissim, sit amet pellentesque elit maximus. Nulla non augue nec lorem mattis accumsan."
   },
   {
@@ -564,7 +575,7 @@
     "Name": "Baba Yaga",
     "Country": "Ukraine",
     "Characteristics": "",
-    "Image": "images/images/baba_yaga.jpg",
+    "Image": "images/baba_yaga.jpg",
     "Description": ""
   },
   {
@@ -572,7 +583,7 @@
     "Name": "Bau Bau",
     "Country": "Romania",
     "Characteristics": "",
-    "Image": "images/images/bau_bau.jpg",
+    "Image": "images/bau_bau.jpg",
     "Description": ""
   },
   {
@@ -580,7 +591,7 @@
     "Name": "Ali",
     "Country": "Georgia",
     "Characteristics": "",
-    "Image": "images/images/ali.jpg",
+    "Image": "images/ali.jpg",
     "Description": ""
   },
   {
@@ -588,7 +599,7 @@
     "Name": "Div",
     "Country": "Armenia",
     "Characteristics": "",
-    "Image": "images/images/div.jpg",
+    "Image": "images/div.jpg",
     "Description": ""
   },
   {
@@ -596,7 +607,7 @@
     "Name": "Div",
     "Country": "Azerbaijan",
     "Characteristics": "",
-    "Image": "images/images/div.jpg",
+    "Image": "images/div.jpg",
     "Description": ""
   },
   {
@@ -604,7 +615,7 @@
     "Name": "Kkullas",
     "Country": "Cyprus",
     "Characteristics": "",
-    "Image": "images/images/kkullas.jpg",
+    "Image": "images/kkullas.jpg",
     "Description": ""
   },
   {
@@ -612,7 +623,7 @@
     "Name": "Baboulos",
     "Country": "Greece",
     "Characteristics": "",
-    "Image": "images/images/baboulos.jpg",
+    "Image": "images/baboulos.jpg",
     "Description": ""
   },
   {
@@ -620,7 +631,7 @@
     "Name": "Psoglav",
     "Country": "Montenegro",
     "Characteristics": "",
-    "Image": "images/images/psoglav.jpg",
+    "Image": "images/psoglav.jpg",
     "Description": ""
   },
   {
@@ -628,7 +639,7 @@
     "Name": "Karakondjul",
     "Country": "Bulgaria",
     "Characteristics": "",
-    "Image": "images/images/karakondjul.jpg",
+    "Image": "images/karakondjul.jpg",
     "Description": ""
   },
   {
@@ -636,7 +647,7 @@
     "Name": "Abu I Kees",
     "Country": "Lebanon",
     "Characteristics": "",
-    "Image": "images/images/abu_i_kees.jpg",
+    "Image": "images/abu_i_kees.jpg",
     "Description": ""
   },
   {
@@ -644,7 +655,7 @@
     "Name": "Karankoncolos",
     "Country": "Turkey",
     "Characteristics": "",
-    "Image": "images/images/karankoncolos.jpg",
+    "Image": "images/karankoncolos.jpg",
     "Description": ""
   },
   {
@@ -652,7 +663,7 @@
     "Name": "Madar-i-al",
     "Country": "Afghanistan",
     "Characteristics": "",
-    "Image": "images/images/madar-i-al.jpg",
+    "Image": "images/madar-i-al.jpg",
     "Description": ""
   },
   {
@@ -660,7 +671,7 @@
     "Name": "Dybbuk",
     "Country": "Israel",
     "Characteristics": "",
-    "Image": "images/images/dybbuk.jpg",
+    "Image": "images/dybbuk.jpg",
     "Description": ""
   },
   {
@@ -668,7 +679,7 @@
     "Name": "Saalua",
     "Country": "Iraq",
     "Characteristics": "",
-    "Image": "images/images/saalua.jpg",
+    "Image": "images/saalua.jpg",
     "Description": ""
   },
   {
@@ -676,7 +687,7 @@
     "Name": "Nasnãs",
     "Country": "Yemen",
     "Characteristics": "",
-    "Image": "images/images/nasnas.jpg",
+    "Image": "images/nasnas.jpg",
     "Description": ""
   },
   {
@@ -684,7 +695,7 @@
     "Name": "Süräle",
     "Country": "Uzbekistan",
     "Characteristics": "",
-    "Image": "images/images/surale.jpg",
+    "Image": "images/surale.jpg",
     "Description": ""
   },
   {
@@ -692,7 +703,7 @@
     "Name": "Zhalmauyz Kempir",
     "Country": "Kazakhstan",
     "Characteristics": "",
-    "Image": "images/images/zhalmauyz_kempir.jpg",
+    "Image": "images/zhalmauyz_kempir.jpg",
     "Description": ""
   },
   {
@@ -700,7 +711,7 @@
     "Name": "Zhalmauyz Kempir",
     "Country": "Kyrgyzstan",
     "Characteristics": "",
-    "Image": "images/images/zhalmauyz_kempir.jpg",
+    "Image": "images/zhalmauyz_kempir.jpg",
     "Description": ""
   },
   {
@@ -708,7 +719,7 @@
     "Name": "Basty",
     "Country": "Turkmenistan",
     "Characteristics": "",
-    "Image": "images/images/basty.jpg",
+    "Image": "images/basty.jpg",
     "Description": ""
   },
   {
@@ -716,7 +727,7 @@
     "Name": "Looloo Khor Khoreh",
     "Country": "Iran",
     "Characteristics": "",
-    "Image": "images/images/looloo_khor_khoreh.jpg",
+    "Image": "images/looloo_khor_khoreh.jpg",
     "Description": ""
   },
   {
@@ -724,7 +735,7 @@
     "Name": "Looloo Khor Khoreh",
     "Country": "Tajikistan",
     "Characteristics": "",
-    "Image": "images/images/looloo_khor_khoreh.jpg",
+    "Image": "images/looloo_khor_khoreh.jpg",
     "Description": ""
   },
   {
@@ -732,7 +743,7 @@
     "Name": "Dojairah and Umna Al Ghola",
     "Country": "Saudi Arabia",
     "Characteristics": "",
-    "Image": "images/images/dojairah.jpg",
+    "Image": "images/dojairah_and_umna_al_ghola.jpg",
     "Description": ""
   },
   {
@@ -740,7 +751,7 @@
     "Name": "The Mum",
     "Country": "Pakistan",
     "Characteristics": "",
-    "Image": "images/images/the_mum.jpg",
+    "Image": "images/the_mum.jpg",
     "Description": ""
   },
   {
@@ -748,7 +759,7 @@
     "Name": "Gurumapa",
     "Country": "Nepal",
     "Characteristics": "",
-    "Image": "images/images/gurumapa.jpg",
+    "Image": "images/gurumapa.jpg",
     "Description": ""
   },
   {
@@ -756,7 +767,7 @@
     "Name": "Bhoot",
     "Country": "India",
     "Characteristics": "",
-    "Image": "images/images/bhoot.jpg",
+    "Image": "images/bhoot.jpg",
     "Description": ""
   },
   {
@@ -764,7 +775,7 @@
     "Name": "Bhoot",
     "Country": "Bangladesh",
     "Characteristics": "",
-    "Image": "images/images/bhoot.jpg",
+    "Image": "images/bhoot.jpg",
     "Description": ""
   },
   {
@@ -772,7 +783,7 @@
     "Name": "Kinduri",
     "Country": "Sri Lanka",
     "Characteristics": "",
-    "Image": "images/images/kinduri.jpg",
+    "Image": "images/kinduri.jpg",
     "Description": ""
   },
   {
@@ -780,7 +791,7 @@
     "Name": "Krahang",
     "Country": "Thailand",
     "Characteristics": "",
-    "Image": "images/images/krahang.jpg",
+    "Image": "images/krahang.jpg",
     "Description": ""
   },
   {
@@ -788,7 +799,7 @@
     "Name": "Santu Sakai",
     "Country": "Malaysia",
     "Characteristics": "",
-    "Image": "images/images/santu_sakai.jpg",
+    "Image": "images/santu_sakai.jpg",
     "Description": ""
   },
   {
@@ -796,7 +807,7 @@
     "Name": "Wewe Gombel",
     "Country": "Indonesia",
     "Characteristics": "",
-    "Image": "images/images/wewe_gombel.jpg",
+    "Image": "images/wewe_gombel.jpg",
     "Description": ""
   },
   {
@@ -804,7 +815,7 @@
     "Name": "Bunyip",
     "Country": "Australia",
     "Characteristics": "",
-    "Image": "images/images/bunyip.jpg",
+    "Image": "images/bunyip.jpg",
     "Description": ""
   },
   {
@@ -812,7 +823,7 @@
     "Name": "Grandmother Tiger",
     "Country": "China",
     "Characteristics": "",
-    "Image": "images/images/grandmother_tiger.jpg",
+    "Image": "images/grandmother_tiger.jpg",
     "Description": ""
   },
   {
@@ -820,7 +831,7 @@
     "Name": "Grandmother Tiger",
     "Country": "Taiwan",
     "Characteristics": "",
-    "Image": "images/images/grandmother_tiger.jpg",
+    "Image": "images/grandmother_tiger.jpg",
     "Description": ""
   },
   {
@@ -828,7 +839,7 @@
     "Name": "Almas",
     "Country": "Mongolia",
     "Characteristics": "",
-    "Image": "images/images/almas.jpg",
+    "Image": "images/almas.jpg",
     "Description": ""
   },
   {
@@ -836,7 +847,7 @@
     "Name": "Ahp",
     "Country": "Cambodia",
     "Characteristics": "",
-    "Image": "images/images/ahp.jpg",
+    "Image": "images/ahp.jpg",
     "Description": ""
   },
   {
@@ -844,7 +855,7 @@
     "Name": "Namahage",
     "Country": "Japan",
     "Characteristics": "",
-    "Image": "images/images/namahage.jpg",
+    "Image": "images/namahage.jpg",
     "Description": ""
   },
   {
@@ -852,7 +863,7 @@
     "Name": "Mang-Tae-Gi-Hal-A-Buh-Ji",
     "Country": "North Korea",
     "Characteristics": "",
-    "Image": "images/images/mang-tae-gi-hal-a-buh-ji.jpg",
+    "Image": "images/mang-tae-gi-hal-a-buh-ji.jpg",
     "Description": ""
   },
   {
@@ -860,7 +871,7 @@
     "Name": "Mang-Tae-Gi-Hal-A-Buh-Ji",
     "Country": "South Korea",
     "Characteristics": "",
-    "Image": "images/images/mang-tae-gi-hal-a-buh-ji.jpg",
+    "Image": "images/mang-tae-gi-hal-a-buh-ji.jpg",
     "Description": ""
   },
   {
@@ -868,7 +879,7 @@
     "Name": "Ông Ba Bi",
     "Country": "Vietnam",
     "Characteristics": "",
-    "Image": "images/images/ong_ba_bi.jpg",
+    "Image": "images/ong_ba_bi.jpg",
     "Description": ""
   },
   {
@@ -876,7 +887,7 @@
     "Name": "Aswang",
     "Country": "Philippines",
     "Characteristics": "",
-    "Image": "images/images/aswang.jpg",
+    "Image": "images/aswang.jpg",
     "Description": ""
   },
   {
@@ -884,7 +895,7 @@
     "Name": "Langsuyar",
     "Country": "Singapore",
     "Characteristics": "",
-    "Image": "images/images/langsuyar.jpg",
+    "Image": "images/langsuyar.jpg",
     "Description": ""
   },
   {
@@ -892,7 +903,7 @@
     "Name": "Patupaiarehe",
     "Country": "New Zealand",
     "Characteristics": "",
-    "Image": "images/images/patupaiarehe.jpg",
+    "Image": "images/patupaiarehe.jpg",
     "Description": ""
   },
   {
@@ -900,7 +911,7 @@
     "Name": "Lamia",
     "Country": "Libya",
     "Characteristics": "",
-    "Image": "images/images/lamia.jpg",
+    "Image": "images/lamia.jpg",
     "Description": ""
   },
   {
@@ -908,7 +919,7 @@
     "Name": "H'Awouahoua",
     "Country": "Algeria",
     "Characteristics": "",
-    "Image": "images/images/h_awouahoua.jpg",
+    "Image": "images/h_awouahoua.jpg",
     "Description": ""
   },
   {
@@ -916,7 +927,7 @@
     "Name": "Boukencha",
     "Country": "Morocco",
     "Characteristics": "",
-    "Image": "images/images/boukencha.jpg",
+    "Image": "images/boukencha.jpg",
     "Description": ""
   },
   {
@@ -924,7 +935,7 @@
     "Name": "Ninki Nanka",
     "Country": "Senegal",
     "Characteristics": "",
-    "Image": "images/images/ninki_nanka.jpg",
+    "Image": "images/ninki_nanka.jpg",
     "Description": ""
   },
   {
@@ -932,7 +943,7 @@
     "Name": "Ninki Nanka",
     "Country": "The Gambia",
     "Characteristics": "",
-    "Image": "images/images/ninki_nanka.jpg",
+    "Image": "images/ninki_nanka.jpg",
     "Description": ""
   },
   {
@@ -940,7 +951,7 @@
     "Name": "Adze",
     "Country": "Ghana",
     "Characteristics": "",
-    "Image": "images/images/adze.jpg",
+    "Image": "images/adze.jpg",
     "Description": ""
   },
   {
@@ -948,7 +959,7 @@
     "Name": "Adze",
     "Country": "Togo",
     "Characteristics": "",
-    "Image": "images/images/adze.jpg",
+    "Image": "images/adze.jpg",
     "Description": ""
   },
   {
@@ -956,7 +967,7 @@
     "Name": "Whistling Demons",
     "Country": "Nigeria",
     "Characteristics": "",
-    "Image": "images/images/whistling_demons.jpg",
+    "Image": "images/whistling_demons.jpg",
     "Description": ""
   },
   {
@@ -964,7 +975,7 @@
     "Name": "Eloko",
     "Country": "Democratic Republic of the Congo",
     "Characteristics": "",
-    "Image": "images/images/eloko.jpg",
+    "Image": "images/eloko.jpg",
     "Description": ""
   },
   {
@@ -972,7 +983,7 @@
     "Name": "Tokoloshe",
     "Country": "Lesotho",
     "Characteristics": "",
-    "Image": "images/images/tokoloshe.jpg",
+    "Image": "images/tokoloshe.jpg",
     "Description": ""
   },
   {
@@ -980,7 +991,7 @@
     "Name": "Tokoloshe",
     "Country": "South Africa",
     "Characteristics": "",
-    "Image": "images/images/tokoloshe.jpg",
+    "Image": "images/tokoloshe.jpg",
     "Description": ""
   },
   {
@@ -988,7 +999,7 @@
     "Name": "Songomby",
     "Country": "Madagascar",
     "Characteristics": "",
-    "Image": "images/images/songomby.jpg",
+    "Image": "images/songomby.jpg",
     "Description": ""
   },
   {
@@ -996,7 +1007,7 @@
     "Name": "Tuyewera",
     "Country": "Malawi",
     "Characteristics": "",
-    "Image": "images/images/tuyewera.jpg",
+    "Image": "images/tuyewera.jpg",
     "Description": ""
   },
   {
@@ -1004,7 +1015,7 @@
     "Name": "Tuyewera",
     "Country": "Zambia",
     "Characteristics": "",
-    "Image": "images/images/tuyewera.jpg",
+    "Image": "images/tuyewera.jpg",
     "Description": ""
   },
   {
@@ -1012,7 +1023,7 @@
     "Name": "Popobawa",
     "Country": "United Republic of Tanzania",
     "Characteristics": "",
-    "Image": "images/images/popobawa.jpg",
+    "Image": "images/popobawa.jpg",
     "Description": ""
   },
   {
@@ -1020,7 +1031,7 @@
     "Name": "Rompo",
     "Country": "Uganda",
     "Characteristics": "",
-    "Image": "images/images/rompo.jpg",
+    "Image": "images/rompo.jpg",
     "Description": ""
   },
   {
@@ -1028,7 +1039,7 @@
     "Name": "Rompo",
     "Country": "Zimbabwe",
     "Characteristics": "",
-    "Image": "images/images/rompo.jpg",
+    "Image": "images/rompo.jpg",
     "Description": ""
   },
   {
@@ -1036,7 +1047,7 @@
     "Name": "Werehyena",
     "Country": "Ethiopia",
     "Characteristics": "",
-    "Image": "images/images/werehyena.jpg",
+    "Image": "images/werehyena.jpg",
     "Description": ""
   },
   {
@@ -1044,7 +1055,7 @@
     "Name": "Werehyena",
     "Country": "Somalia",
     "Characteristics": "",
-    "Image": "images/images/werehyena.jpg",
+    "Image": "images/werehyena.jpg",
     "Description": ""
   },
   {
@@ -1052,7 +1063,7 @@
     "Name": "Werehyena",
     "Country": "South Sudan",
     "Characteristics": "",
-    "Image": "images/images/werehyena.jpg",
+    "Image": "images/werehyena.jpg",
     "Description": ""
   },
   {
@@ -1060,7 +1071,7 @@
     "Name": "Werehyena",
     "Country": "Sudan",
     "Characteristics": "",
-    "Image": "images/images/werehyena.jpg",
+    "Image": "images/werehyena.jpg",
     "Description": ""
   },
   {
@@ -1068,7 +1079,7 @@
     "Name": "Abu Rigl Maslukha",
     "Country": "Egypt",
     "Characteristics": "",
-    "Image": "images/images/abu_rigl_maslukha.jpg",
+    "Image": "images/abu_rigl_maslukha.jpg",
     "Description": ""
   }
 ]
