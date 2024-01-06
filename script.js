@@ -41,7 +41,6 @@ function updateBoogeymanCard(boogeymanInfo) {
     document.getElementById("boogeymanImage").style.backgroundImage = `url(${boogeymanInfo.Image})`;
     document.getElementById("boogeymanName").innerText = boogeymanInfo.Name;
     document.getElementById("boogeymanCountry").innerText = `Country: ${boogeymanInfo.Country}`;
-    document.querySelector(".boogeyman-characteristics").innerText = `Characteristics: ${boogeymanInfo.Characteristics}`;
     document.querySelector(".boogeyman-description").innerText = `Description: ${boogeymanInfo.Description}`;
   
     // Show the boogeyman card

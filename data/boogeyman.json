@@ -22,905 +22,2146 @@
     "ID": 2,
     "Name": "La Sucia",
     "Country": "Honduras",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Humanoid", "Disheveled"],
+      "Gender": "Female",
+      "Nature": ["Urban Legend"],
+      "Behavior": ["Guardian Spirit", "Warning of Infidelity"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Appearing to Unfaithful Partners"],
+      "CulturalThemes": ["Moral Lesson Conveyors"],
+      "FearFactor": ["Fear of Infidelity"],
+      "CommonAttributes": ["Disheveled Appearance"],
+      "RegionalTraits": ["Urban Settings"]
+    },
     "Image": "images/la_sucia.jpg",
-    "Description": ""
+    "Description": "La Sucia is a legendary figure from Honduran urban legend. Depicted as a disheveled humanoid, La Sucia is often described as a female guardian spirit associated with warning individuals about infidelity. This urban legend, rooted in local traditions, tells of La Sucia appearing to unfaithful partners, serving as a moral lesson conveyor in Honduran culture. The fear associated with La Sucia is centered around the consequences of infidelity, making her a cautionary figure in urban settings."
   },
   {
     "ID": 3,
     "Name": "La Cegua",
     "Country": "Nicaragua",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Humanoid", "Beautiful Woman"],
+      "Gender": "Female",
+      "Nature": ["Urban Legend"],
+      "Behavior": ["Night Stalker", "Warning of Immorality"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Appearing to Immoral Individuals"],
+      "CulturalThemes": ["Moral Lesson Conveyors"],
+      "FearFactor": ["Fear of Immorality"],
+      "CommonAttributes": ["Beautiful Appearance"],
+      "RegionalTraits": ["Urban Settings"]
+    },
     "Image": "images/la_cegua.jpg",
-    "Description": ""
+    "Description": "La Cegua is a legendary figure from Nicaraguan urban legend. Portrayed as a beautiful humanoid woman, La Cegua is often described as a female night stalker associated with warning individuals about immorality. Rooted in local traditions, this urban legend tells of La Cegua appearing to those engaging in immoral behavior, serving as a moral lesson conveyor in Nicaraguan culture. The fear associated with La Cegua revolves around the consequences of immorality, making her a cautionary figure in urban settings."
   },
   {
     "ID": 4,
     "Name": "El Sombrerón",
     "Country": "Guatemala",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Humanoid", "Short Stature"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Enamored Musician", "Hair Braiding"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Enchanting with Music", "Braiding Horses' Manes"],
+      "CulturalThemes": ["Romantic Figure"],
+      "FearFactor": ["Fear of Enchantment"],
+      "CommonAttributes": ["Wearing a Hat"],
+      "RegionalTraits": ["Rural Settings"]
+    },
     "Image": "images/el_sombreron.jpg",
-    "Description": ""
+    "Description": "El Sombrerón is a legendary figure from Guatemalan folklore. This male humanoid is characterized by his short stature and is known for his enchanting musical abilities. El Sombrerón is often depicted as an enamored musician who braids the manes of horses. Rooted in local traditions, this folklore tells of El Sombrerón enchanting individuals with his music and leaving his distinctive mark by braiding horses' manes. He is seen as a romantic figure, and the fear associated with El Sombrerón lies in the enchantment he brings, making him a unique and captivating legend in rural Guatemalan settings."
   },
   {
     "ID": 5,
     "Name": "Black Cadejo",
     "Country": "El Salvador",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Dog-Like"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Protective Guardian", "Night Wanderer"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Watching Over Travelers", "Appearing at Night"],
+      "CulturalThemes": ["Good vs. Evil"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Black Fur"],
+      "RegionalTraits": ["Urban and Rural Settings"]
+    },
     "Image": "images/black_cadejo.jpg",
-    "Description": ""
+    "Description": "Black Cadejo is a legendary figure from El Salvadorian folklore. This supernatural entity is depicted as a male, dog-like creature with black fur. Black Cadejo is known for its dual nature, representing both good and evil. As a protective guardian, it watches over travelers, especially at night. Rooted in local traditions, this folklore emphasizes the cultural theme of good versus evil, with Black Cadejo embodying the unknown and instilling fear in those who encounter it. The creature is often seen in both urban and rural settings, adding to its mysterious and mythical aura."
   },
   {
     "ID": 6,
     "Name": "El Coco",
     "Country": "Mexico",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shape-Shifter"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Night Stalker"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shape-Shifting to Terrify Children"],
+      "CulturalThemes": ["Parental Warning", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Hideous Appearance"],
+      "RegionalTraits": ["Urban and Rural Settings"]
+    },
     "Image": "images/el_coco.jpg",
-    "Description": ""
+    "Description": "El Coco is a legendary figure from Mexican folklore. This supernatural entity is known for its hideous appearance and shape-shifting abilities, often taking on various forms to terrify children. El Coco is a child abductor and night stalker, rooted in local traditions as a parental warning to keep children from misbehaving. The folklore instills fear of the dark and the unknown, emphasizing the cultural theme of parental protection against the mysterious creature. El Coco is believed to be present in both urban and rural settings, making it a pervasive figure in Mexican cultural imagination."
   },
   {
     "ID": 6,
     "Name": "El Coco",
     "Country": "Colombia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shape-Shifter"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Night Stalker"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shape-Shifting to Terrify Children"],
+      "CulturalThemes": ["Parental Warning", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Hideous Appearance"],
+      "RegionalTraits": ["Urban and Rural Settings", "Specific to Colombian Regions"]
+    },
     "Image": "images/el_coco.jpg",
-    "Description": ""
+    "Description": "El Coco is a legendary figure from Colombian folklore. This supernatural entity is known for its hideous appearance and shape-shifting abilities, often taking on various forms to terrify children. El Coco is a child abductor and night stalker, rooted in local traditions as a parental warning to keep children from misbehaving. The folklore instills fear of the dark and the unknown, emphasizing the cultural theme of parental protection against the mysterious creature. El Coco is believed to be present in both urban and rural settings, with specific manifestations tied to Colombian regions, making it a pervasive and regionally nuanced figure in Colombian cultural imagination."
   },
   {
     "ID": 7,
     "Name": "Jersey Devil",
     "Country": "USA",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Bat-Like", "Hooved"],
+      "Gender": "Undefined",
+      "Nature": ["Cryptid"],
+      "Behavior": ["Night Stalker", "Loud Screeches"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Flying Across the Pine Barrens"],
+      "CulturalThemes": ["Regional Mystery", "Urban Legend"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Wings", "Hooves"],
+      "RegionalTraits": ["Pine Barrens, New Jersey"]
+    },
     "Image": "images/jersey_devil.jpg",
-    "Description": ""
+    "Description": "The Jersey Devil is a legendary creature from American folklore, specifically associated with the Pine Barrens in New Jersey. It is described as a supernatural being with bat-like wings, hooves, and a mysterious origin. The Jersey Devil is a nocturnal creature, known for its night stalking and emitting loud, eerie screeches. According to local legend, it is believed to fly across the Pine Barrens, adding to the regional mystery. This cryptid has become an urban legend, instilling fear of the unknown in those who reside in or near the Pine Barrens region."
   },
   {
     "ID": 8,
     "Name": "Tata Duende",
     "Country": "Belize",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Small Stature", "Pointed Hat"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Forest Guardian", "Mischievous Pranks"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Guardian of the Forest", "Leading People Astray"],
+      "CulturalThemes": ["Respect for Nature", "Cautionary Tales"],
+      "FearFactor": ["Fear of Disrespecting the Forest"],
+      "CommonAttributes": ["Pointed Hat", "Mischievous Grin"],
+      "RegionalTraits": ["Forested Areas in Belize"]
+    },
     "Image": "images/tata_duende.jpg",
-    "Description": ""
+    "Description": "Tata Duende is a legendary figure from Belizean folklore. This supernatural entity is characterized by its small stature, pointed hat, and mischievous grin. Tata Duende is often considered a male forest guardian, known for playing mischievous pranks on those who disrespect the forest. Rooted in local traditions, Tata Duende is both a cautionary figure and a symbol of respect for nature. Belizeans, particularly in forested areas, fear the consequences of disrespecting the forest, as Tata Duende is believed to lead people astray or play tricks on those who do not show proper reverence to nature."
   },
   {
     "ID": 9,
     "Name": "La Tulevieja",
     "Country": "Panama",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Haggard", "Wears Tule Hat"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian of Nature", "Appearing to Wandering Men"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Natural Spaces", "Scaring Wanderers"],
+      "CulturalThemes": ["Respect for Nature", "Cautionary Tales"],
+      "FearFactor": ["Fear of Disrespecting Nature"],
+      "CommonAttributes": ["Tule Hat", "Worn Appearance"],
+      "RegionalTraits": ["Natural Areas in Panama"]
+    },
     "Image": "images/la_tulevieja.jpg",
-    "Description": ""
+    "Description": "La Tulevieja is a legendary figure from Panamanian folklore. This supernatural entity is characterized by a haggard appearance and is often depicted wearing a tule hat. La Tulevieja is believed to be a female guardian of nature, protecting natural spaces in Panama. According to local legend, she appears to wandering men, particularly those who show disrespect to the environment. Rooted in cultural traditions, La Tulevieja serves as both a cautionary figure and a symbol of respect for nature. Panamanians fear the consequences of disrespecting the natural world, as La Tulevieja is said to scare wanderers who do not show proper reverence to the environment."
   },
   {
     "ID": 10,
     "Name": "La Ciguapa",
     "Country": "Dominican Republic",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Beautiful", "Backwards-Facing Feet"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nocturnal Wanderer", "Enchanting Singing"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Leading Men Astray", "Avoiding Direct Confrontation"],
+      "CulturalThemes": ["Romantic Intrigue", "Cautionary Tales"],
+      "FearFactor": ["Fear of Forbidden Love"],
+      "CommonAttributes": ["Backwards-Facing Feet", "Alluring Appearance"],
+      "RegionalTraits": ["Forested and Mountainous Areas in the Dominican Republic"]
+    },
     "Image": "images/la_ciguapa.jpg",
-    "Description": ""
+    "Description": "La Ciguapa is a legendary figure from Dominican Republic folklore. This supernatural entity is characterized by her beautiful appearance and the unique trait of having backwards-facing feet. La Ciguapa is often depicted as a female nocturnal wanderer, known for enchanting singing that lures men astray. Rooted in local traditions, this folklore is a mix of romantic intrigue and cautionary tales, as La Ciguapa is believed to avoid direct confrontation and is feared for the consequences of forbidden love. She is said to inhabit forested and mountainous areas in the Dominican Republic, adding to the mystique of this mythical figure."
   },
   {
     "ID": 11,
     "Name": "Mètminwi",
-    "Country": "Haity",
-    "Characteristics": "",
-    "Image": "images/mètminwi.jpg",
-    "Description": ""
+    "Country": "Haiti",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shape-Shifter"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian Spirit", "Shape-Shifting Pranks"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Natural Spaces", "Shape-Shifting to Confuse"],
+      "CulturalThemes": ["Respect for Nature", "Mysterious Encounters"],
+      "FearFactor": ["Fear of Disrespecting Nature"],
+      "CommonAttributes": ["Shape-Shifting Abilities", "Protective Aura"],
+      "RegionalTraits": ["Natural Areas in Haiti"]
+    },
+    "Image": "images/metminwi.jpg",
+    "Description": "Mètminwi is a legendary figure from Haitian folklore. This supernatural entity is characterized by its shape-shifting abilities and is believed to have a protective aura over natural spaces in Haiti. Mètminwi is a guardian spirit known for playing shape-shifting pranks to confuse those who may disrespect nature. Rooted in local traditions, encounters with Mètminwi are considered mysterious and are tied to cultural themes of respect for the environment. Haitians fear the consequences of disrespecting nature, as Mètminwi is said to shape-shift and appear in different forms, making it a symbol of both protection and mystery in natural areas."
   },
   {
     "ID": 12,
     "Name": "Logaroo",
     "Country": "Grenada",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shapeshifter"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Night Wanderer", "Trickster"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shapeshifting", "Playing Tricks on People"],
+      "CulturalThemes": ["Cautionary Tales", "Mysterious Encounters"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Shapeshifting Abilities", "Nocturnal Presence"],
+      "RegionalTraits": ["Grenadian Folklore"]
+    },
     "Image": "images/logaroo.jpg",
-    "Description": ""
+    "Description": "Logaroo is a legendary figure from Grenadian folklore. This supernatural entity is characterized by its shapeshifting abilities and is known to wander the night, playing tricks on unsuspecting individuals. Logaroo's gender varies in different accounts, and it is deeply rooted in local legend. The folklore surrounding Logaroo includes cautionary tales and mysterious encounters, as the entity is feared for its nocturnal presence and the unknown tricks it may play. Logaroo has become a symbol of both caution and mystery within Grenadian folklore, with its shapeshifting nature adding to the intrigue of encounters with this legendary figure."
   },
   {
     "ID": 13,
     "Name": "El Cuco",
     "Country": "Costa Rica",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shapeshifter"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nocturnal Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shapeshifting to Scare Children", "Appearing at Night"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Shapeshifting Abilities", "Dark Appearance"],
+      "RegionalTraits": ["Costa Rican Folklore"]
+    },
     "Image": "images/cuco.jpg",
-    "Description": ""
+    "Description": "El Cuco is a legendary figure from Costa Rican folklore. This supernatural entity is characterized by its shapeshifting abilities and is known for abducting children. El Cuco's gender varies in different accounts, and it is deeply rooted in local legend. The folklore surrounding El Cuco includes parental warnings and a fear of the dark, as the entity is believed to shapeshift to scare children and appears at night. El Cuco is a symbol of caution in Costa Rican folklore, instilling fear of abduction and emphasizing the importance of staying cautious, especially after dark."
   },
   {
     "ID": 13,
     "Name": "El Cuco",
     "Country": "Cuba",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shapeshifter"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nocturnal Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shapeshifting to Scare Children", "Appearing at Night"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Shapeshifting Abilities", "Dark Appearance"],
+      "RegionalTraits": ["Cuban Folklore"]
+    },
     "Image": "images/cuco.jpg",
-    "Description": ""
+    "Description": "El Cuco is a legendary figure from Cuban folklore. This supernatural entity is characterized by its shapeshifting abilities and is known for abducting children. El Cuco's gender varies in different accounts, and it is deeply rooted in local legend. The folklore surrounding El Cuco includes parental warnings and a fear of the dark, as the entity is believed to shapeshift to scare children and appears at night. El Cuco is a symbol of caution in Cuban folklore, instilling fear of abduction and emphasizing the importance of staying cautious, especially after dark."
   },
   {
     "ID": 13,
-    "Name": "Cuco",
+    "Name": "El Cuco",
     "Country": "Uruguay",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shapeshifter"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nocturnal Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shapeshifting to Scare Children", "Appearing at Night"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Shapeshifting Abilities", "Dark Appearance"],
+      "RegionalTraits": ["Uruguayan Folklore"]
+    },
     "Image": "images/cuco.jpg",
-    "Description": ""
+    "Description": "El Cuco is a supernatural entity deeply rooted in Uruguayan folklore. Characterized by its shapeshifting abilities, El Cuco is known for stories of abducting children. The gender of El Cuco varies in different accounts, reflecting the diversity of local legends. Folklore surrounding El Cuco includes parental warnings and a fear of the dark, as the entity is believed to shapeshift to scare children and appears at night. El Cuco serves as a symbol of caution in Uruguayan folklore, instilling fear of abduction and emphasizing the importance of staying cautious, especially after dark."
   },
   {
     "ID": 14,
     "Name": "Jumbee",
     "Country": "Antigua and Barbuda",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit Being"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Spectral Haunting", "Nightly Apparitions"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Haunting Locations", "Interacting with the Living"],
+      "CulturalThemes": ["Ancestral Spirits", "Respect for the Deceased"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Ethereal Presence"],
+      "RegionalTraits": ["Antiguan and Barbudan Folklore"]
+    },
     "Image": "images/jumbee.jpg",
-    "Description": ""
+    "Description": "Jumbee is a supernatural entity deeply rooted in the folklore of Antigua and Barbuda. This spirit being is characterized by its ethereal presence and spectral haunting. The gender of Jumbee varies in different accounts, reflecting the diversity of local legends. Jumbee is known for nightly apparitions, haunting specific locations, and sometimes interacting with the living. Rooted in local traditions, the folklore surrounding Jumbee is tied to ancestral spirits and emphasizes respect for the deceased. Antiguans and Barbudans hold a fear of the unknown when it comes to encounters with Jumbee, making it a significant figure in the cultural imagination of the islands."
   },
   {
     "ID": 14,
     "Name": "Jumbee",
     "Country": "Bahamas",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit Being"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Eerie Apparitions", "Nocturnal Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Manifesting in Isolated Areas", "Interacting with the Living"],
+      "CulturalThemes": ["Ancestral Spirits", "Respect for the Deceased"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Ethereal Presence"],
+      "RegionalTraits": ["Bahamian Folklore"]
+    },
     "Image": "images/jumbee.jpg",
-    "Description": ""
+    "Description": "Jumbee is a supernatural entity deeply rooted in the folklore of the Bahamas. This spirit being is characterized by its ethereal presence, often manifesting in eerie apparitions with a nocturnal presence. The gender of Jumbee varies in different accounts, reflecting the diversity of local legends. Jumbee is known for interacting with the living, particularly in isolated areas. Rooted in Bahamian traditions, the folklore surrounding Jumbee is tied to ancestral spirits and emphasizes respect for the deceased. Bahamians hold a fear of the unknown when it comes to encounters with Jumbee, making it a significant and mysterious figure in the cultural fabric of the islands."
   },
   {
     "ID": 14,
     "Name": "Jumbee",
     "Country": "Barbados",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit Being"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Spectral Haunting", "Nocturnal Apparitions"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Haunting Specific Locations", "Interacting with the Living"],
+      "CulturalThemes": ["Ancestral Spirits", "Respect for the Deceased"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Ethereal Presence"],
+      "RegionalTraits": ["Barbadian Folklore"]
+    },
     "Image": "images/jumbee.jpg",
-    "Description": ""
+    "Description": "Jumbee is a supernatural entity deeply rooted in the folklore of Barbados. This spirit being is characterized by its ethereal presence and spectral haunting, often manifesting in nocturnal apparitions. The gender of Jumbee varies in different accounts, reflecting the diversity of local legends. Barbadian folklore tells of Jumbee haunting specific locations and occasionally interacting with the living. Rooted in local traditions, the folklore surrounding Jumbee is tied to ancestral spirits and emphasizes respect for the deceased. Barbadians hold a fear of the unknown when it comes to encounters with Jumbee, making it a significant and mysterious figure in the cultural tapestry of the island."
   },
   {
     "ID": 14,
     "Name": "Jumbee",
     "Country": "Jamaica",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit Being"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Eerie Apparitions", "Nocturnal Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Manifesting in Isolated Areas", "Interacting with the Living"],
+      "CulturalThemes": ["Ancestral Spirits", "Respect for the Deceased"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Ethereal Presence"],
+      "RegionalTraits": ["Jamaican Folklore"]
+    },
     "Image": "images/jumbee.jpg",
-    "Description": ""
+    "Description": "Jumbee is a supernatural entity deeply rooted in the folklore of Jamaica. This spirit being is characterized by its ethereal presence, often manifesting in eerie apparitions with a nocturnal presence. The gender of Jumbee varies in different accounts, reflecting the diversity of local legends. Jamaican folklore tells of Jumbee manifesting in isolated areas and occasionally interacting with the living. Rooted in local traditions, the folklore surrounding Jumbee is tied to ancestral spirits and emphasizes respect for the deceased. Jamaicans hold a fear of the unknown when it comes to encounters with Jumbee, making it a significant and mysterious figure in the cultural heritage of the island."
   },
   {
     "ID": 14,
     "Name": "Jumbee",
-    "Country": "Trinidat and Tobago",
-    "Characteristics": "",
+    "Country": "Trinidad and Tobago",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit Being"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Spectral Haunting", "Nocturnal Apparitions"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Haunting Specific Locations", "Interacting with the Living"],
+      "CulturalThemes": ["Ancestral Spirits", "Respect for the Deceased"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Ethereal Presence"],
+      "RegionalTraits": ["Trinidadian and Tobagonian Folklore"]
+    },
     "Image": "images/jumbee.jpg",
-    "Description": ""
+    "Description": "Jumbee is a supernatural entity deeply rooted in the folklore of Trinidad and Tobago. This spirit being is characterized by its ethereal presence and spectral haunting, often manifesting in nocturnal apparitions. The gender of Jumbee varies in different accounts, reflecting the diversity of local legends. Trinidadian and Tobagonian folklore tells of Jumbee haunting specific locations and occasionally interacting with the living. Rooted in local traditions, the folklore surrounding Jumbee is tied to ancestral spirits and emphasizes respect for the deceased. Residents of Trinidad and Tobago hold a fear of the unknown when it comes to encounters with Jumbee, making it a significant and mysterious figure in the cultural tapestry of the islands."
   },
   {
     "ID": 14,
     "Name": "Jumbee",
     "Country": "Guyana",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit Being"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Eerie Apparitions", "Nocturnal Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Manifesting in Isolated Areas", "Interacting with the Living"],
+      "CulturalThemes": ["Ancestral Spirits", "Respect for the Deceased"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Ethereal Presence"],
+      "RegionalTraits": ["Guyanese Folklore"]
+    },
     "Image": "images/jumbee.jpg",
-    "Description": ""
+    "Description": "Jumbee is a supernatural entity deeply rooted in the folklore of Guyana. This spirit being is characterized by its ethereal presence, often manifesting in eerie apparitions with a nocturnal presence. The gender of Jumbee varies in different accounts, reflecting the diversity of local legends. Guyanese folklore tells of Jumbee manifesting in isolated areas and occasionally interacting with the living. Rooted in local traditions, the folklore surrounding Jumbee is tied to ancestral spirits and emphasizes respect for the deceased. Guyanese hold a fear of the unknown when it comes to encounters with Jumbee, making it a significant and mysterious figure in the cultural heritage of the country."
   },
   {
     "ID": 14,
     "Name": "Jumbee",
     "Country": "Venezuela",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit Being"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Eerie Apparitions", "Nocturnal Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Manifesting in Isolated Areas", "Interacting with the Living"],
+      "CulturalThemes": ["Ancestral Spirits", "Respect for the Deceased"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Ethereal Presence"],
+      "RegionalTraits": ["Venezuelan Folklore"]
+    },
     "Image": "images/jumbee.jpg",
-    "Description": ""
+    "Description": "Jumbee is a supernatural entity deeply rooted in the folklore of Venezuela. This spirit being is characterized by its ethereal presence, often manifesting in eerie apparitions with a nocturnal presence. The gender of Jumbee varies in different accounts, reflecting the diversity of local legends. Venezuelan folklore tells of Jumbee manifesting in isolated areas and occasionally interacting with the living. Rooted in local traditions, the folklore surrounding Jumbee is tied to ancestral spirits and emphasizes respect for the deceased. Venezuelans hold a fear of the unknown when it comes to encounters with Jumbee, making it a significant and mysterious figure in the cultural heritage of the country."
   },
   {
     "ID": 15,
     "Name": "Asema",
     "Country": "Suriname",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Forest Spirit"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian of the Forest", "Shape-Shifting Abilities"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Blending into Nature", "Protecting the Wilderness"],
+      "CulturalThemes": ["Connection to Nature", "Respect for the Environment"],
+      "FearFactor": ["Fear of Disrespecting the Forest"],
+      "CommonAttributes": ["Mimicry", "Ethereal Presence"],
+      "RegionalTraits": ["Surinamese Folklore"]
+    },
     "Image": "images/asema.jpg",
-    "Description": ""
+    "Description": "Asema is a supernatural entity deeply rooted in the folklore of Suriname. This forest spirit is characterized by its ethereal presence and shape-shifting abilities. The gender of Asema varies in different accounts, reflecting the diversity of local legends. Asema is known for being a guardian of the forest, blending into nature with mimicry and protecting the wilderness. Rooted in Surinamese traditions, the folklore surrounding Asema emphasizes a connection to nature and respect for the environment. Surinamese people hold a fear of disrespecting the forest, as encounters with Asema are seen as encounters with a powerful and mysterious guardian of the natural world."
   },
   {
     "ID": 16,
     "Name": "Cuca",
     "Country": "Brazil",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Witch"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nightly Wanderer"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Luring Children", "Shape-Shifting"],
+      "CulturalThemes": ["Cautionary Tales", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Hag-Like Appearance", "Magical Powers"],
+      "RegionalTraits": ["Brazilian Folklore"]
+    },
     "Image": "images/cuca.jpg",
-    "Description": ""
-  },
-  {
-    "ID": 18,
-    "Name": "El Viejo De La Bolsa",
-    "Country": "Chile",
-    "Characteristics": "",
-    "Image": "images/el_viejo_de_la_bolsa.jpg",
-    "Description": ""
-  },
-  {
-    "ID": 18,
-    "Name": "El Viejo De La Bolsa",
-    "Country": "Argentina",
-    "Characteristics": "",
-    "Image": "images/el_viejo_de_la_bolsa.jpg",
-    "Description": ""
+    "Description": "Cuca is a supernatural entity deeply rooted in the folklore of Brazil. This witch-like figure is characterized by her hag-like appearance and magical powers. Cuca is known for abducting children, luring them away as a nightly wanderer with shape-shifting abilities. The folklore surrounding Cuca includes cautionary tales and a fear of the dark, as encounters with her are feared for the potential abduction of children. Cuca is a significant figure in Brazilian folklore, embodying the cautionary message to children about the dangers of wandering at night and the importance of staying close to home."
   },
   {
     "ID": 17,
     "Name": "Yasy Yatere",
     "Country": "Paraguay",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Forest Guardian"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Protector of Nature", "Benevolent Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Guarding the Forest", "Blessing Nature"],
+      "CulturalThemes": ["Harmony with the Environment", "Respect for Nature"],
+      "FearFactor": ["Fear of Disrespecting the Forest"],
+      "CommonAttributes": ["Nature-Connected", "Blessing Powers"],
+      "RegionalTraits": ["Paraguayan Folklore"]
+    },
     "Image": "images/yasi_yatere.jpg",
-    "Description": ""
+    "Description": "Yasy Yatere is a supernatural entity deeply rooted in the folklore of Paraguay. This forest guardian is characterized by a benevolent presence and a strong connection to nature. Yasy Yatere, often depicted as male, serves as a protector of the forest, guarding its sacred spaces and blessing the natural world. The folklore surrounding Yasy Yatere promotes harmony with the environment and respect for nature. Paraguayans hold a deep respect for Yasy Yatere, and encounters with this entity are seen as opportunities to appreciate the beauty of the forest while emphasizing the importance of preserving and respecting the natural world."
+  },
+  {
+    "ID": 18,
+    "Name": "El Viejo De La Bolsa",
+    "Country": "Chile",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Sack-Carrying Figure"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Collector", "Nighttime Wanderer"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Kidnapping Misbehaving Children", "Wandering at Night"],
+      "CulturalThemes": ["Cautionary Tales", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Sack for Carrying Children", "Stealthy Presence"],
+      "RegionalTraits": ["Chilean Folklore"]
+    },
+    "Image": "images/el_viejo_de_la_bolsa.jpg",
+    "Description": "El Viejo De La Bolsa is a supernatural entity deeply rooted in the folklore of Chile. This sack-carrying figure, often depicted as male, is known for kidnapping misbehaving children, especially during nighttime wanderings. The folklore surrounding El Viejo De La Bolsa includes cautionary tales and a fear of the dark, as encounters with him are associated with the potential abduction of children. Chileans tell stories of this entity as a warning to children to behave and avoid wandering at night, reinforcing the importance of caution in the darkness."
+  },
+  {
+    "ID": 18,
+    "Name": "El Viejo De La Bolsa",
+    "Country": "Argentina",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Sack-Carrying Figure"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Collector", "Nighttime Wanderer"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Kidnapping Misbehaving Children", "Wandering at Night"],
+      "CulturalThemes": ["Cautionary Tales", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Sack for Carrying Children", "Stealthy Presence"],
+      "RegionalTraits": ["Argentinean Folklore"]
+    },
+    "Image": "images/el_viejo_de_la_bolsa.jpg",
+    "Description": "El Viejo De La Bolsa is a supernatural entity deeply rooted in the folklore of Argentina. This sack-carrying figure, often depicted as male, is known for kidnapping misbehaving children, especially during nighttime wanderings. The folklore surrounding El Viejo De La Bolsa includes cautionary tales and a fear of the dark, as encounters with him are associated with the potential abduction of children. Argentinians tell stories of this entity as a warning to children to behave and avoid wandering at night, reinforcing the importance of caution in the darkness."
   },
   {
     "ID": 19,
     "Name": "Pishtaco",
     "Country": "Peru",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Fat-Collector"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Attacking Travelers", "Harvesting Fat"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Lurking in Remote Areas", "Ambushing Unsuspecting Victims"],
+      "CulturalThemes": ["Fear of Isolation", "Caution in Remote Locations"],
+      "FearFactor": ["Fear of Attack"],
+      "CommonAttributes": ["Sharp Tools for Fat Harvesting", "Stealthy Presence"],
+      "RegionalTraits": ["Peruvian Folklore"]
+    },
     "Image": "images/pishtaco.jpg",
-    "Description": ""
+    "Description": "Pishtaco is a supernatural entity deeply rooted in the folklore of Peru. This fat-collecting figure is known for attacking travelers, especially in remote areas, and harvesting fat from unsuspecting victims. The folklore surrounding Pishtaco includes themes of fear of isolation and caution in remote locations, as encounters with this entity are associated with the potential for attack. Peruvians share stories of Pishtaco as a warning to travelers, emphasizing the importance of vigilance and awareness in isolated regions."
   },
   {
     "ID": 19,
     "Name": "Pishtaco",
     "Country": "Bolivia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Fat-Collector"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Attacking Travelers", "Harvesting Fat"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Lurking in Remote Areas", "Ambushing Unsuspecting Victims"],
+      "CulturalThemes": ["Fear of Isolation", "Caution in Remote Locations"],
+      "FearFactor": ["Fear of Attack"],
+      "CommonAttributes": ["Sharp Tools for Fat Harvesting", "Stealthy Presence"],
+      "RegionalTraits": ["Bolivian Folklore"]
+    },
     "Image": "images/pishtaco.jpg",
-    "Description": ""
+    "Description": "Pishtaco is a supernatural entity deeply rooted in the folklore of Bolivia. This fat-collecting figure is known for attacking travelers, especially in remote areas, and harvesting fat from unsuspecting victims. The folklore surrounding Pishtaco includes themes of fear of isolation and caution in remote locations, as encounters with this entity are associated with the potential for attack. Bolivians share stories of Pishtaco as a warning to travelers, emphasizing the importance of vigilance and awareness in isolated regions."
   },
   {
     "ID": 20,
     "Name": "Kuartam",
     "Country": "Ecuador",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Mythical Creature"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian of Nature", "Benevolent Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Sacred Places", "Assisting Those in Need"],
+      "CulturalThemes": ["Harmony with Nature", "Respect for the Environment"],
+      "FearFactor": ["Fear of Disrespecting Sacred Sites"],
+      "CommonAttributes": ["Nature-Connected", "Benevolent Spirit"],
+      "RegionalTraits": ["Ecuadorian Folklore"]
+    },
     "Image": "images/kuartam.jpg",
-    "Description": ""
+    "Description": "Kuartam is a supernatural entity deeply rooted in the folklore of Ecuador. This mythical creature, whose gender varies in different accounts, is characterized by a benevolent presence and a strong connection to nature. Kuartam serves as a guardian of sacred places, protecting them and assisting those in need. The folklore surrounding Kuartam promotes harmony with nature and respect for the environment. Ecuadorians hold a deep respect for Kuartam, and encounters with this entity are seen as opportunities to appreciate the beauty of nature while emphasizing the importance of preserving and respecting sacred sites."
   },
   {
     "ID": 21,
     "Name": "Bokkenrijders",
     "Country": "Netherlands",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Cavalry of the Devil"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nighttime Marauders", "Alleged Pact with the Devil"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Riding on Goats", "Committing Crimes under the Devil's Command"],
+      "CulturalThemes": ["Fear of the Unknown", "Historical Mysteries"],
+      "FearFactor": ["Fear of Devilish Retribution"],
+      "CommonAttributes": ["Cloaked Figures", "Association with Goats"],
+      "RegionalTraits": ["Dutch Folklore"]
+    },
     "Image": "images/bokkenrijders.jpg",
-    "Description": ""
+    "Description": "Bokkenrijders is a supernatural entity deeply rooted in the folklore of the Netherlands. This legendary cavalry, whose gender varies in different accounts, is associated with nighttime marauders and an alleged pact with the devil. The folklore surrounding Bokkenrijders includes themes of fear of the unknown and historical mysteries, as they were believed to ride on goats and commit crimes under the devil's command. The legend of Bokkenrijders instills a fear of devilish retribution in those who hear the tales, making it a significant and mysterious figure in Dutch folklore."
   },
   {
     "ID": 22,
     "Name": "Kelpie",
     "Country": "Scotland",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Water Spirit"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Shape-Shifter", "Luring Humans near Water"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Assuming Horse Form", "Dragging Victims into Water"],
+      "CulturalThemes": ["Caution near Water Bodies", "Fear of Drowning"],
+      "FearFactor": ["Fear of Water Spirits"],
+      "CommonAttributes": ["Sleek Horse Appearance", "Magical Powers"],
+      "RegionalTraits": ["Scottish Folklore"]
+    },
     "Image": "images/kelpie.jpg",
-    "Description": ""
+    "Description": "Kelpie is a supernatural entity deeply rooted in the folklore of Scotland. This water spirit, whose gender varies in different accounts, is characterized by its shape-shifting abilities and the tendency to lure humans near water. The folklore surrounding Kelpie includes themes of caution near water bodies and a fear of drowning, as Kelpies were believed to assume the form of a sleek horse and drag unsuspecting victims into the water. Scots tell tales of encounters with Kelpie as a warning to be wary of water spirits, emphasizing the magical and potentially dangerous nature of these mythical beings."
   },
   {
     "ID": 23,
     "Name": "Gryla",
     "Country": "Iceland",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Ogress"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Eater", "Winter Hag"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Abducting Misbehaving Children", "Scaring During Winter Nights"],
+      "CulturalThemes": ["Cautionary Tales", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction", "Fear of Winter Nights"],
+      "CommonAttributes": ["Monstrous Appearance", "Association with Winter"],
+      "RegionalTraits": ["Icelandic Folklore"]
+    },
     "Image": "images/gryla.jpg",
-    "Description": ""
+    "Description": "Gryla is a supernatural entity deeply rooted in the folklore of Iceland. This ogress, depicted as female, is known for her monstrous appearance and terrifying behavior, especially during winter nights. Gryla is infamous for being a child eater, abducting misbehaving children and striking fear into the hearts of those who misbehave. The folklore surrounding Gryla includes cautionary tales and a fear of the dark, emphasizing the importance of good behavior and obedience during the winter season. Icelandic stories of Gryla serve as a chilling reminder to children to behave well, or they may face the wrath of this fearsome winter hag."
   },
   {
     "ID": 24,
     "Name": "De Béise Monni",
     "Country": "Luxembourg",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Malevolent Spirit"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nighttime Mischief", "Causing Disturbances"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Creating Frightening Sounds", "Disturbing Sleep"],
+      "CulturalThemes": ["Superstition", "Fear of the Unknown"],
+      "FearFactor": ["Fear of Night Disturbances"],
+      "CommonAttributes": ["Mischievous Presence", "Nocturnal Activities"],
+      "RegionalTraits": ["Luxembourgish Folklore"]
+    },
     "Image": "images/de_beise_monni.jpg",
-    "Description": ""
+    "Description": "De Béise Monni is a supernatural entity deeply rooted in the folklore of Luxembourg. This malevolent spirit, whose gender varies in different accounts, is known for nighttime mischief and causing disturbances to unsuspecting individuals. De Béise Monni creates frightening sounds and disturbs sleep, contributing to a sense of superstition and fear of the unknown. Luxembourgish tales of De Béise Monni reflect a cultural theme of caution during the night, warning of the mischievous presence that may disrupt peaceful sleep and instill a sense of fear among those who encounter this mysterious entity."
   },
   {
     "ID": 25,
     "Name": "Bussenmand",
     "Country": "Denmark",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Malevolent Figure"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nighttime Wanderer"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Luring Children", "Appearing at Night"],
+      "CulturalThemes": ["Cautionary Tales", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Mysterious Presence", "Nocturnal Activities"],
+      "RegionalTraits": ["Danish Folklore"]
+    },
     "Image": "images/bussemand.jpg",
-    "Description": ""
+    "Description": "Bussenmand is a supernatural entity deeply rooted in the folklore of Denmark. This malevolent figure, whose gender varies in different accounts, is known for child abduction and nighttime wanderings. Bussenmand lures children and appears at night, contributing to cautionary tales and a pervasive fear of the dark. Danish stories of Bussenmand serve as a warning to children and emphasize the importance of staying cautious, especially after dark, to avoid the potential abduction by this mysterious and nocturnal entity."
   },
   {
     "ID": 26,
     "Name": "Kludde",
     "Country": "Belgium",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shapeshifter"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Trickster", "Nighttime Mischief"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Assuming Various Forms", "Playing Pranks"],
+      "CulturalThemes": ["Superstition", "Fear of the Unknown"],
+      "FearFactor": ["Fear of Night Disturbances"],
+      "CommonAttributes": ["Mischievous Presence", "Shape-Shifting Abilities"],
+      "RegionalTraits": ["Belgian Folklore"]
+    },
     "Image": "images/kludde.jpg",
-    "Description": ""
+    "Description": "Kludde is a supernatural entity deeply rooted in the folklore of Belgium. This shapeshifting figure, whose gender varies in different accounts, is known for being a trickster and causing nighttime mischief. Kludde assumes various forms and plays pranks, contributing to a sense of superstition and fear of the unknown. Belgian tales of Kludde reflect a cultural theme of caution during the night, warning of the mischievous presence that may disrupt peace and instill a sense of fear among those who encounter this mysterious and shape-shifting entity."
   },
   {
     "ID": 27,
     "Name": "Nokken",
     "Country": "Norway",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Water Spirit"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Musical Temptation", "Drowning Humans"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Luring with Music", "Pulling Victims into Water"],
+      "CulturalThemes": ["Caution near Water Bodies", "Fear of Drowning"],
+      "FearFactor": ["Fear of Water Spirits"],
+      "CommonAttributes": ["Humanoid Appearance", "Musical Abilities"],
+      "RegionalTraits": ["Norwegian Folklore"]
+    },
     "Image": "images/nokken.jpg",
-    "Description": ""
+    "Description": "Nokken is a supernatural water spirit deeply rooted in the folklore of Norway. This male entity is known for its humanoid appearance, musical abilities, and the temptation it presents by luring humans with enchanting music. The folklore surrounding Nokken includes cautionary tales about the dangers near water bodies and a pervasive fear of drowning, as Nokken is believed to pull victims into the water. Norwegians share stories of Nokken as a warning to be wary of water spirits, emphasizing the magical and potentially perilous nature of encounters with this mythical being."
   },
   {
     "ID": 27,
     "Name": "Nokken",
     "Country": "Sweden",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Water Spirit"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Musical Temptation", "Drowning Humans"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Luring with Music", "Pulling Victims into Water"],
+      "CulturalThemes": ["Caution near Water Bodies", "Fear of Drowning"],
+      "FearFactor": ["Fear of Water Spirits"],
+      "CommonAttributes": ["Humanoid Appearance", "Musical Abilities"],
+      "RegionalTraits": ["Swedish Folklore"]
+    },
     "Image": "images/nokken.jpg",
-    "Description": ""
+    "Description": "Nokken is a supernatural water spirit deeply rooted in the folklore of Sweden. This male entity is known for its humanoid appearance, musical abilities, and the temptation it presents by luring humans with enchanting music. The folklore surrounding Nokken includes cautionary tales about the dangers near water bodies and a pervasive fear of drowning, as Nokken is believed to pull victims into the water. Swedes share stories of Nokken as a warning to be wary of water spirits, emphasizing the magical and potentially perilous nature of encounters with this mythical being."
   },
   {
     "ID": 28,
     "Name": "Mörkö",
     "Country": "Finland",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Boogeyman"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nighttime Presence", "Scaring Children"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Appearing in Darkness", "Causing Fear"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Nighttime Apparitions"],
+      "CommonAttributes": ["Shadowy Figure", "Associations with Darkness"],
+      "RegionalTraits": ["Finnish Folklore"]
+    },
     "Image": "images/morko.jpg",
-    "Description": ""
+    "Description": "Mörkö is a supernatural boogeyman deeply rooted in the folklore of Finland. This male entity is known for its nighttime presence, appearing in darkness to scare children. The folklore surrounding Mörkö includes parental warnings and a fear of the dark, as Mörkö is believed to cause fear by manifesting as a shadowy figure. Finns share stories of Mörkö as a cautionary tale, emphasizing the importance of overcoming fear and the significance of parental guidance to reassure children in the face of nighttime apparitions."
   },
   {
     "ID": 29,
     "Name": "Butzemann",
     "Country": "Germany",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Folkloric Figure"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nighttime Guardian", "Protector of Children"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Watching over Children", "Ensuring Sleep"],
+      "CulturalThemes": ["Childhood Protection", "Nighttime Rituals"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Friendly Presence", "Association with Nighttime"],
+      "RegionalTraits": ["German Folklore"]
+    },
     "Image": "images/butzemann.jpg",
-    "Description": ""
+    "Description": "Butzemann is a supernatural folkloric figure deeply rooted in the folklore of Germany. This male entity is known for being a nighttime guardian and protector of children. The folklore surrounding Butzemann includes themes of childhood protection and nighttime rituals, as Butzemann is believed to watch over children and ensure their peaceful sleep. German tales of Butzemann portray a friendly presence associated with the nighttime, providing reassurance to children and instilling a sense of comfort in the face of the unknown."
   },
   {
     "ID": 30,
     "Name": "Boogeyman",
     "Country": "United Kingdom",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Fearsome Entity"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nighttime Apparition", "Scaring Children"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Appearing in Darkness", "Causing Fear"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Nighttime Apparitions"],
+      "CommonAttributes": ["Shadowy Figure", "Associations with Darkness"],
+      "RegionalTraits": ["British Folklore"]
+    },
     "Image": "images/boogeyman.jpg",
-    "Description": ""
+    "Description": "The Boogeyman is a supernatural entity deeply rooted in the folklore of the United Kingdom. This fearsome entity, whose gender varies in different accounts, is known for its nighttime apparitions, appearing in darkness to scare children. The folklore surrounding the Boogeyman includes parental warnings and a fear of the dark, as it is believed to cause fear by manifesting as a shadowy figure. British stories of the Boogeyman serve as a cautionary tale, emphasizing the importance of overcoming fear and the significance of parental guidance to reassure children in the face of nighttime apparitions."
   },
   {
     "ID": 31,
     "Name": "Sluagh",
     "Country": "Ireland (Northern)",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Gathering of Spirits", "Taking Souls of the Departed"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Flying in Swarms", "Claiming Souls"],
+      "CulturalThemes": ["Death Customs", "Spiritual Beliefs"],
+      "FearFactor": ["Fear of the Departed"],
+      "CommonAttributes": ["Ethereal Presence", "Association with Death"],
+      "RegionalTraits": ["Northern Irish Folklore"]
+    },
     "Image": "images/sluagh.jpg",
-    "Description": ""
+    "Description": "Sluagh is a supernatural spirit deeply rooted in the folklore of Northern Ireland. These spirits, whose gender varies in different accounts, are known for their ethereal presence and the gathering of spirits to claim the souls of the departed. The folklore surrounding Sluagh includes themes of death customs and spiritual beliefs, as they are believed to fly in swarms, claiming the souls of those who have passed away. Northern Irish tales of Sluagh reflect a cultural theme of reverence for the departed and a fear of encountering these ethereal entities associated with death."
   },
   {
     "ID": 32,
     "Name": "Bodach",
     "Country": "Ireland",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Old Man"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nighttime Wanderer", "Watcher of Homes"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Roaming at Night", "Observing Dwellings"],
+      "CulturalThemes": ["Superstition", "Guardian Spirits"],
+      "FearFactor": ["Fear of the Unknown"],
+      "CommonAttributes": ["Elderly Appearance", "Association with Night"],
+      "RegionalTraits": ["Irish Folklore"]
+    },
     "Image": "images/bodach.jpg",
-    "Description": ""
+    "Description": "Bodach is a supernatural figure deeply rooted in the folklore of Ireland. This male entity, depicted as an old man, is known for being a nighttime wanderer and watcher of homes. The folklore surrounding Bodach includes themes of superstition and guardian spirits, as he is believed to roam at night, observing dwellings. Irish tales of Bodach portray an elderly figure associated with the night, contributing to a sense of the unknown and a cultural belief in the presence of guardian spirits."
   },
   {
     "ID": 33,
     "Name": "Black Annis",
     "Country": "England",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Hag-Like"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nighttime Predator", "Preying on Children"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Lurking in Caves", "Capturing Misbehaving Children"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Capture"],
+      "CommonAttributes": ["Hag-Like Appearance", "Nocturnal Activities"],
+      "RegionalTraits": ["English Folklore"]
+    },
     "Image": "images/black_annis.jpg",
-    "Description": ""
+    "Description": "Black Annis is a supernatural figure deeply rooted in the folklore of England. This female entity, described as hag-like, is known for being a nighttime predator and preying on children. The folklore surrounding Black Annis includes parental warnings and a fear of the dark, as she is believed to lurk in caves, capturing misbehaving children. English tales of Black Annis serve as a cautionary tale, emphasizing the importance of good behavior and the fear of capture by this nocturnal and ominous figure."
   },
   {
     "ID": 34,
     "Name": "Hans Trapp",
     "Country": "France",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Scarecrow-Like"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Punisher of Children", "Anti-Santa Figure"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Terrifying Children", "Warning against Misbehavior"],
+      "CulturalThemes": ["Holiday Traditions", "Fear of Misdeeds"],
+      "FearFactor": ["Fear of Punishment"],
+      "CommonAttributes": ["Scarecrow-Like Appearance", "Association with Christmas"],
+      "RegionalTraits": ["French Folklore"]
+    },
     "Image": "images/hans_trapp.jpg",
-    "Description": ""
+    "Description": "Hans Trapp is a supernatural figure deeply rooted in the folklore of France. This male entity, depicted as scarecrow-like, is known for being a punisher of children and an anti-Santa figure. The folklore surrounding Hans Trapp includes cultural themes related to holiday traditions and a fear of misdeeds, as he is believed to terrify children and serve as a warning against misbehavior. French tales of Hans Trapp highlight his scarecrow-like appearance and association with Christmas, instilling a fear of punishment for those who stray from the path of good behavior during the holiday season."
   },
   {
     "ID": 35,
     "Name": "Afanc",
     "Country": "Wales",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Water Monster"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Living in Lakes", "Causing Floods"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Residing in Water", "Exerting Control over Water"],
+      "CulturalThemes": ["Caution near Water Bodies", "Natural Disasters"],
+      "FearFactor": ["Fear of Water Monsters"],
+      "CommonAttributes": ["Aquatic Appearance", "Association with Lakes"],
+      "RegionalTraits": ["Welsh Folklore"]
+    },
     "Image": "images/afanc.jpg",
-    "Description": ""
+    "Description": "Afanc is a supernatural water monster deeply rooted in the folklore of Wales. These entities, whose gender varies in different accounts, are known for their aquatic appearance and the belief that they reside in lakes, causing floods. The folklore surrounding Afanc includes cautionary tales about the dangers near water bodies and a fear of water monsters, as they are believed to exert control over water. Welsh stories of Afanc reflect a cultural theme of respect for nature and the potential consequences of disturbing the balance, especially near lakes and other water sources."
   },
   {
     "ID": 36,
     "Name": "Coco",
     "Country": "Portugal",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shapeshifter"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nocturnal Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shapeshifting to Scare Children", "Appearing at Night"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Shapeshifting Abilities", "Dark Appearance"],
+      "RegionalTraits": ["Portuguese Folklore"]
+    },
     "Image": "images/coco.jpg",
-    "Description": ""
-  },
+    "Description": "Coco is a supernatural entity deeply ingrained in the folklore of Portugal. This shapeshifting figure, with a varied and mysterious nature, is known for abducting children. The folklore surrounding Coco includes tales of shapeshifting to scare children and appearing at night. Portuguese stories depict Coco as a fear-inducing presence, embodying the cultural themes of parental warnings and a fear of the dark."
+  }
+  ,
   {
     "ID": 37,
     "Name": "El Hombre Del Saco",
     "Country": "Spain",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Mysterious Figure"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Bag-Carrying"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Abducting Misbehaving Children", "Carrying a Sack"],
+      "CulturalThemes": ["Parental Warnings", "Fear of Strangers"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Mysterious Presence", "Association with Misbehaving Children"],
+      "RegionalTraits": ["Spanish Folklore"]
+    },
     "Image": "images/el_hombre_del_saco.jpg",
-    "Description": ""
+    "Description": "El Hombre Del Saco is a supernatural figure deeply rooted in the folklore of Spain. This male entity, characterized by its mysterious presence, is known for being a child abductor who carries a sack. The folklore surrounding El Hombre Del Saco includes parental warnings and a fear of strangers, as he is believed to abduct misbehaving children, carrying them away in a sack. Spanish tales of El Hombre Del Saco emphasize the importance of caution and obedience, especially in the presence of mysterious figures, to avoid the fear of abduction."
   },
   {
     "ID": 38,
     "Name": "Böögg",
     "Country": "Switzerland",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Effigy"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Symbol of Winter's End", "Ceremonial Burning"],
+      "Origin": "Local Tradition",
+      "ModusOperandi": ["Ceremonial Burning during Sechseläuten", "Representing Winter's Demise"],
+      "CulturalThemes": ["Seasonal Transitions", "Festivals"],
+      "FearFactor": ["Symbolic Fear of Winter"],
+      "CommonAttributes": ["Effigy Representation", "Association with Sechseläuten Festival"],
+      "RegionalTraits": ["Swiss Folklore"]
+    },
     "Image": "images/boogg.jpg",
-    "Description": ""
+    "Description": "Böögg is a supernatural figure deeply rooted in the folklore of Switzerland. This entity, whose gender varies as it is an effigy, is known as a symbol of winter's end and is ceremonially burned during the Sechseläuten festival. The folklore surrounding Böögg includes cultural themes related to seasonal transitions and festivals, as it represents the demise of winter. Swiss tales of Böögg focus on the symbolic fear of winter and the joyous celebration associated with bidding farewell to the colder season during the Sechseläuten festival."
   },
   {
     "ID": 39,
     "Name": "Krampus",
     "Country": "Austria",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Half-Goat, Half-Demon"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Punisher of Naughty Children", "Companion of Saint Nicholas"],
+      "Origin": "Local Tradition",
+      "ModusOperandi": ["Scaring Misbehaving Children", "Carrying Chains and Bells"],
+      "CulturalThemes": ["Holiday Traditions", "Moral Lessons"],
+      "FearFactor": ["Fear of Punishment"],
+      "CommonAttributes": ["Goat-Like Features", "Association with Saint Nicholas"],
+      "RegionalTraits": ["Austrian Folklore"]
+    },
     "Image": "images/krampus.jpg",
-    "Description": ""
+    "Description": "Krampus is a supernatural figure deeply rooted in the folklore of Austria. This male entity, depicted as half-goat and half-demon, is known for being a punisher of naughty children and the companion of Saint Nicholas. The folklore surrounding Krampus includes cultural themes related to holiday traditions and moral lessons, as he is believed to scare misbehaving children, carrying chains and bells. Austrian tales of Krampus highlight the fear of punishment as a means of teaching moral values and ensuring good behavior during the holiday season."
   },
   {
     "ID": 40,
-    "Name": "Shrtiga",
+    "Name": "Shtriga",
     "Country": "Albania",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Witch-Like"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Blood-Sucking", "Shapeshifting"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Feeding on the Vitality of the Living", "Transforming into Animals"],
+      "CulturalThemes": ["Protection Charms", "Fear of the Unknown"],
+      "FearFactor": ["Fear of Witchcraft"],
+      "CommonAttributes": ["Witch-Like Appearance", "Association with Darkness"],
+      "RegionalTraits": ["Albanian Folklore"]
+    },
     "Image": "images/shrtiga.jpg",
-    "Description": ""
+    "Description": "Shtriga is a supernatural figure deeply rooted in the folklore of Albania. This female entity, depicted as witch-like, is known for blood-sucking and shapeshifting. The folklore surrounding Shtriga includes cultural themes related to protection charms and a fear of the unknown, as she is believed to feed on the vitality of the living and transform into animals. Albanian tales of Shtriga highlight the fear of witchcraft and the importance of protection against the dark and mysterious forces associated with this supernatural entity."
   },
   {
     "ID": 41,
     "Name": "The Guschg Herdsmen's Doll",
     "Country": "Liechtenstein",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Doll-Like"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian of Livestock", "Protector of Herdsmen"],
+      "Origin": "Local Tradition",
+      "ModusOperandi": ["Placed in Stables", "Symbol of Protection"],
+      "CulturalThemes": ["Agricultural Traditions", "Protection of Livestock"],
+      "FearFactor": ["Fear of Misfortune"],
+      "CommonAttributes": ["Doll-Like Appearance", "Association with Herding"],
+      "RegionalTraits": ["Liechtenstein Folklore"]
+    },
     "Image": "images/the_guschg_herdsmens_doll.jpg",
-    "Description": ""
+    "Description": "The Guschg Herdsmen's Doll is a supernatural figure deeply rooted in the folklore of Liechtenstein. This entity, whose gender varies and is depicted as doll-like, is known for being a guardian of livestock and protector of herdsmen. The folklore surrounding The Guschg Herdsmen's Doll includes cultural themes related to agricultural traditions and the protection of livestock, as it is believed to be placed in stables as a symbol of protection. Liechtenstein tales of The Guschg Herdsmen's Doll emphasize the connection between the supernatural entity, agricultural practices, and the belief in its ability to ward off misfortune from herds and herdsmen."
   },
   {
     "ID": 42,
     "Name": "Babaroga",
     "Country": "Bosnia and Herzegovina",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Hag-Like"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nighttime Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Scaring Children", "Abducting Misbehaving Children"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Hag-Like Appearance", "Nocturnal Activities"],
+      "RegionalTraits": ["Bosnian and Herzegovinian Folklore"]
+    },
     "Image": "images/babaroga.jpg",
-    "Description": ""
+    "Description": "Babaroga is a supernatural figure deeply rooted in the folklore of Bosnia and Herzegovina. This female entity, characterized by its hag-like appearance, is known for being a child abductor with a nighttime presence. The folklore surrounding Babaroga includes parental warnings and a fear of the dark, as she is believed to scare children and abduct misbehaving children during the night. Bosnian and Herzegovinian tales of Babaroga emphasize the importance of caution and obedience, especially in the presence of this nocturnal and ominous figure, to avoid the fear of abduction."
   },
   {
     "ID": 42,
     "Name": "Babaroga",
     "Country": "Croatia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Hag-Like"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nighttime Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Scaring Children", "Abducting Misbehaving Children"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Hag-Like Appearance", "Nocturnal Activities"],
+      "RegionalTraits": ["Croatian Folklore"]
+    },
     "Image": "images/babaroga.jpg",
-    "Description": ""
+    "Description": "Babaroga is a supernatural figure deeply rooted in the folklore of Croatia. This female entity, characterized by its hag-like appearance, is known for being a child abductor with a nighttime presence. The folklore surrounding Babaroga includes parental warnings and a fear of the dark, as she is believed to scare children and abduct misbehaving children during the night. Croatian tales of Babaroga emphasize the importance of caution and obedience, especially in the presence of this nocturnal and ominous figure, to avoid the fear of abduction."
   },
   {
     "ID": 42,
     "Name": "Babaroga",
     "Country": "Kosovo",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Hag-Like"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nighttime Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Scaring Children", "Abducting Misbehaving Children"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Hag-Like Appearance", "Nocturnal Activities"],
+      "RegionalTraits": ["Kosovar Folklore"]
+    },
     "Image": "images/babaroga.jpg",
-    "Description": ""
+    "Description": "Babaroga is a supernatural figure deeply rooted in the folklore of Kosovo. This female entity, characterized by its hag-like appearance, is known for being a child abductor with a nighttime presence. The folklore surrounding Babaroga includes parental warnings and a fear of the dark, as she is believed to scare children and abduct misbehaving children during the night. Kosovar tales of Babaroga emphasize the importance of caution and obedience, especially in the presence of this nocturnal and ominous figure, to avoid the fear of abduction."
   },
   {
     "ID": 42,
     "Name": "Babaroga",
     "Country": "Moldova",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Hag-Like"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nighttime Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Scaring Children", "Abducting Misbehaving Children"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Hag-Like Appearance", "Nocturnal Activities"],
+      "RegionalTraits": ["Moldovan Folklore"]
+    },
     "Image": "images/babaroga.jpg",
-    "Description": ""
+    "Description": "Babaroga is a supernatural figure deeply rooted in the folklore of Moldova. This female entity, characterized by its hag-like appearance, is known for being a child abductor with a nighttime presence. The folklore surrounding Babaroga includes parental warnings and a fear of the dark, as she is believed to scare children and abduct misbehaving children during the night. Moldovan tales of Babaroga emphasize the importance of caution and obedience, especially in the presence of this nocturnal and ominous figure, to avoid the fear of abduction."
   },
   {
     "ID": 42,
     "Name": "Babaroga",
     "Country": "Macedonia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Hag-Like"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nighttime Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Scaring Children", "Abducting Misbehaving Children"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Hag-Like Appearance", "Nocturnal Activities"],
+      "RegionalTraits": ["Macedonian Folklore"]
+    },
     "Image": "images/babaroga.jpg",
-    "Description": ""
+    "Description": "Babaroga is a supernatural figure deeply rooted in the folklore of Macedonia. This female entity, characterized by its hag-like appearance, is known for being a child abductor with a nighttime presence. The folklore surrounding Babaroga includes parental warnings and a fear of the dark, as she is believed to scare children and abduct misbehaving children during the night. Macedonian tales of Babaroga emphasize the importance of caution and obedience, especially in the presence of this nocturnal and ominous figure, to avoid the fear of abduction."
   },
   {
     "ID": 42,
     "Name": "Babaroga",
     "Country": "Republic of Serbia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Hag-Like"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Child Abductor", "Nighttime Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Scaring Children", "Abducting Misbehaving Children"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear of Abduction"],
+      "CommonAttributes": ["Hag-Like Appearance", "Nocturnal Activities"],
+      "RegionalTraits": ["Serbian Folklore"]
+    },
     "Image": "images/babaroga.jpg",
-    "Description": ""
+    "Description": "Babaroga is a supernatural figure deeply rooted in the folklore of the Republic of Serbia. This female entity, characterized by its hag-like appearance, is known for being a child abductor with a nighttime presence. The folklore surrounding Babaroga includes parental warnings and a fear of the dark, as she is believed to scare children and abduct misbehaving children during the night. Serbian tales of Babaroga emphasize the importance of caution and obedience, especially in the presence of this nocturnal and ominous figure, to avoid the fear of abduction."
   },
   {
     "ID": 43,
     "Name": "Babau",
     "Country": "Italy",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shadowy"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nighttime Presence", "Fear Inducer"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Haunting at Night", "Causing Fear in Children"],
+      "CulturalThemes": ["Parental Warnings", "Fear of the Dark"],
+      "FearFactor": ["Fear Inducing"],
+      "CommonAttributes": ["Shadowy Presence", "Nocturnal Activities"],
+      "RegionalTraits": ["Italian Folklore"]
+    },
     "Image": "images/babau.jpg",
-    "Description": ""
+    "Description": "Babau is a supernatural figure deeply rooted in the folklore of Italy. This male entity, characterized by its shadowy appearance, is known for its nighttime presence and ability to induce fear. The folklore surrounding Babau includes parental warnings and a fear of the dark, as he is believed to haunt at night and cause fear in children. Italian tales of Babau emphasize the importance of caution and courage, especially in the face of this shadowy and fear-inducing figure, to overcome the fear of the dark."
   },
   {
     "ID": 44,
     "Name": "Babaw",
     "Country": "Malta",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shapeless"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nighttime Presence", "Mischief Maker"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Creating Mischief", "Playing Tricks"],
+      "CulturalThemes": ["Local Myths", "Superstitions"],
+      "FearFactor": ["Mischief"],
+      "CommonAttributes": ["Shapeless Form", "Playful Activities"],
+      "RegionalTraits": ["Maltese Folklore"]
+    },
     "Image": "images/babaw.jpg",
-    "Description": ""
+    "Description": "Babaw is a supernatural figure deeply rooted in the folklore of Malta. This entity, characterized by its shapeless form, is known for its nighttime presence and mischievous behavior. The folklore surrounding Babaw includes local myths and superstitions, as it is believed to create mischief and play tricks. Maltese tales of Babaw highlight its playful activities and the cultural significance of local beliefs associated with this shapeless and mischievous figure."
   },
   {
     "ID": 45,
     "Name": "Bubus",
     "Country": "Hungary",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Goblin-Like"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nighttime Presence", "Guardian of the Forest"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting the Forest", "Guiding Lost Travelers"],
+      "CulturalThemes": ["Forest Guardianship", "Local Legends"],
+      "FearFactor": ["Mysterious Presence"],
+      "CommonAttributes": ["Goblin-Like Features", "Nocturnal Guardian"],
+      "RegionalTraits": ["Hungarian Folklore"]
+    },
     "Image": "images/bubus.jpg",
-    "Description": ""
+    "Description": "Bubus is a supernatural figure deeply rooted in the folklore of Hungary. This male entity, characterized by its goblin-like features, is known for its nighttime presence and role as a guardian of the forest. The folklore surrounding Bubus includes tales of protecting the forest and guiding lost travelers. Hungarian stories of Bubus emphasize the cultural themes of forest guardianship and local legends, portraying Bubus as a mysterious presence that watches over the nocturnal aspects of the forest."
   },
   {
     "ID": 46,
     "Name": "Baubus",
     "Country": "Latvia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Forest Spirit"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Protector of Nature", "Wisdom Keeper"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Preserving Natural Balance", "Providing Guidance"],
+      "CulturalThemes": ["Nature Spirits", "Local Myths"],
+      "FearFactor": ["Respected Guardian"],
+      "CommonAttributes": ["Forest Spirit Features", "Wise Presence"],
+      "RegionalTraits": ["Latvian Folklore"]
+    },
     "Image": "images/baubus.jpg",
-    "Description": ""
+    "Description": "Baubus is a supernatural figure deeply rooted in the folklore of Latvia. This male entity, characterized as a forest spirit, is known for being a protector of nature and a wisdom keeper. The folklore surrounding Baubus includes tales of preserving the natural balance and providing guidance. Latvian stories depict Baubus as a respected guardian with forest spirit features, embodying the wisdom and presence associated with the natural world."
   },
   {
     "ID": 46,
     "Name": "Baubus",
     "Country": "Lithuania",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Forest Spirit"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Protector of Nature", "Wisdom Keeper"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Preserving Natural Balance", "Providing Guidance"],
+      "CulturalThemes": ["Nature Spirits", "Local Myths"],
+      "FearFactor": ["Respected Guardian"],
+      "CommonAttributes": ["Forest Spirit Features", "Wise Presence"],
+      "RegionalTraits": ["Lithuanian Folklore"]
+    },
     "Image": "images/baubus.jpg",
-    "Description": ""
+    "Description": "Baubus is a supernatural figure deeply rooted in the folklore of Lithuania. This male entity, characterized as a forest spirit, is known for being a protector of nature and a wisdom keeper. The folklore surrounding Baubus includes tales of preserving the natural balance and providing guidance. Lithuanian stories depict Baubus as a respected guardian with forest spirit features, embodying the wisdom and presence associated with the natural world."
   },
   {
     "ID": 47,
     "Name": "Vodyanoy",
     "Country": "Czech Republic",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Water Spirit"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian of Water", "Mischievous"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Water Sources", "Playing Tricks on Humans"],
+      "CulturalThemes": ["Water Spirits", "Local Myths"],
+      "FearFactor": ["Respected Guardian", "Mischievous Pranks"],
+      "CommonAttributes": ["Water Spirit Features", "Playful Presence"],
+      "RegionalTraits": ["Czech Folklore"]
+    },
     "Image": "images/vodyanoy.jpg",
-    "Description": ""
+    "Description": "Vodyanoy is a supernatural figure deeply rooted in the folklore of the Czech Republic. This male entity, characterized as a water spirit, is known for being a guardian of water and occasionally playing mischievous tricks on humans. The folklore surrounding Vodyanoy includes tales of protecting water sources and engaging in playful antics. Czech stories depict Vodyanoy as a respected guardian with water spirit features, embodying both a sense of protection and mischievous presence near water sources."
   },
   {
     "ID": 47,
     "Name": "Vodyanoy",
     "Country": "Slovakia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Water Spirit"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian of Water", "Mischievous"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Water Sources", "Playing Tricks on Humans"],
+      "CulturalThemes": ["Water Spirits", "Local Myths"],
+      "FearFactor": ["Respected Guardian", "Mischievous Pranks"],
+      "CommonAttributes": ["Water Spirit Features", "Playful Presence"],
+      "RegionalTraits": ["Slovak Folklore"]
+    },
     "Image": "images/vodyanoy.jpg",
-    "Description": ""
+    "Description": "Vodyanoy is a supernatural figure deeply rooted in the folklore of Slovakia. This male entity, characterized as a water spirit, is known for being a guardian of water and occasionally playing mischievous tricks on humans. The folklore surrounding Vodyanoy includes tales of protecting water sources and engaging in playful antics. Slovak stories depict Vodyanoy as a respected guardian with water spirit features, embodying both a sense of protection and mischievous presence near water sources."
   },
   {
     "ID": 47,
     "Name": "Vodyanoy",
     "Country": "Slovenia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Water Spirit"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian of Water", "Mischievous"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Water Sources", "Playing Tricks on Humans"],
+      "CulturalThemes": ["Water Spirits", "Local Myths"],
+      "FearFactor": ["Respected Guardian", "Mischievous Pranks"],
+      "CommonAttributes": ["Water Spirit Features", "Playful Presence"],
+      "RegionalTraits": ["Slovenian Folklore"]
+    },
     "Image": "images/vodyanoy.jpg",
-    "Description": ""
+    "Description": "Vodyanoy is a supernatural figure deeply rooted in the folklore of Slovenia. This male entity, characterized as a water spirit, is known for being a guardian of water and occasionally playing mischievous tricks on humans. The folklore surrounding Vodyanoy includes tales of protecting water sources and engaging in playful antics. Slovenian stories depict Vodyanoy as a respected guardian with water spirit features, embodying both a sense of protection and mischievous presence near water sources."
   },
   {
     "ID": 48,
     "Name": "Baba Yaga",
     "Country": "Belarus",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Old", "Witch"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Forest Dweller", "Eating Children"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Living in a Hut with Chicken Legs", "Flying in a Mortar"],
+      "CulturalThemes": ["Witchcraft", "Local Myths"],
+      "FearFactor": ["Child Abduction", "Magical Powers"],
+      "CommonAttributes": ["Old Age", "Witch-Like Features"],
+      "RegionalTraits": ["Belarusian Folklore"]
+    },
     "Image": "images/baba_yaga.jpg",
-    "Description": ""
+    "Description": "Baba Yaga is a supernatural figure deeply rooted in the folklore of Belarus. This female entity, characterized as an old witch, is known for dwelling in the forest and having a penchant for eating children. The folklore surrounding Baba Yaga includes tales of living in a hut with chicken legs and flying in a mortar. Belarusian stories depict Baba Yaga as a feared figure with witch-like features, embodying both the terror of child abduction and the mystical powers associated with witchcraft."
   },
   {
     "ID": 48,
     "Name": "Baba Yaga",
     "Country": "Poland",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Old", "Witch"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Forest Dweller", "Eating Children"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Living in a Hut with Chicken Legs", "Flying in a Mortar"],
+      "CulturalThemes": ["Witchcraft", "Local Myths"],
+      "FearFactor": ["Child Abduction", "Magical Powers"],
+      "CommonAttributes": ["Old Age", "Witch-Like Features"],
+      "RegionalTraits": ["Polish Folklore"]
+    },
     "Image": "images/baba_yaga.jpg",
-    "Description": ""
+    "Description": "Baba Yaga is a supernatural figure deeply rooted in the folklore of Poland. This female entity, characterized as an old witch, is known for dwelling in the forest and having a penchant for eating children. The folklore surrounding Baba Yaga includes tales of living in a hut with chicken legs and flying in a mortar. Polish stories depict Baba Yaga as a feared figure with witch-like features, embodying both the terror of child abduction and the mystical powers associated with witchcraft."
   },
   {
     "ID": 48,
     "Name": "Baba Yaga",
     "Country": "Russia",
-    "Characteristics": "lorem ipsum lorem ipsum",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Old", "Witch"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Forest Dweller", "Eating Children"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Living in a Hut with Chicken Legs", "Flying in a Mortar"],
+      "CulturalThemes": ["Witchcraft", "Local Myths"],
+      "FearFactor": ["Child Abduction", "Magical Powers"],
+      "CommonAttributes": ["Old Age", "Witch-Like Features"],
+      "RegionalTraits": ["Russian Folklore"]
+    },
     "Image": "images/baba_yaga.jpg",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia pellentesque erat, sit amet varius est faucibus non. Aenean vitae convallis dolor. Suspendisse commodo nunc aliquet finibus eleifend. Maecenas aliquet nunc non dui blandit vulputate. Donec ut risus sed magna placerat lacinia a vitae neque. Fusce ut hendrerit tellus. Nam molestie magna vel massa dignissim, sit amet pellentesque elit maximus. Nulla non augue nec lorem mattis accumsan."
+    "Description": "Baba Yaga is a supernatural figure deeply rooted in the folklore of Russia. This female entity, characterized as an old witch, is known for dwelling in the forest and having a penchant for eating children. The folklore surrounding Baba Yaga includes tales of living in a hut with chicken legs and flying in a mortar. Russian stories depict Baba Yaga as a feared figure with witch-like features, embodying both the terror of child abduction and the mystical powers associated with witchcraft."
   },
   {
     "ID": 48,
     "Name": "Baba Yaga",
     "Country": "Ukraine",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Old", "Witch"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Forest Dweller", "Eating Children"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Living in a Hut with Chicken Legs", "Flying in a Mortar"],
+      "CulturalThemes": ["Witchcraft", "Local Myths"],
+      "FearFactor": ["Child Abduction", "Magical Powers"],
+      "CommonAttributes": ["Old Age", "Witch-Like Features"],
+      "RegionalTraits": ["Ukrainian Folklore"]
+    },
     "Image": "images/baba_yaga.jpg",
-    "Description": ""
+    "Description": "Baba Yaga is a supernatural figure deeply rooted in the folklore of Ukraine. This female entity, characterized as an old witch, is known for dwelling in the forest and having a penchant for eating children. The folklore surrounding Baba Yaga includes tales of living in a hut with chicken legs and flying in a mortar. Ukrainian stories depict Baba Yaga as a feared figure with witch-like features, embodying both the terror of child abduction and the mystical powers associated with witchcraft."
   },
   {
     "ID": 49,
     "Name": "Bau Bau",
     "Country": "Romania",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Mysterious"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian Spirit", "Mischief Maker"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Appearing as a Black Dog", "Protecting Places"],
+      "CulturalThemes": ["Guardian Spirits", "Local Myths"],
+      "FearFactor": ["Mysterious Presence"],
+      "CommonAttributes": ["Black Dog Appearance", "Mischief"],
+      "RegionalTraits": ["Romanian Folklore"]
+    },
     "Image": "images/bau_bau.jpg",
-    "Description": ""
+    "Description": "Bau Bau is a supernatural entity deeply ingrained in the folklore of Romania. This mysterious figure, often appearing as a black dog, is known for its varied nature, functioning as both a guardian spirit and a mischief maker. The folklore surrounding Bau Bau includes tales of protecting specific places and engaging in playful mischief. Romanian stories depict Bau Bau as a mysterious presence, embodying the cultural themes of guardian spirits and local myths."
   },
   {
     "ID": 50,
     "Name": "Ali",
     "Country": "Georgia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Mysterious"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian Spirit", "Caretaker"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Appearing in Various Forms", "Protecting Homes"],
+      "CulturalThemes": ["Protector Spirits", "Local Myths"],
+      "FearFactor": ["Mysterious Presence"],
+      "CommonAttributes": ["Shapeshifting Abilities", "Protective Nature"],
+      "RegionalTraits": ["Georgian Folklore"]
+    },
     "Image": "images/ali.jpg",
-    "Description": ""
+    "Description": "Ali is a supernatural entity deeply ingrained in the folklore of Georgia. This mysterious figure, known for appearing in various forms, is considered a guardian spirit and caretaker. The folklore surrounding Ali includes tales of protecting homes and exhibiting shapeshifting abilities. Georgian stories depict Ali as a mysterious presence, embodying the cultural themes of protector spirits and local myths."
   },
   {
     "ID": 51,
     "Name": "Div",
     "Country": "Armenia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Monstrous"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Malevolent", "Causing Chaos"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Bringing Misfortune", "Creating Chaos"],
+      "CulturalThemes": ["Malevolent Spirits", "Local Myths"],
+      "FearFactor": ["Monstrous Appearance", "Destructive Actions"],
+      "CommonAttributes": ["Varied Forms", "Malevolence"],
+      "RegionalTraits": ["Armenian Folklore"]
+    },
     "Image": "images/div.jpg",
-    "Description": ""
+    "Description": "Div is a supernatural entity deeply ingrained in the folklore of Armenia. This monstrous figure, with a varied and malevolent nature, is known for causing chaos and bringing misfortune. The folklore surrounding Div includes tales of its destructive actions and the ability to take on various forms. Armenian stories depict Div as a fear-inducing presence, embodying the cultural themes of malevolent spirits and local myths."
   },
   {
     "ID": 51,
     "Name": "Div",
     "Country": "Azerbaijan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Monstrous"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Malevolent", "Causing Chaos"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Bringing Misfortune", "Creating Chaos"],
+      "CulturalThemes": ["Malevolent Spirits", "Local Myths"],
+      "FearFactor": ["Monstrous Appearance", "Destructive Actions"],
+      "CommonAttributes": ["Varied Forms", "Malevolence"],
+      "RegionalTraits": ["Azerbaijani Folklore"]
+    },
     "Image": "images/div.jpg",
-    "Description": ""
+    "Description": "Div is a supernatural entity deeply ingrained in the folklore of Azerbaijan. This monstrous figure, with a varied and malevolent nature, is known for causing chaos and bringing misfortune. The folklore surrounding Div includes tales of its destructive actions and the ability to take on various forms. Azerbaijani stories depict Div as a fear-inducing presence, embodying the cultural themes of malevolent spirits and local myths."
   },
   {
     "ID": 52,
     "Name": "Kkullas",
     "Country": "Cyprus",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Serpentine"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian Spirit", "Mysterious"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Places", "Appearing Mysteriously"],
+      "CulturalThemes": ["Guardian Spirits", "Local Myths"],
+      "FearFactor": ["Serpentine Appearance", "Mysterious Presence"],
+      "CommonAttributes": ["Serpentine Features", "Guardianship"],
+      "RegionalTraits": ["Cypriot Folklore"]
+    },
     "Image": "images/kkullas.jpg",
-    "Description": ""
+    "Description": "Kkullas is a supernatural entity deeply ingrained in the folklore of Cyprus. This serpentine figure, with a varied and mysterious nature, is considered a guardian spirit. The folklore surrounding Kkullas includes tales of protecting specific places and appearing mysteriously. Cypriot stories depict Kkullas as a fear-inducing presence, embodying the cultural themes of guardian spirits and local myths."
   },
   {
     "ID": 53,
     "Name": "Baboulos",
     "Country": "Greece",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Mischievous"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Trickster", "Playing Pranks"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Mischievous Actions", "Playing Tricks"],
+      "CulturalThemes": ["Trickster Spirits", "Local Myths"],
+      "FearFactor": ["Mischievous Behavior", "Unexpected Pranks"],
+      "CommonAttributes": ["Varied Forms", "Playfulness"],
+      "RegionalTraits": ["Greek Folklore"]
+    },
     "Image": "images/baboulos.jpg",
-    "Description": ""
+    "Description": "Baboulos is a supernatural entity deeply ingrained in the folklore of Greece. This mischievous figure, with a varied and playful nature, is considered a trickster. The folklore surrounding Baboulos includes tales of mischievous actions and playing pranks on unsuspecting individuals. Greek stories depict Baboulos as a fear-inducing presence, embodying the cultural themes of trickster spirits and local myths."
   },
   {
     "ID": 54,
     "Name": "Psoglav",
     "Country": "Montenegro",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Monstrous"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Malevolent", "Destructive"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Causing Havoc", "Inflicting Harm"],
+      "CulturalThemes": ["Malevolent Beings", "Local Myths"],
+      "FearFactor": ["Monstrous Appearance", "Destructive Actions"],
+      "CommonAttributes": ["Horrifying Features", "Malevolence"],
+      "RegionalTraits": ["Montenegrin Folklore"]
+    },
     "Image": "images/psoglav.jpg",
-    "Description": ""
+    "Description": "Psoglav is a malevolent supernatural entity deeply ingrained in the folklore of Montenegro. This monstrous figure, with horrifying features, is known for its destructive and malevolent behavior. The folklore surrounding Psoglav includes tales of causing havoc and inflicting harm. Montenegrin stories depict Psoglav as a fear-inducing presence, embodying the cultural themes of malevolent beings and local myths."
   },
   {
     "ID": 55,
     "Name": "Karakondjul",
     "Country": "Bulgaria",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Mysterious"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian Spirit", "Mysterious"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Places", "Appearing Mysteriously"],
+      "CulturalThemes": ["Guardian Spirits", "Local Myths"],
+      "FearFactor": ["Mysterious Appearance", "Guardianship"],
+      "CommonAttributes": ["Mysterious Features", "Protector"],
+      "RegionalTraits": ["Bulgarian Folklore"]
+    },
     "Image": "images/karakondjul.jpg",
-    "Description": ""
+    "Description": "Karakondjul is a supernatural entity deeply ingrained in the folklore of Bulgaria. This mysterious figure, with a malevolent and guardian nature, is considered a guardian spirit. The folklore surrounding Karakondjul includes tales of protecting specific places and appearing mysteriously. Bulgarian stories depict Karakondjul as a fear-inducing presence, embodying the cultural themes of guardian spirits and local myths."
   },
   {
     "ID": 56,
     "Name": "Abu I Kees",
     "Country": "Lebanon",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Monstrous"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Mischievous", "Trickster"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Playing Tricks", "Causing Mischief"],
+      "CulturalThemes": ["Folklore Legends", "Local Pranks"],
+      "FearFactor": ["Mischievous Behavior", "Trickster Nature"],
+      "CommonAttributes": ["Monstrous Features", "Playfulness"],
+      "RegionalTraits": ["Lebanese Folklore"]
+    },
     "Image": "images/abu_i_kees.jpg",
-    "Description": ""
+    "Description": "Abu I Kees is a supernatural entity deeply ingrained in the folklore of Lebanon. This mischievous and trickster figure, with varying characteristics, is known for playing tricks and causing mischief. The folklore surrounding Abu I Kees includes tales of local legends and pranks. Lebanese stories depict Abu I Kees as a unique and playful presence, embodying the cultural themes of folklore legends and mischievous spirits."
   },
   {
     "ID": 57,
     "Name": "Karankoncolos",
     "Country": "Turkey",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Monstrous"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Nightmarish Pranks", "Frightening Laughter"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Frightening People at Night", "Causing Nightmares"],
+      "CulturalThemes": ["Folklore Creatures", "Fear of the Dark"],
+      "FearFactor": ["Frightening Laughter", "Nightmare Inducer"],
+      "CommonAttributes": ["Monstrous Features", "Dark Presence"],
+      "RegionalTraits": ["Turkish Folklore"]
+    },
     "Image": "images/karankoncolos.jpg",
-    "Description": ""
+    "Description": "Karankoncolos is a supernatural entity deeply ingrained in the folklore of Turkey. This monstrous figure, with a malevolent nature, is known for playing nightmarish pranks and emitting frightening laughter. The folklore surrounding Karankoncolos includes tales of folklore creatures and a cultural fear of the dark. Turkish stories depict Karankoncolos as a fear-inducing presence, embodying the cultural themes of supernatural beings and the fear of the unknown."
   },
   {
     "ID": 58,
     "Name": "Madar-i-al",
     "Country": "Afghanistan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Female"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Protective", "Maternal"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Children", "Maternal Guidance"],
+      "CulturalThemes": ["Folklore Legends", "Motherly Protection"],
+      "FearFactor": ["Respected Guardian", "Maternal Figure"],
+      "CommonAttributes": ["Supernatural Abilities", "Motherly Appearance"],
+      "RegionalTraits": ["Afghan Folklore"]
+    },
     "Image": "images/madar-i-al.jpg",
-    "Description": ""
+    "Description": "Madar-i-al is a supernatural entity deeply ingrained in the folklore of Afghanistan. This female figure, with a protective and maternal nature, is known for safeguarding children and offering maternal guidance. The folklore surrounding Madar-i-al includes tales of folklore legends and the theme of motherly protection. Afghan stories depict Madar-i-al as a respected guardian and maternal figure, embodying the cultural themes of supernatural beings and the comforting presence of a motherly guardian."
   },
   {
     "ID": 59,
     "Name": "Dybbuk",
     "Country": "Israel",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Possessing Spirits"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Spirit Possession", "Restless"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Seeking Resolution", "Spirit Attachment"],
+      "CulturalThemes": ["Folklore Entities", "Spiritual Attachments"],
+      "FearFactor": ["Spirit Possession", "Restless Souls"],
+      "CommonAttributes": ["Ethereal Presence", "Spiritual Nature"],
+      "RegionalTraits": ["Israeli Folklore"]
+    },
     "Image": "images/dybbuk.jpg",
-    "Description": ""
+    "Description": "Dybbuk is a supernatural entity deeply ingrained in the folklore of Israel. This entity, characterized by possessing spirits, has a varied gender and is known for spirit possession and restlessness. The folklore surrounding Dybbuk includes tales of folklore entities and spiritual attachments. Israeli stories depict Dybbuk as a fear-inducing presence with ethereal qualities, embodying the cultural themes of supernatural beings and the spiritual realm."
   },
   {
     "ID": 60,
     "Name": "Saalua",
     "Country": "Iraq",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Female"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Mysterious", "Guardian"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Watching Over", "Mysterious Presence"],
+      "CulturalThemes": ["Folklore Legends", "Guardian Spirits"],
+      "FearFactor": ["Mysterious Guardian", "Respected Presence"],
+      "CommonAttributes": ["Supernatural Aura", "Female Guardian"],
+      "RegionalTraits": ["Iraqi Folklore"]
+    },
     "Image": "images/saalua.jpg",
-    "Description": ""
+    "Description": "Saalua is a supernatural entity deeply ingrained in the folklore of Iraq. This female figure, with a mysterious and guardian nature, is known for watching over and maintaining a mysterious presence. The folklore surrounding Saalua includes tales of folklore legends and the theme of guardian spirits. Iraqi stories depict Saalua as a mysterious guardian with a respected presence, embodying the cultural themes of supernatural beings and the protective nature of a female guardian."
   },
   {
     "ID": 61,
     "Name": "Nasnãs",
     "Country": "Yemen",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Dwarf-Like"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Elusive", "Nocturnal"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Elusiveness", "Nocturnal Presence"],
+      "CulturalThemes": ["Folklore Entities", "Night Creatures"],
+      "FearFactor": ["Elusive Creatures", "Nighttime Apparitions"],
+      "CommonAttributes": ["Supernatural Traits", "Dwarf-Like Appearance"],
+      "RegionalTraits": ["Yemeni Folklore"]
+    },
     "Image": "images/nasnas.jpg",
-    "Description": ""
+    "Description": "Nasnãs is a supernatural entity deeply ingrained in the folklore of Yemen. This creature, with a dwarf-like appearance, is known for its elusive nature and nocturnal presence. The folklore surrounding Nasnãs includes tales of folklore entities and the theme of night creatures. Yemeni stories depict Nasnãs as elusive creatures with supernatural traits, manifesting as nighttime apparitions and embodying the cultural themes of supernatural beings in the dark."
   },
   {
     "ID": 62,
     "Name": "Süräle",
     "Country": "Uzbekistan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shapeshifter"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Trickster", "Mischief-maker"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Shapeshifting", "Playing Tricks"],
+      "CulturalThemes": ["Folklore Entities", "Trickster Spirits"],
+      "FearFactor": ["Deceptive Behavior", "Mischievous Acts"],
+      "CommonAttributes": ["Supernatural Abilities", "Shapeshifting Tricks"],
+      "RegionalTraits": ["Uzbek Folklore"]
+    },
     "Image": "images/surale.jpg",
-    "Description": ""
+    "Description": "Süräle is a supernatural entity deeply ingrained in the folklore of Uzbekistan. This shapeshifting creature, with a mischievous and trickster nature, is known for playing tricks and causing mischief. The folklore surrounding Süräle includes tales of folklore entities and the theme of trickster spirits. Uzbek stories depict Süräle as a deceptive and mischievous entity with supernatural abilities, showcasing shapeshifting tricks and embodying the cultural themes of mischievous supernatural beings."
   },
   {
     "ID": 63,
     "Name": "Zhalmauyz Kempir",
     "Country": "Kazakhstan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Protective", "Guiding"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Individuals", "Providing Guidance"],
+      "CulturalThemes": ["Folklore Spirits", "Protective Entities"],
+      "FearFactor": ["Unknown"],
+      "CommonAttributes": ["Supernatural Abilities", "Guiding Presence"],
+      "RegionalTraits": ["Kazakh Folklore"]
+    },
     "Image": "images/zhalmauyz_kempir.jpg",
-    "Description": ""
+    "Description": "Zhalmauyz Kempir is a supernatural spirit deeply ingrained in the folklore of Kazakhstan. This protective entity, with a guiding nature, is known for protecting individuals and providing guidance. The folklore surrounding Zhalmauyz Kempir includes tales of folklore spirits and the theme of protective entities. In Kazakh folklore, Zhalmauyz Kempir is depicted as a supernatural being with the ability to protect and guide, embodying the cultural themes of protective spirits."
   },
   {
     "ID": 63,
     "Name": "Zhalmauyz Kempir",
     "Country": "Kyrgyzstan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Protective", "Guiding"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Protecting Individuals", "Providing Guidance"],
+      "CulturalThemes": ["Folklore Spirits", "Protective Entities"],
+      "FearFactor": ["Unknown"],
+      "CommonAttributes": ["Supernatural Abilities", "Guiding Presence"],
+      "RegionalTraits": ["Kyrgyz Folklore"]
+    },
     "Image": "images/zhalmauyz_kempir.jpg",
-    "Description": ""
+    "Description": "Zhalmauyz Kempir is a supernatural spirit deeply ingrained in the folklore of Kyrgyzstan. This protective entity, with a guiding nature, is known for protecting individuals and providing guidance. The folklore surrounding Zhalmauyz Kempir includes tales of folklore spirits and the theme of protective entities. In Kyrgyz folklore, Zhalmauyz Kempir is depicted as a supernatural being with the ability to protect and guide, embodying the cultural themes of protective spirits."
   },
   {
     "ID": 64,
     "Name": "Basty",
     "Country": "Turkmenistan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Creature"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Mischievous", "Trickster"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Playing Tricks", "Causing Mischief"],
+      "CulturalThemes": ["Folklore Creatures", "Trickster Beings"],
+      "FearFactor": ["Pranks and Mischief"],
+      "CommonAttributes": ["Supernatural Abilities", "Mischievous Nature"],
+      "RegionalTraits": ["Turkmen Folklore"]
+    },
     "Image": "images/basty.jpg",
-    "Description": ""
+    "Description": "Basty is a supernatural creature deeply rooted in the folklore of Turkmenistan. This mischievous and trickster being is known for playing tricks and causing mischief. In Turkmen folklore, Basty is depicted as a creature with supernatural abilities and a penchant for pranks. The cultural themes surrounding Basty revolve around folklore creatures and trickster beings, instilling a sense of wonder and caution in the local folklore."
   },
   {
     "ID": 65,
     "Name": "Looloo Khor Khoreh",
     "Country": "Iran",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Ghostly"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Haunting", "Guardian Spirit"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Haunting Locations", "Protecting"],
+      "CulturalThemes": ["Ghostly Entities", "Guardian Spirits"],
+      "FearFactor": ["Haunting Presence"],
+      "CommonAttributes": ["Supernatural Manifestation", "Guardian Nature"],
+      "RegionalTraits": ["Iranian Folklore"]
+    },
     "Image": "images/looloo_khor_khoreh.jpg",
-    "Description": ""
+    "Description": "Looloo Khor Khoreh is a supernatural entity deeply embedded in Iranian folklore. This ghostly being is known for haunting specific locations and is considered a guardian spirit. In Iranian folklore, Looloo Khor Khoreh is associated with ghostly entities and guardian spirits, instilling a sense of mystery and protection in the cultural narrative. The entity's haunting presence adds to the rich tapestry of Iranian folklore and cultural beliefs."
   },
   {
     "ID": 65,
     "Name": "Looloo Khor Khoreh",
     "Country": "Tajikistan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Ghostly"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Haunting", "Guardian Spirit"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Haunting Locations", "Protecting"],
+      "CulturalThemes": ["Ghostly Entities", "Guardian Spirits"],
+      "FearFactor": ["Haunting Presence"],
+      "CommonAttributes": ["Supernatural Manifestation", "Guardian Nature"],
+      "RegionalTraits": ["Tajik Folklore"]
+    },
     "Image": "images/looloo_khor_khoreh.jpg",
-    "Description": ""
+    "Description": "Looloo Khor Khoreh is a supernatural entity deeply rooted in Tajik folklore. This ghostly being is known for haunting specific locations and is considered a guardian spirit. In Tajik folklore, Looloo Khor Khoreh is associated with ghostly entities and guardian spirits, adding to the cultural tapestry with its haunting presence. The entity serves as a symbol of mystery and protection in the rich folklore of Tajikistan."
   },
   {
     "ID": 66,
     "Name": "Dojairah and Umna Al Ghola",
     "Country": "Saudi Arabia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Jinn"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Mischief", "Shape-shifting"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Trickery", "Shape-shifting"],
+      "CulturalThemes": ["Jinn Folklore", "Mysterious Entities"],
+      "FearFactor": ["Mischief and Deception"],
+      "CommonAttributes": ["Supernatural Manifestation", "Shape-shifting Abilities"],
+      "RegionalTraits": ["Saudi Arabian Folklore"]
+    },
     "Image": "images/dojairah_and_umna_al_ghola.jpg",
-    "Description": ""
+    "Description": "Dojairah and Umna Al Ghola are supernatural beings deeply ingrained in Saudi Arabian folklore. Believed to be mischievous Jinn, these entities are known for their shape-shifting abilities and trickery. In the rich tapestry of Saudi Arabian folklore, Dojairah and Umna Al Ghola are associated with mysterious entities and are feared for their penchant for mischief and deception. They serve as a reminder of the mystical elements within the cultural narratives of Saudi Arabia."
   },
   {
     "ID": 67,
     "Name": "The Mum",
     "Country": "Pakistan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Ghostly"],
+      "Gender": "Female",
+      "Nature": ["Folklore"],
+      "Behavior": ["Wailing", "Seeking Closure"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Haunting", "Appearing at Night"],
+      "CulturalThemes": ["Ghost Stories", "Paranormal Phenomena"],
+      "FearFactor": ["Fear of the Unknown", "Fear of the Supernatural"],
+      "CommonAttributes": ["Ghostly Apparition", "Mournful Wails"],
+      "RegionalTraits": ["Pakistani Folklore"]
+    },
     "Image": "images/the_mum.jpg",
-    "Description": ""
+    "Description": "The Mum is a spectral entity deeply woven into the fabric of Pakistani folklore. This female ghost is recognized for her ghostly appearance, haunting wails, and a quest for closure. As a prominent figure in Pakistani ghost stories, The Mum instills fear through her paranormal activities, appearing at night and embodying the unknown. Tales of The Mum contribute to the rich tapestry of Pakistani cultural narratives surrounding the supernatural and the afterlife."
   },
   {
     "ID": 68,
     "Name": "Gurumapa",
     "Country": "Nepal",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Monstrous"],
+      "Gender": "Male",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian Spirit", "Protective"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Watching Over", "Interacting with Nature"],
+      "CulturalThemes": ["Guardianship", "Respect for Nature"],
+      "FearFactor": ["Fear of Encountering the Unknown"],
+      "CommonAttributes": ["Monstrous Form", "Mysterious Presence"],
+      "RegionalTraits": ["Nepalese Folklore"]
+    },
     "Image": "images/gurumapa.jpg",
-    "Description": ""
+    "Description": "Gurumapa is a legendary figure deeply ingrained in Nepalese folklore. This male supernatural entity is known for its monstrous appearance and protective nature. Believed to be a guardian spirit, Gurumapa is associated with watching over and interacting with nature. Nepalese tales depict Gurumapa as a mysterious presence, instilling both fear and reverence. The folklore surrounding Gurumapa reflects cultural themes of guardianship and a profound respect for the natural world."
   },
   {
     "ID": 69,
     "Name": "Bhoot",
     "Country": "India",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Ghostly"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Spectral Haunting", "Ethereal Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Appearing in Haunted Locations", "Interacting with the Living"],
+      "CulturalThemes": ["Afterlife Beliefs", "Spiritual Connections"],
+      "FearFactor": ["Fear of the Supernatural"],
+      "CommonAttributes": ["Ghostly Manifestations", "Otherworldly Aura"],
+      "RegionalTraits": ["Indian Folklore"]
+    },
     "Image": "images/bhoot.jpg",
-    "Description": ""
+    "Description": "Bhoot is a spectral entity deeply embedded in Indian folklore. This supernatural being, whose gender varies in different accounts, is characterized by a ghostly appearance and ethereal presence. Legends describe Bhoot as haunting specific locations and interacting with the living. Rooted in local legend, Bhoot represents cultural themes related to afterlife beliefs and spiritual connections. Encounter with Bhoot evokes a fear of the supernatural, as it manifests with ghostly apparitions and an otherworldly aura."
   },
   {
     "ID": 69,
     "Name": "Bhoot",
     "Country": "Bangladesh",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Ghostly"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Spectral Haunting", "Ethereal Presence"],
+      "Origin": "Local Legend",
+      "ModusOperandi": ["Appearing in Haunted Locations", "Interacting with the Living"],
+      "CulturalThemes": ["Afterlife Beliefs", "Spiritual Connections"],
+      "FearFactor": ["Fear of the Supernatural"],
+      "CommonAttributes": ["Ghostly Manifestations", "Otherworldly Aura"],
+      "RegionalTraits": ["Bangladeshi Folklore"]
+    },
     "Image": "images/bhoot.jpg",
-    "Description": ""
+    "Description": "Bhoot is a spectral entity deeply embedded in Bangladeshi folklore. This supernatural being, whose gender varies in different accounts, is characterized by a ghostly appearance and ethereal presence. Legends describe Bhoot as haunting specific locations and interacting with the living. Rooted in local legend, Bhoot represents cultural themes related to afterlife beliefs and spiritual connections. Encounter with Bhoot evokes a fear of the supernatural, as it manifests with ghostly apparitions and an otherworldly aura."
   },
   {
     "ID": 70,
     "Name": "Kinduri",
     "Country": "Sri Lanka",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Mythical Beast"],
+      "Gender": "Varies",
+      "Nature": ["Folklore"],
+      "Behavior": ["Guardian of Nature", "Protective"],
+      "Origin": "Local Mythology",
+      "ModusOperandi": ["Roaming in Natural Habitats", "Watchful Presence"],
+      "CulturalThemes": ["Nature Worship", "Mythical Guardians"],
+      "FearFactor": ["Respectful Awe"],
+      "CommonAttributes": ["Mythical Features", "Connection to Nature"],
+      "RegionalTraits": ["Sri Lankan Folklore"]
+    },
     "Image": "images/kinduri.jpg",
-    "Description": ""
+    "Description": "Kinduri, a mythical beast from Sri Lankan folklore, is a supernatural entity with a varied gender identity. This creature is characterized by its mystical features and holds the role of a guardian of nature. According to local mythology, Kinduri roams in natural habitats, maintaining a watchful presence. The cultural themes associated with Kinduri include nature worship and the concept of mythical guardians. Encounter with Kinduri instills a sense of respectful awe, emphasizing its connection to nature as a revered being in Sri Lankan folklore."
   },
   {
     "ID": 71,
     "Name": "Krahang",
     "Country": "Thailand",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit"],
+      "Gender": "Varies",
+      "Nature": ["Thai Folklore"],
+      "Behavior": ["Guardian Spirit", "Protector of Places"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Watchful Presence", "Protection of Sacred Sites"],
+      "CulturalThemes": ["Spiritual Guardianship", "Respect for Sacred Places"],
+      "FearFactor": ["Respectful Awe"],
+      "CommonAttributes": ["Translucent Form", "Spiritual Aura"],
+      "RegionalTraits": ["Thai Folk Beliefs"]
+    },
     "Image": "images/krahang.jpg",
-    "Description": ""
+    "Description": "Krahang, a spiritual entity from Thai folklore, is a supernatural being with a diverse gender identity. Revered as a guardian spirit, Krahang plays the role of a protector of sacred places in Thai cultural beliefs. Its origin is deeply rooted in local folk beliefs, and its modus operandi involves maintaining a watchful presence and ensuring the protection of sacred sites. The cultural themes associated with Krahang include spiritual guardianship and the importance of respecting sacred places. Encounter with Krahang inspires a sense of respectful awe, with its common attributes being a translucent form and a spiritual aura, making it a fascinating entity in Thai folklore."
   },
   {
     "ID": 72,
     "Name": "Santu Sakai",
     "Country": "Malaysia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Forest Spirit"],
+      "Gender": "Varies",
+      "Nature": ["Malaysian Folklore"],
+      "Behavior": ["Protector of the Forest", "Nature Guardian"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Maintaining Ecological Balance", "Guarding Wildlife"],
+      "CulturalThemes": ["Environmental Conservation", "Respect for Nature"],
+      "FearFactor": ["Spiritual Awe"],
+      "CommonAttributes": ["Leafy Form", "Connection to Nature"],
+      "RegionalTraits": ["Malaysian Folk Beliefs"]
+    },
     "Image": "images/santu_sakai.jpg",
-    "Description": ""
+    "Description": "Santu Sakai, a supernatural being from Malaysian folklore, manifests as a forest spirit with a diverse gender identity. Revered as a protector of the forest and a guardian of nature, Santu Sakai is deeply rooted in local folk beliefs. Its modus operandi involves maintaining the ecological balance and safeguarding wildlife. Cultural themes associated with Santu Sakai include environmental conservation and fostering respect for nature. Encounter with Santu Sakai evokes a sense of spiritual awe, with its common attributes being a leafy form and a profound connection to nature, making it a significant entity in Malaysian folklore."
   },
   {
     "ID": 73,
     "Name": "Wewe Gombel",
     "Country": "Indonesia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Female Ghost"],
+      "Gender": "Female",
+      "Nature": ["Indonesian Folklore"],
+      "Behavior": ["Protector of Abandoned Children", "Roaming at Night"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Caring for Abandoned Children", "Soothing Lullabies"],
+      "CulturalThemes": ["Abandonment Issues", "Maternal Instinct"],
+      "FearFactor": ["Apparition at Night"],
+      "CommonAttributes": ["Pale Appearance", "Long Hair"],
+      "RegionalTraits": ["Indonesian Folk Beliefs"]
+    },
     "Image": "images/wewe_gombel.jpg",
-    "Description": ""
+    "Description": "Wewe Gombel, a supernatural female ghost from Indonesian folklore, is believed to be a protector of abandoned children. Roaming at night, she follows local folk beliefs and exhibits a modus operandi centered around caring for abandoned children and soothing them with lullabies. Cultural themes associated with Wewe Gombel touch upon abandonment issues and the maternal instinct. The fear factor is heightened by her apparition at night, with common attributes including a pale appearance and long hair. Wewe Gombel holds a significant place in Indonesian folklore as a mysterious and maternal supernatural entity."
   },
   {
     "ID": 74,
     "Name": "Bunyip",
     "Country": "Australia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Aquatic Being"],
+      "Gender": "Varies",
+      "Nature": ["Australian Aboriginal Mythology"],
+      "Behavior": ["Guardian of Waterways", "Mysterious Nocturnal Presence"],
+      "Origin": "Aboriginal Dreamtime Stories",
+      "ModusOperandi": ["Ensuring Balance in Water Ecosystems", "Occasional Apparitions"],
+      "CulturalThemes": ["Aboriginal Dreamtime", "Harmony with Nature"],
+      "FearFactor": ["Spiritual Awe", "Fear of the Unknown"],
+      "CommonAttributes": ["Varied Physical Descriptions", "Aquatic Features"],
+      "RegionalTraits": ["Australian Aboriginal Mythology"]
+    },
     "Image": "images/bunyip.jpg",
-    "Description": ""
+    "Description": "The Bunyip, an enigmatic being from Australian Aboriginal mythology, presents itself as a supernatural aquatic entity with a varied gender identity. Revered as a guardian of waterways and a mysterious nocturnal presence, the Bunyip's origin lies in Aboriginal Dreamtime stories. Its modus operandi involves ensuring balance in water ecosystems and occasional apparitions, contributing to cultural themes of Aboriginal Dreamtime and promoting harmony with nature. Encounters with the Bunyip evoke a sense of spiritual awe and fear of the unknown, with common attributes being varied physical descriptions and aquatic features. The Bunyip holds a significant place in Australian Aboriginal mythology, embodying the mysteries of the waterways."
   },
   {
     "ID": 75,
     "Name": "Grandmother Tiger",
     "Country": "China",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Feline Features"],
+      "Gender": "Female",
+      "Nature": ["Chinese Folklore"],
+      "Behavior": ["Protector of Children", "Wise Counselor"],
+      "Origin": "Ancient Chinese Legends",
+      "ModusOperandi": ["Guiding and Protecting Children", "Imparting Wisdom"],
+      "CulturalThemes": ["Maternal Protection", "Wisdom and Guidance"],
+      "FearFactor": ["Respected Authority", "Maternal Vigilance"],
+      "CommonAttributes": ["Tiger-like Features", "Maternal Aura"],
+      "RegionalTraits": ["Chinese Folk Beliefs"]
+    },
     "Image": "images/grandmother_tiger.jpg",
-    "Description": ""
+    "Description": "Grandmother Tiger, a supernatural entity from Chinese folklore, takes on a female form with distinct feline features. Revered as a protector of children and a wise counselor, Grandmother Tiger originates from ancient Chinese legends. Her modus operandi involves guiding and protecting children, imparting wisdom, and embodying cultural themes of maternal protection and wisdom. Grandmother Tiger commands respect as an authority figure and exudes maternal vigilance, with common attributes including tiger-like features and a maternal aura. Entwined with Chinese folk beliefs, Grandmother Tiger holds a significant place in the rich tapestry of Chinese folklore, symbolizing the protective and wise aspects of maternal figures."
   },
   {
     "ID": 75,
     "Name": "Grandmother Tiger",
     "Country": "Taiwan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Feline Features"],
+      "Gender": "Female",
+      "Nature": ["Taiwanese Folklore"],
+      "Behavior": ["Protector of Children", "Wise Counselor"],
+      "Origin": "Ancient Taiwanese Legends",
+      "ModusOperandi": ["Guiding and Protecting Children", "Imparting Wisdom"],
+      "CulturalThemes": ["Maternal Protection", "Wisdom and Guidance"],
+      "FearFactor": ["Respected Authority", "Maternal Vigilance"],
+      "CommonAttributes": ["Tiger-like Features", "Maternal Aura"],
+      "RegionalTraits": ["Taiwanese Folk Beliefs"]
+    },
     "Image": "images/grandmother_tiger.jpg",
-    "Description": ""
+    "Description": "Grandmother Tiger, a supernatural entity from Taiwanese folklore, takes on a female form with distinct feline features. Revered as a protector of children and a wise counselor, Grandmother Tiger originates from ancient Taiwanese legends. Her modus operandi involves guiding and protecting children, imparting wisdom, and embodying cultural themes of maternal protection and wisdom. Grandmother Tiger commands respect as an authority figure and exudes maternal vigilance, with common attributes including tiger-like features and a maternal aura. Entwined with Taiwanese folk beliefs, Grandmother Tiger holds a significant place in the rich tapestry of Taiwanese folklore, symbolizing the protective and wise aspects of maternal figures."
   },
   {
     "ID": 76,
     "Name": "Almas",
     "Country": "Mongolia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Cryptid", "Humanoid"],
+      "Gender": "Varies",
+      "Nature": ["Mongolian Folklore"],
+      "Behavior": ["Elusive", "Mountain Dweller"],
+      "Origin": "Local Folk Legends",
+      "ModusOperandi": ["Avoiding Human Contact", "Living in Remote Mountains"],
+      "CulturalThemes": ["Wilderness Mystery", "Elusive Beings"],
+      "FearFactor": ["Unknown Presence"],
+      "CommonAttributes": ["Human-like Features", "Adaptation to Mountain Terrain"],
+      "RegionalTraits": ["Mongolian Folk Beliefs"]
+    },
     "Image": "images/almas.jpg",
-    "Description": ""
+    "Description": "Almas, a cryptid humanoid from Mongolian folklore, possesses a varied gender identity. Enigmatic and elusive, Almas is associated with the remote mountains of Mongolia according to local folk legends. Its modus operandi involves avoiding human contact and dwelling in the isolation of mountainous regions. Cultural themes surrounding Almas include the mystery of the wilderness and the elusive nature of such beings. The fear factor is heightened by the unknown presence of Almas, with common attributes including human-like features and adaptation to mountain terrain. Rooted in Mongolian folk beliefs, Almas remains a captivating part of the folklore, representing the enigmatic and mysterious aspects of the Mongolian wilderness."
   },
   {
     "ID": 77,
     "Name": "Ahp",
     "Country": "Cambodia",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Reptilian"],
+      "Gender": "Varies",
+      "Nature": ["Cambodian Folklore"],
+      "Behavior": ["Guardian of Waterways", "Night Dweller"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Protecting Water Sources", "Navigating in Darkness"],
+      "CulturalThemes": ["Water Spirituality", "Nocturnal Guardianship"],
+      "FearFactor": ["Silent Presence"],
+      "CommonAttributes": ["Serpentine Features", "Adaptation to Aquatic Environments"],
+      "RegionalTraits": ["Cambodian Folk Beliefs"]
+    },
     "Image": "images/ahp.jpg",
-    "Description": ""
+    "Description": "Ahp, a supernatural being from Cambodian folklore, manifests with a varied gender identity and reptilian features. Revered as a guardian of waterways and a night dweller, Ahp is deeply rooted in local folk beliefs. Its modus operandi involves protecting water sources and navigating in darkness. Cultural themes associated with Ahp include water spirituality and the nocturnal guardianship of aquatic environments. Encounter with Ahp is characterized by a silent presence, with common attributes being serpentine features and adaptation to aquatic environments, making it a significant entity in Cambodian folklore."
   },
   {
     "ID": 78,
     "Name": "Namahage",
     "Country": "Japan",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Demon-Like"],
+      "Gender": "Varies",
+      "Nature": ["Japanese Folklore"],
+      "Behavior": ["New Year's Eve Visitation", "Community Rituals"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Scaring Children", "Community Blessings"],
+      "CulturalThemes": ["New Year Customs", "Community Unity"],
+      "FearFactor": ["Loud Proclamations"],
+      "CommonAttributes": ["Ogre-Like Mask", "Straw Garments"],
+      "RegionalTraits": ["Japanese Folk Beliefs"]
+    },
     "Image": "images/namahage.jpg",
-    "Description": ""
+    "Description": "Namahage, a supernatural being from Japanese folklore, takes on a varied gender identity and possesses demon-like features. It is prominently featured in local folk beliefs, participating in New Year's Eve visitations and community rituals. Namahage's modus operandi includes scaring children as part of the tradition and bestowing community blessings. Cultural themes associated with Namahage revolve around New Year customs and fostering community unity. The fear factor is heightened by loud proclamations, and common attributes include an ogre-like mask and straw garments. Namahage plays a significant role in Japanese folklore, contributing to the rich tapestry of cultural traditions."
   },
   {
     "ID": 79,
     "Name": "Mang-Tae-Gi-Hal-A-Buh-Ji",
     "Country": "North Korea",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Mythical Creature"],
+      "Gender": "Varies",
+      "Nature": ["North Korean Folklore"],
+      "Behavior": ["Guardian of Nature", "Mythical Protector"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Ensuring Harmony in Nature", "Mystical Guidance"],
+      "CulturalThemes": ["Nature Harmony", "Mythical Tradition"],
+      "FearFactor": ["Mystical Aura"],
+      "CommonAttributes": ["Ethereal Glow", "Symbolic Symbols"],
+      "RegionalTraits": ["North Korean Folk Beliefs"]
+    },
     "Image": "images/mang-tae-gi-hal-a-buh-ji.jpg",
-    "Description": ""
+    "Description": "Mang-Tae-Gi-Hal-A-Buh-Ji, a supernatural and mythical creature from North Korean folklore, transcends gender identity. Revered as a guardian of nature and a mythical protector, Mang-Tae-Gi-Hal-A-Buh-Ji is deeply rooted in local folk beliefs. Its modus operandi involves ensuring harmony in nature and providing mystical guidance. Cultural themes associated with Mang-Tae-Gi-Hal-A-Buh-Ji revolve around nature harmony and the preservation of mythical traditions. The fear factor is heightened by its mystical aura, with common attributes including an ethereal glow and symbolic symbols. Mang-Tae-Gi-Hal-A-Buh-Ji holds a significant place in North Korean folklore, embodying the mystical and enchanting aspects of the region's cultural heritage."
   },
   {
     "ID": 79,
     "Name": "Mang-Tae-Gi-Hal-A-Buh-Ji",
     "Country": "South Korea",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Mythical Creature"],
+      "Gender": "Varies",
+      "Nature": ["South Korean Folklore"],
+      "Behavior": ["Guardian of Nature", "Mythical Protector"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Ensuring Harmony in Nature", "Mystical Guidance"],
+      "CulturalThemes": ["Nature Harmony", "Mythical Tradition"],
+      "FearFactor": ["Mystical Aura"],
+      "CommonAttributes": ["Ethereal Glow", "Symbolic Symbols"],
+      "RegionalTraits": ["South Korean Folk Beliefs"]
+    },
     "Image": "images/mang-tae-gi-hal-a-buh-ji.jpg",
-    "Description": ""
+    "Description": "Mang-Tae-Gi-Hal-A-Buh-Ji, a supernatural and mythical creature from South Korean folklore, transcends gender identity. Revered as a guardian of nature and a mythical protector, Mang-Tae-Gi-Hal-A-Buh-Ji is deeply rooted in local folk beliefs. Its modus operandi involves ensuring harmony in nature and providing mystical guidance. Cultural themes associated with Mang-Tae-Gi-Hal-A-Buh-Ji revolve around nature harmony and the preservation of mythical traditions. The fear factor is heightened by its mystical aura, with common attributes including an ethereal glow and symbolic symbols. Mang-Tae-Gi-Hal-A-Buh-Ji holds a significant place in South Korean folklore, embodying the mystical and enchanting aspects of the region's cultural heritage."
   },
   {
     "ID": 80,
     "Name": "Ông Ba Bi",
     "Country": "Vietnam",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Spirit"],
+      "Gender": "Male",
+      "Nature": ["Vietnamese Folklore"],
+      "Behavior": ["Guardian of the Household", "Spiritual Protector"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Ensuring Well-being", "Offerings and Rituals"],
+      "CulturalThemes": ["Ancestral Worship", "Household Protection"],
+      "FearFactor": ["Spiritual Presence"],
+      "CommonAttributes": ["Ancient Garments", "Calm Demeanor"],
+      "RegionalTraits": ["Vietnamese Folk Beliefs"]
+    },
     "Image": "images/ong_ba_bi.jpg",
-    "Description": ""
+    "Description": "Ông Ba Bi, a supernatural spirit from Vietnamese folklore, manifests as a male guardian of the household and a spiritual protector. Rooted in local folk beliefs, Ông Ba Bi is known for ensuring the well-being of the household through offerings and rituals. Cultural themes associated with Ông Ba Bi include ancestral worship and the protection of the household. The fear factor is characterized by its spiritual presence, with common attributes such as ancient garments and a calm demeanor. Ông Ba Bi is an integral part of Vietnamese folklore, embodying the spiritual essence and protective role in the cultural heritage of Vietnam."
   },
   {
     "ID": 81,
     "Name": "Aswang",
     "Country": "Philippines",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Shapeshifter"],
+      "Gender": "Varies",
+      "Nature": ["Philippine Mythology"],
+      "Behavior": ["Night Predator", "Feeds on Humans and Animals"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Shapeshifting", "Stealthy Attacks"],
+      "CulturalThemes": ["Folk Horror", "Fear of the Unknown"],
+      "FearFactor": ["Terrifying Visage"],
+      "CommonAttributes": ["Humanoid Form", "Dark Hair"],
+      "RegionalTraits": ["Philippine Mythology"]
+    },
     "Image": "images/aswang.jpg",
-    "Description": ""
+    "Description": "Aswang, a supernatural entity from Philippine mythology, is a shapeshifter with a varying gender identity. Rooted in local folk beliefs, Aswang is known as a night predator that feeds on both humans and animals. Its modus operandi involves shapeshifting and executing stealthy attacks. Cultural themes associated with Aswang revolve around folk horror and the fear of the unknown. The fear factor is intensified by its terrifying visage, commonly depicted in a humanoid form with dark hair. Aswang holds a significant place in Philippine mythology, embodying the elements of mystery and fear in the cultural narrative of the Philippines."
   },
   {
     "ID": 82,
     "Name": "Langsuyar",
     "Country": "Singapore",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Female Ghost"],
+      "Gender": "Female",
+      "Nature": ["Malay Folklore"],
+      "Behavior": ["Nighttime Haunting", "Drains Life Force"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Seductive Appearance", "Life Force Absorption"],
+      "CulturalThemes": ["Folk Horror", "Warnings against Infidelity"],
+      "FearFactor": ["Seductive and Menacing Aura"],
+      "CommonAttributes": ["Pale Appearance", "Long Hair"],
+      "RegionalTraits": ["Malay Folklore"]
+    },
     "Image": "images/langsuyar.jpg",
-    "Description": ""
+    "Description": "Langsuyar, a supernatural female ghost from Malay folklore in Singapore, is known for her nocturnal haunting and life force-draining abilities. Rooted in local folk beliefs, Langsuyar adopts a modus operandi involving a seductive appearance to lure victims and absorb their life force. Cultural themes associated with Langsuyar include folk horror and cautionary tales against infidelity. The fear factor is heightened by her seductive yet menacing aura, portrayed with common attributes like a pale appearance and long hair. Langsuyar plays a significant role in Malay folklore, embodying elements of mystery, caution, and fear in the cultural narrative of Singapore."
   },
   {
     "ID": 83,
     "Name": "Patupaiarehe",
     "Country": "New Zealand",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Fairy-like Beings"],
+      "Nature": ["Māori Folklore"],
+      "Behavior": ["Guardians of Natural Spaces", "Shy and Elusive"],
+      "Origin": "Māori Mythology",
+      "ModusOperandi": ["Creating Mists", "Playing Flute Sounds"],
+      "CulturalThemes": ["Connection to Nature", "Spiritual Guardianship"],
+      "FearFactor": ["Mysterious and Elusive Presence"],
+      "CommonAttributes": ["Fair Complexion", "Mystical Aura"],
+      "RegionalTraits": ["Māori Folklore"]
+    },
     "Image": "images/patupaiarehe.jpg",
-    "Description": ""
+    "Description": "Patupaiarehe, mystical beings from Māori folklore in New Zealand, are characterized by their supernatural, fairy-like appearance. These entities act as guardians of natural spaces, maintaining a shy and elusive nature. Rooted in Māori mythology, Patupaiarehe are associated with creating mists and playing flute sounds to communicate. Cultural themes tied to Patupaiarehe include a profound connection to nature and their role as spiritual guardians. Their fear factor lies in their mysterious and elusive presence, featuring common attributes like a fair complexion and a mystical aura. In the rich tapestry of Māori folklore, Patupaiarehe play a significant role as enigmatic and ethereal entities."
   },
   {
     "ID": 84,
     "Name": "Lamia",
     "Country": "Libya",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Serpentine"],
+      "Nature": ["Greek Mythology"],
+      "Behavior": ["Seductive", "Predatory"],
+      "Origin": "Ancient Greek Mythology",
+      "ModusOperandi": ["Luring Victims", "Feeding on Life Essence"],
+      "CulturalThemes": ["Mythological Beings", "Moral Warnings"],
+      "FearFactor": ["Seductive Deception"],
+      "CommonAttributes": ["Human and Serpent Hybrid"],
+      "RegionalTraits": ["Greek Mythology Influence"]
+    },
     "Image": "images/lamia.jpg",
-    "Description": ""
+    "Description": "Lamia, originating from ancient Greek mythology and found in the cultural lore of Libya, is a supernatural being with a serpentine nature. Known for her seductive and predatory behavior, Lamia lures victims and feeds on their life essence. Rooted in Greek mythology, Lamia serves as a mythological being with moral warnings. The fear factor associated with Lamia lies in her seductive deception, featuring common attributes of a human and serpent hybrid. In the rich tapestry of Greek mythology, Lamia's tale serves as a cautionary narrative, and her presence in Libyan lore reflects the enduring influence of ancient myths."
   },
   {
     "ID": 85,
     "Name": "H'Awouahoua",
     "Country": "Algeria",
-    "Characteristics": "",
+    "Characteristics": {
+      "PhysicalAppearance": ["Supernatural", "Jinn-like"],
+      "Nature": ["Algerian Folklore"],
+      "Behavior": ["Mysterious", "Guardian Spirit"],
+      "Origin": "Local Folk Beliefs",
+      "ModusOperandi": ["Protecting Locals", "Bestowing Blessings"],
+      "CulturalThemes": ["Folkloric Entities", "Spiritual Guardianship"],
+      "FearFactor": ["Mysterious Presence"],
+      "CommonAttributes": ["Ethereal Glow", "Shape-shifting Abilities"],
+      "RegionalTraits": ["Algerian Folklore Influence"]
+    },
     "Image": "images/h_awouahoua.jpg",
-    "Description": ""
+    "Description": "H'Awouahoua, a supernatural being from Algerian folklore, is jinn-like in appearance and behavior. Embraced by local folk beliefs, H'Awouahoua is a mysterious guardian spirit known for protecting locals and bestowing blessings upon them. Rooted in Algerian folklore, H'Awouahoua embodies folkloric entities and the concept of spiritual guardianship. The fear factor associated with H'Awouahoua arises from its mysterious presence, featuring common attributes like an ethereal glow and shape-shifting abilities. In the rich cultural tapestry of Algerian folklore, H'Awouahoua stands as a revered and enigmatic figure, embodying the spiritual essence of the region."
   },
   {
     "ID": 86,
