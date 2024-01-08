@@ -17,13 +17,16 @@
         <div class="map-container" id="mapContainer"></div>
         
         <div class="boogeyman-card" id="boogeymanCard">
-            
+
             <div class="country-selector">
                 <label for="countryDropdown">Select a Country:</label>
-                <select id="countryDropdown" onchange="selectCountry()">
-              <!-- Options will be dynamically added using JavaScript -->
-            </select>
+                <select id="countryDropdown" onchange="selectCountry()"></select>
           </div>
+
+          <div class="attribute-selector">
+            <label for="attributeDropdown">Select an Attribute:</label>
+            <select id="attributeDropdown" onchange="selectAttribute()"></select>
+        </div>
 
             <div class="boogeyman-name" id="boogeymanName"></div>
             <div class="boogeyman-image" id="boogeymanImage"></div>
@@ -35,6 +38,10 @@
                 
             
         </div>
+
+<svg id="map"></svg>
+
+
 
       </div>
 

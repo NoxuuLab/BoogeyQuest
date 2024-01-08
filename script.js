@@ -58,16 +58,77 @@ function updateBoogeymanDropdown(countriesWithBoogeyman) {
   });
 }
 
-// Function to update the map based on the selected country
-function updateMap(selectedValue) {
-  // Highlight the selected country in the map
+// Function to update the map based on the selected attribute
+function updateMap(selectedAttribute) {
+  // Highlight the selected attribute in the map
   svg.selectAll('path')
-    .classed("selected", function (d) {
-      return d.properties.name === selectedValue;
+    .attr("fill", function (d) {
+      // Check if the country has boogeyman information
+      if (countriesWithBoogeyman.includes(d.properties.name)) {
+        const boogeymanInfo = boogeymanMap.get(d.properties.name);
+        if (boogeymanInfo && boogeymanInfo.Characteristics &&
+            boogeymanInfo.Characteristics.PhysicalAppearance &&
+            boogeymanInfo.Characteristics.PhysicalAppearance.includes(selectedAttribute)) {
+          return "blue"; // Color for countries with the selected attribute
+        }
+      }
+      return "lightgray"; // Default color for countries without boogeyman information or selected attribute
     });
 }
 
-// ...
+
+function getUniquePhysicalAppearances(boogeymanData) {
+  if (!boogeymanData || !Array.isArray(boogeymanData)) {
+    return [];
+  }
+
+  var physicalAppearances = new Set();
+
+  boogeymanData.forEach(function (boogeyman) {
+    if (boogeyman.Characteristics && Array.isArray(boogeyman.Characteristics.PhysicalAppearance)) {
+      boogeyman.Characteristics.PhysicalAppearance.forEach(function (appearance) {
+        physicalAppearances.add(appearance);
+      });
+    }
+  });
+
+  console.log("Physical Appearances:", Array.from(physicalAppearances));
+
+  return Array.from(physicalAppearances);
+}
+
+// Function to handle attribute selection from the attribute dropdown
+function selectAttribute() {
+  // Get the selected attribute from the dropdown
+  var selectedAttribute = d3.select("#attributeDropdown").property("value");
+
+  // Update the map based on the selected attribute
+  updateMap(selectedAttribute, true); // Assuming true means it's a heatmap
+}
+
+// Function to update the attribute dropdown
+function updateAttributeDropdown(boogeymanData) {
+  var dropdown = d3.select("#attributeDropdown");
+
+  // Remove existing options
+  dropdown.selectAll("option").remove();
+
+  // Add default option
+  dropdown.append("option")
+    .text("Select an Attribute")
+    .attr("disabled", true)
+    .attr("selected", true);
+
+  // Add options for each attribute
+  var attributes = getUniquePhysicalAppearances(boogeymanData); // Adjust based on your data structure
+  attributes.forEach(function (attribute) {
+    var option = dropdown.append("option")
+      .text(attribute)
+      .attr("value", attribute);
+  });
+}
+
+
 
 // Function to handle country selection from the map
 function selectCountryFromMap(event, d) {
@@ -192,7 +253,8 @@ function selectCountry() {
 }
 // Function to load data and initialize the map
 function loadData() {
-  d3.json('data/boogeyman.json').then(function (boogeymanData) {
+  d3.json('data/boogeyman.json').then(function (data) {
+    boogeymanData = data;
     d3.json('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson').then(function (loadedGeojson) {
       geojson = loadedGeojson;
       countriesWithBoogeyman = boogeymanData.map(function (d) { return d.Country; });
@@ -201,6 +263,7 @@ function loadData() {
         boogeymanMap.set(d.Country, d);
       });
       updateBoogeymanDropdown(countriesWithBoogeyman);
+      updateAttributeDropdown(boogeymanData);
       drawMap();
     });
   });
@@ -326,3 +389,4 @@ function drawMap() {
 
 // Call the function to load data and initialize the map
 loadData();
+
