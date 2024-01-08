@@ -24,9 +24,32 @@
           </div>
 
           <div class="attribute-selector">
-            <label for="attributeDropdown">Select an Attribute:</label>
-            <select id="attributeDropdown" onchange="selectAttribute()"></select>
+            <label for="attributeDropdown">Select Physical Appearance:</label>
+            <select id="attributeDropdown" onchange="selectAttribute('PhysicalAppearance')"></select>
         </div>
+
+        <div class="attribute-selector" id="genderSelector">
+            <label for="genderDropdown">Select Gender:</label>
+            <select id="genderDropdown" onchange="selectAttribute('gender')"></select>
+        </div>
+        
+        <div class="attribute-selector" id="behaviorSelector">
+            <label for="behaviorDropdown">Select Behavior:</label>
+            <select id="behaviorDropdown" onchange="selectAttribute('Behavior')"></select>
+        </div>
+        
+        <div class="attribute-selector" id="modusOperandiSelector">
+            <label for="modusOperandiDropdown">Select Modus Operandi:</label>
+            <select id="modusOperandiDropdown" onchange="selectAttribute('ModusOperandi')"></select>
+        </div>
+        
+        <div class="attribute-selector" id="commonAttributesSelector">
+            <label for="commonAttributesDropdown">Select Common Attributes:</label>
+            <select id="commonAttributesDropdown" onchange="selectAttribute('CommonAttributes')"></select>
+        </div>
+
+
+
 
             <div class="boogeyman-name" id="boogeymanName"></div>
             <div class="boogeyman-image" id="boogeymanImage"></div>

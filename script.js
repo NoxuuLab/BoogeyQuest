@@ -77,57 +77,89 @@ function updateMap(selectedAttribute) {
 }
 
 
-function getUniquePhysicalAppearances(boogeymanData) {
+function getUniqueAttributeValues(boogeymanData, attribute) {
   if (!boogeymanData || !Array.isArray(boogeymanData)) {
     return [];
   }
 
-  var physicalAppearances = new Set();
+  var attributeValues = new Set();
+
+  console.log(`${attribute} Values (before):`, Array.from(attributeValues));
 
   boogeymanData.forEach(function (boogeyman) {
-    if (boogeyman.Characteristics && Array.isArray(boogeyman.Characteristics.PhysicalAppearance)) {
-      boogeyman.Characteristics.PhysicalAppearance.forEach(function (appearance) {
-        physicalAppearances.add(appearance);
-      });
+    if (boogeyman.Characteristics && boogeyman.Characteristics[attribute]) {
+      if (Array.isArray(boogeyman.Characteristics[attribute])) {
+        boogeyman.Characteristics[attribute].forEach(function (value) {
+          attributeValues.add(value);
+        });
+      } else {
+        // If the attribute is not an array, treat it as a single value
+        attributeValues.add(boogeyman.Characteristics[attribute]);
+      }
     }
   });
 
-  console.log("Physical Appearances:", Array.from(physicalAppearances));
+  console.log(`${attribute} Values (after):`, Array.from(attributeValues));
 
-  return Array.from(physicalAppearances);
+  return Array.from(attributeValues);
 }
 
-// Function to handle attribute selection from the attribute dropdown
-function selectAttribute() {
-  // Get the selected attribute from the dropdown
-  var selectedAttribute = d3.select("#attributeDropdown").property("value");
 
-  // Update the map based on the selected attribute
-  updateMap(selectedAttribute, true); // Assuming true means it's a heatmap
-}
+
+
+
+
 
 // Function to update the attribute dropdown
 function updateAttributeDropdown(boogeymanData) {
-  var dropdown = d3.select("#attributeDropdown");
+  createAttributeDropdown('gender', boogeymanData);
+  createAttributeDropdown('Behavior', boogeymanData);
+  createAttributeDropdown('modusOperandi', boogeymanData);
+  createAttributeDropdown('commonAttributes', boogeymanData);
+}
+
+
+function createAttributeDropdown(attribute, boogeymanData) {
+  var dropdown = d3.select(`#${attribute}Dropdown`);
 
   // Remove existing options
   dropdown.selectAll("option").remove();
 
   // Add default option
   dropdown.append("option")
-    .text("Select an Attribute")
-    .attr("disabled", true)
-    .attr("selected", true);
+      .text(`Select ${attribute}`)
+      .attr("disabled", true)
+      .attr("selected", true);
 
   // Add options for each attribute
-  var attributes = getUniquePhysicalAppearances(boogeymanData); // Adjust based on your data structure
-  attributes.forEach(function (attribute) {
-    var option = dropdown.append("option")
-      .text(attribute)
-      .attr("value", attribute);
+  var attributes = getUniqueAttributeValues(boogeymanData, `Characteristics.${attribute}`);
+  attributes.forEach(function (value) {
+      var option = dropdown.append("option")
+          .text(value)
+          .attr("value", value);
   });
 }
 
+
+
+
+// Function to handle attribute selection
+function selectAttribute(attribute) {
+  var selectedOption = d3.select(`#${attribute}Dropdown`).node();
+  
+  // Check if the selected option exists and has a value
+  if (selectedOption && selectedOption.value !== undefined) {
+    var selectedValue = selectedOption.value;
+
+    // Your existing code to update the map based on the selected attribute
+    console.log(`Selected ${attribute}: ${selectedValue}`);
+    // Add the necessary code to update the map based on the selected attribute
+  } else {
+    // Handle the case when the selected option is null or undefined
+    console.log(`No ${attribute} selected`);
+    // You might want to add some default behavior or error handling here
+  }
+}
 
 
 // Function to handle country selection from the map
@@ -199,59 +231,6 @@ function loadBoogeymanInfo(country, callback) {
 
 
 // Function to handle country selection from the dropdown menu
-function selectCountry() {
-  var selectedValue = d3.select("#countryDropdown").property("value");
-
-  // Check if a country is selected
-  if (selectedValue !== "Select a Country") {
-    // Reset the selected country variable
-    selectedCountry = null;
-
-    // Reset the stroke and opacity for all countries
-    svg.selectAll('path')
-      .classed("selected", false)
-      .transition()
-      .duration(200)
-      .style("opacity", 0.8)
-      .style("stroke", "transparent");
-
-    // Highlight the selected country in the dropdown menu
-    d3.select("#countryDropdown option[value='" + selectedValue + "']")
-      .attr("selected", true);
-
-    // Check if the selected country has boogeyman information
-    if (countriesWithBoogeyman.includes(selectedValue)) {
-      const boogeymanInfo = boogeymanMap.get(selectedValue);
-      if (boogeymanInfo) {
-        // Log boogeymanInfo to the console to check if it's retrieved correctly
-        console.log("Boogeyman Info:", boogeymanInfo);
-
-        // Call the updateBoogeymanCard function with the boogeymanInfo
-        updateBoogeymanCard(boogeymanInfo);
-      }
-    } else {
-      // Show a message in the boogeyman card
-      document.getElementById("boogeymanCard").style.display = "block";
-      document.getElementById("boogeymanImage").style.backgroundImage = "none"; // Remove background image
-      document.getElementById("boogeymanName").innerText = "No Information Available";
-      document.getElementById("boogeymanCountry").innerText = selectedValue;
-      document.querySelector(".boogeyman-description").innerText = "Sorry, no information is available for this country.";
-    }
-
-    // Show tooltip with country name
-    tooltip.transition()
-      .duration(200)
-      .style("opacity", .9);
-    tooltip.html(`<strong>${selectedValue}</strong>`);
-
-    // Call the function to update the map based on the selected country
-    updateMap(selectedValue);
-
-    // Update the dropdown menu with the selected value
-    d3.select("#countryDropdown").property("value", selectedValue);
-  }
-}
-// Function to load data and initialize the map
 function loadData() {
   d3.json('data/boogeyman.json').then(function (data) {
     boogeymanData = data;
@@ -262,12 +241,22 @@ function loadData() {
       boogeymanData.forEach(function (d) {
         boogeymanMap.set(d.Country, d);
       });
+
+      // Populate dropdown menus after data is loaded
       updateBoogeymanDropdown(countriesWithBoogeyman);
       updateAttributeDropdown(boogeymanData);
+
+      // Draw the map after populating dropdown menus
       drawMap();
+
+      
     });
   });
 }
+
+// Call the function to load data and initialize the map
+loadData();
+
 
 // Function to draw the map
 function drawMap() {
@@ -387,6 +376,4 @@ function drawMap() {
     });
 }
 
-// Call the function to load data and initialize the map
-loadData();
 
