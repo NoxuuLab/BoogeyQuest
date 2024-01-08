@@ -15,7 +15,16 @@
 
     <div class="main-container">
         <div class="map-container" id="mapContainer"></div>
+        
         <div class="boogeyman-card" id="boogeymanCard">
+            
+            <div class="country-selector">
+                <label for="countryDropdown">Select a Country:</label>
+                <select id="countryDropdown" onchange="selectCountry()">
+              <!-- Options will be dynamically added using JavaScript -->
+            </select>
+          </div>
+
             <div class="boogeyman-name" id="boogeymanName"></div>
             <div class="boogeyman-image" id="boogeymanImage"></div>
             <div class="boogeyman-info">
@@ -26,6 +35,7 @@
                 
             
         </div>
+
       </div>
 
 

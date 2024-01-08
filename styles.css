@@ -89,4 +89,7 @@ body {
   }
   
 
-  
+  /* Add styling for countries without boogeyman information in the dropdown */
+#countryDropdown option.no-boogeyman {
+  font-style: italic;
+}
