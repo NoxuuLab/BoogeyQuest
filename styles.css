@@ -28,12 +28,13 @@ body {
     border: 1px #E2E2E8 solid; 
     align-items: center; 
     display: flex;
+  
 }
 
 #mapContainer {
-    /* Add or adjust styles as needed */
     width: 100%;
     height: 100%;
+   
 }
   .boogeyman-card {
     width: 397px; 
