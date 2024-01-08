@@ -33,7 +33,7 @@ cd your-repository
 # Open index.html in your preferred web browser
 
 ## Project Structure
-Explain the organization of your project's files and directories. Provide a brief overview of the purpose of each major file.
+Explain the organization of your project\'s files and directories. Provide a brief overview of the purpose of each major file.
 
 - `index.html`: The main HTML file containing the structure of the web page.
 - `styles.css`: The CSS file for styling the HTML elements.
