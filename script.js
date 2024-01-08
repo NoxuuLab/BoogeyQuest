@@ -59,21 +59,28 @@ function updateBoogeymanDropdown(countriesWithBoogeyman) {
 }
 
 // Function to update the map based on the selected attribute
-function updateMap(selectedAttribute) {
-  // Highlight the selected attribute in the map
+function updateMap(selectedAttribute, selectedBehavior) {
+  // Highlight the selected attribute and behavior in the map
   svg.selectAll('path')
-    .attr("fill", function (d) {
-      // Check if the country has boogeyman information
-      if (countriesWithBoogeyman.includes(d.properties.name)) {
-        const boogeymanInfo = boogeymanMap.get(d.properties.name);
-        if (boogeymanInfo && boogeymanInfo.Characteristics &&
-            boogeymanInfo.Characteristics.PhysicalAppearance &&
-            boogeymanInfo.Characteristics.PhysicalAppearance.includes(selectedAttribute)) {
-          return "blue"; // Color for countries with the selected attribute
+  .attr("fill", function (d) {
+    // Check if the country has boogeyman information
+    if (countriesWithBoogeyman.includes(d.properties.name)) {
+      const boogeymanInfo = boogeymanMap.get(d.properties.name);
+      if (boogeymanInfo && boogeymanInfo.Characteristics) {
+        // Check if the selected attribute and behavior match
+        if (
+          boogeymanInfo.Characteristics.PhysicalAppearance &&
+          boogeymanInfo.Characteristics.PhysicalAppearance.includes(selectedAttribute) &&
+          boogeymanInfo.Characteristics.Behavior &&
+          boogeymanInfo.Characteristics.Behavior.includes(selectedBehavior)
+        ) {
+          return "blue"; // Color for countries with the selected attribute and behavior
         }
       }
-      return "lightgray"; // Default color for countries without boogeyman information or selected attribute
-    });
+    }
+    return "lightgray"; // Default color for countries without boogeyman information or selected attribute/behavior
+  });
+  
 }
 
 
@@ -97,15 +104,6 @@ function getUniquePhysicalAppearances(boogeymanData) {
   return Array.from(physicalAppearances);
 }
 
-// Function to handle attribute selection from the attribute dropdown
-function selectAttribute() {
-  // Get the selected attribute from the dropdown
-  var selectedAttribute = d3.select("#attributeDropdown").property("value");
-
-  // Update the map based on the selected attribute
-  updateMap(selectedAttribute, true); // Assuming true means it's a heatmap
-}
-
 // Function to update the attribute dropdown
 function updateAttributeDropdown(boogeymanData) {
   var dropdown = d3.select("#attributeDropdown");
@@ -127,6 +125,81 @@ function updateAttributeDropdown(boogeymanData) {
       .attr("value", attribute);
   });
 }
+
+// Function to handle attribute selection from the attribute dropdown
+function selectAttribute() {
+  // Get the selected attribute from the dropdown
+  var selectedAttribute = d3.select("#attributeDropdown").property("value");
+
+  // Get the selected behavior from the dropdown
+  var selectedBehavior = d3.select("#behaviorDropdown").property("value");
+
+  // Update the map based on the selected attribute and behavior
+  updateMap(selectedAttribute, selectedBehavior);
+}
+
+// Function to get unique behavior values from boogeyman data
+function getUniqueBehaviors(boogeymanData) {
+  if (!boogeymanData || !Array.isArray(boogeymanData)) {
+    return [];
+  }
+
+  var behaviors = new Set();
+
+  boogeymanData.forEach(function (boogeyman) {
+    if (boogeyman.Characteristics && Array.isArray(boogeyman.Characteristics.Behavior)) {
+      boogeyman.Characteristics.Behavior.forEach(function (behavior) {
+        behaviors.add(behavior);
+      });
+    }
+  });
+
+  console.log("Behaviors:", Array.from(behaviors));
+
+  return Array.from(behaviors);
+}
+
+function updateBoogeymanBehaviorDropdown(boogeymanData) {
+  var dropdown = d3.select("#behaviorDropdown");
+
+  // Remove existing options
+  dropdown.selectAll("option").remove();
+
+  // Add default option
+  dropdown.append("option")
+    .text("Select a Behavior")
+    .attr("disabled", true)
+    .attr("selected", true);
+
+  // Add options for each behavior
+  var behaviors = getUniqueBehaviors(boogeymanData); // Implement getUniqueBehaviors function
+  behaviors.forEach(function (behavior) {
+    var option = dropdown.append("option")
+      .text(behavior)
+      .attr("value", behavior);
+  });
+}
+
+// Function to handle behavior selection from the behavior dropdown
+function selectBehavior() {
+  // Get the selected behavior from the dropdown
+  var selectedBehavior = d3.select("#behaviorDropdown").property("value");
+
+  // Get the selected attribute from the dropdown
+  var selectedAttribute = d3.select("#attributeDropdown").property("value");
+
+  // Update the map based on the selected attribute and behavior
+  updateMap(selectedAttribute, selectedBehavior);
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -264,6 +337,7 @@ function loadData() {
       });
       updateBoogeymanDropdown(countriesWithBoogeyman);
       updateAttributeDropdown(boogeymanData);
+      updateBoogeymanBehaviorDropdown(boogeymanData); // Add this line to initialize behavior dropdown
       drawMap();
     });
   });
