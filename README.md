@@ -7,7 +7,7 @@
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Data Sources](#data-sources)
-- [Contributing](#contributing)
+- [Limitations](#limitations)
 - [License](#license)
 
 ## Introduction
@@ -39,7 +39,8 @@ Explain the organization of your project\'s files and directories. Provide a bri
 - `styles.css`: The CSS file for styling the HTML elements.
 - `script.js`: The JavaScript file containing the D3.js code for data visualization.
 
-
+## Usage
+Explain how users can interact with your data visualization. Describe any features, functionalities, or user interfaces. Provide examples or screenshots to illustrate how to use your project effectively.
 
 ## Data Sources
 List and describe the data sources used in your project. Include links or references to the datasets and any relevant information about the data.
@@ -48,7 +49,8 @@ List and describe the data sources used in your project. Include links or refere
 - [Boogeyman Data](data/boogeyman.json): JSON file containing information about boogeymen in different countries.
 
 
-## Usage
-Explain how users can interact with your data visualization. Describe any features, functionalities, or user interfaces. Provide examples or screenshots to illustrate how to use your project effectively.
+## Limitations
 
+
+## License
 
