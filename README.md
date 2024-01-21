@@ -1,4 +1,4 @@
-# DataIsBeautifull
+# Boogey Quest Data Visualization
 
 BoogeyQuest is an educational and interactive project that ventures into the rich world of boogeymen myths from across the globe. It is a fusion of geographical data visualization and storytelling that allows users to discover the diverse folklore associated with these enigmatic figures.
 
