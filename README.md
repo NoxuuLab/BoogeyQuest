@@ -86,7 +86,7 @@ Read the Boogeyman Card: After selecting a country or applying filters, read the
 
 ## Acknowledgements
 
-Thanks to [Isaac Pante] for very inspiring teaching.
+Thanks to [Isaac Pante](https://github.com/ipante) for very inspiring teaching.
 
 ## Data Sources
 List and describe the data sources used in your project. Include links or references to the datasets and any relevant information about the data.
