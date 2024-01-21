@@ -153,6 +153,9 @@ function selectCountryFromMap(event, d) {
 
   // Update the UI based on the new state
   updateUIForSelectedCountry(selectedValue);
+
+  // Update the country dropdown
+  updateDropdownSelection(selectedValue);
 }
 
 // Function to update UI when a country is selected
@@ -274,8 +277,10 @@ function updateDropdownSelection(selectedCountryName) {
   var countryDropdown = d3.select("#countryDropdown");
   countryDropdown.property("value", selectedCountryName);
 
+  // Reset attribute and behavior dropdowns
+  d3.select("#attributeDropdown").property("value", "Select an Attribute");
+  d3.select("#behaviorDropdown").property("value", "Select a Behavior");
 }
-
 // Function to display boogeyman card with no information
 function displayNoBoogeymanInfo(countryName) {
   document.getElementById("boogeymanCard").style.display = "block";
