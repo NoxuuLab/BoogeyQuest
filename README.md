@@ -31,6 +31,9 @@ This project was created for the course on **Data Visualization** , run by [Isaa
 **Author**: _Marcela Havrilova_ (<marcela.havrilova@unil.ch>)
 **Date**: _Autumn semester, 2023_
 
+![Screenshot](https://github.com/NoxuuLab/DataIsBeautifull/blob/49c5493d12d5a81cbdfc84b4577f1ad25d457972/images/Screenshot%202024-01-21%20at%2020.03.44.png)
+
+
 ## Dataset Overview
 
 **Origin and Inspiration**
@@ -82,7 +85,7 @@ Explore the Map: Hover over countries to see the name and click to view Boogeyma
 Select a Country: Use the country dropdown to focus on a specific country's Boogeyman folklore.
 Filter by Attribute/Behavior: Use the attribute and behavior dropdowns to highlight countries with Boogeymen matching those characteristics.
 Read the Boogeyman Card: After selecting a country or applying filters, read the displayed information about the Boogeyman's lore.
-![Screenshot](https://github.com/NoxuuLab/DataIsBeautifull/blob/49c5493d12d5a81cbdfc84b4577f1ad25d457972/images/Screenshot%202024-01-21%20at%2020.03.44.png)
+
 
 ## Acknowledgements
 
