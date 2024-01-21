@@ -36,17 +36,24 @@ body {
     height: 100%;
    
 }
-  .boogeyman-card {
-    width: 397px; 
-    height: 729px; 
-    position: relative; 
-    border-radius: 9.80px; 
-    border: 0.98px #E2E2E8 solid; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    display: flex;
-  }
+
+.highlighted {
+  stroke: #ff0000 !important;
+  stroke-width: 2;
+  fill: #ffaaaa !important;
+}
+
+.boogeyman-card {
+  width: 397px; 
+  height: 729px; 
+  position: relative; 
+  border-radius: 9.80px; 
+  border: 0.98px #E2E2E8 solid; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: flex;
+}
 
   .boogeyman-name {
     color: black;

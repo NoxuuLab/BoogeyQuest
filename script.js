@@ -1,46 +1,60 @@
 var svg;
 
 // Global SVG dimensions
-var width = 960;  // Example width, adjust as needed
-var height = 600; // Example height, adjust as needed
+var width = 960;  
+var height = 600;
 
 // Define global state
 var globalState = {
-  countries: new Map(), // To store the boogeyman data by country name
-  geojson: null, // To store the geographic data for the map
+  countries: new Map(), // Store the boogeyman data by country name
+  geojson: null, // Sstore the geographic data for the map
   selectedCountry: null,
   selectedAttribute: null,
   selectedBehavior: null
 };
 
+// Tooltip declaration
 var tooltip = d3.select("body").append("div")
     .attr("class", "tooltip") 
     .style("opacity", 0);
 
 // Define the projection and path for the map
 var projection = d3.geoMercator()
-  .center([0, 0]) // Center the Map in middle
-  .scale(150)     // Scale the Map
-  .translate([width / 2, height / 2]); // Translate to the center of the screen
-
+  .center([0, 0]) // You might need to adjust this or remove it
+  .scale(150) // And this value as well
+  .translate([width / 2, height / 2]);
 var path = d3.geoPath().projection(projection);
-
 
 // Function to load data
 function loadData() {
   // Load boogeyman data
   d3.json('./data/boogeyman.json').then(function(boogeymanData) {
-    // Store the boogeyman data in the global state for easy lookup by country
+    // Store the boogeyman data in the global state for lookup by country
+    let allAttributes = new Set();
+    let allBehaviors = new Set();
+
     boogeymanData.forEach(function(entry) {
       globalState.countries.set(entry.Country, entry);
+      
+      if (entry.Characteristics) {
+        entry.Characteristics.PhysicalAppearance.forEach(attr => allAttributes.add(attr));
+        entry.Characteristics.Behavior.forEach(behav => allBehaviors.add(behav));
+      }
     });
 
-    // Now load the geojson data
+    // Convert Sets to Arrays for d3 data binding
+    globalState.allAttributes = Array.from(allAttributes);
+    globalState.allBehaviors = Array.from(allBehaviors);
+
+    // Populate attribute and behavior dropdowns
+    populateAttributeAndBehaviorDropdowns();
+
+    // Load the geojson data
     d3.json('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson').then(function(loadedGeojson) {
       // Store the geojson data in the global state
       globalState.geojson = loadedGeojson;
 
-      // With both datasets loaded, we can initialize the map and dropdowns
+      // Initialize the map
       createSVGContainer();
     });
   });
@@ -53,13 +67,11 @@ function createSVGContainer() {
     .attr("width", "100%")
     .attr("height", "100%");
 
-  // Initialize the map after creating the SVG container
+  // Initialize the map and dropdown menus after creating the SVG container
   initializeMap();
   initializeDropdowns();
 }
  
-
-
 // Function to initialize the map with the geojson data
 function initializeMap() {
   // Draw the map
@@ -70,30 +82,21 @@ function initializeMap() {
     .append("path")
     .attr("d", path.projection(projection))
     .attr("class", function(d) {
-      // Use a class to style the country
       return "country" + (globalState.countries.has(d.properties.name) ? " country-with-boogeyman" : "");
     })
     .on("mouseover", function(event, d) {
-      // Show tooltip with country name (and boogeyman name if available)
       tooltip.transition()
         .duration(200)
         .style("opacity", 0.9);
-
+    
       const boogeymanInfo = globalState.countries.get(d.properties.name);
-      if (boogeymanInfo) {
-        // Call the updateBoogeymanCard function with the boogeymanInfo
-        updateBoogeymanCard(boogeymanInfo);
-      } else {
-        tooltip.html(`<strong>${d.properties.name}</strong>`);
-      }
-
-      tooltip.style("left", (event.pageX) + "px").style("top", (event.pageY - 28) + "px");
-
-      // Highlight country on mouseover only if not selected
-      if (globalState.selectedCountry !== d.properties.name) {
-        d3.select(this).classed("country-hover", true);
-      }
+      let tooltipText = boogeymanInfo ? boogeymanInfo.Name : d.properties.name;
+      tooltip.html(`<strong>${tooltipText}</strong>`);
+    
+      tooltip.style("left", (event.pageX + 10) + "px")
+             .style("top", (event.pageY - 28) + "px");
     })
+    
     .on("mouseleave", function(event, d) {
       // Hide tooltip on mouseout
       tooltip.transition()
@@ -124,25 +127,21 @@ function initializeDropdowns() {
     .text(function(d) { return d; })
     .attr("value", function(d) { return d; });
 
-  // Initialize attribute and behavior dropdowns with dummy data for now
-  attributeDropdown.append("option").text("Select an Attribute").attr("disabled", true).attr("selected", true);
-  behaviorDropdown.append("option").text("Select a Behavior").attr("disabled", true).attr("selected", true);
+    // Initialize attribute and behavior dropdown
+    attributeDropdown.append("option").text("Select an Attribute").attr("disabled", true).attr("selected", true);
+    behaviorDropdown.append("option").text("Select a Behavior").attr("disabled", true).attr("selected", true);
 
 
     // Event listener for country dropdown changes
-  countryDropdown.on("change", function(event) {
-  // In D3 v6 and above, use 'event' instead of 'd3.event'
-  var selectedCountry = event.target.value;
-  globalState.selectedCountry = selectedCountry;
-  updateUIForSelectedCountry(selectedCountry);
-  populateAttributeAndBehaviorDropdowns(selectedCountry);
-});
-
-  // Populate attribute and behavior dropdowns based on the selected country
+    countryDropdown.on("change", function(event) {
+      var selectedCountry = event.target.value;
+      globalState.selectedCountry = selectedCountry;
+      updateUIForSelectedCountry(selectedCountry);
+    });
+    
   attributeDropdown.on("change", onAttributeSelect);
   behaviorDropdown.on("change", onBehaviorSelect);
-  // TODO: Populate attribute and behavior dropdowns based on the selected country
-  // TODO: Add event listeners for attribute and behavior dropdown changes
+  
 }
 
 // Function to handle country selection from the map
@@ -172,7 +171,7 @@ function updateUIForSelectedCountry(countryName) {
 }
 
 // Function to populate attribute and behavior dropdowns based on the selected country
-function populateAttributeAndBehaviorDropdowns(selectedCountry) {
+function populateAttributeAndBehaviorDropdowns() {
   var attributeDropdown = d3.select("#attributeDropdown");
   var behaviorDropdown = d3.select("#behaviorDropdown");
 
@@ -180,57 +179,105 @@ function populateAttributeAndBehaviorDropdowns(selectedCountry) {
   attributeDropdown.selectAll("option").remove();
   behaviorDropdown.selectAll("option").remove();
 
-  // Get the data for the selected country
-  var countryData = globalState.countries.get(selectedCountry);
-  if (countryData && countryData.Characteristics) {
-      var attributes = countryData.Characteristics.PhysicalAppearance || [];
-      var behaviors = countryData.Characteristics.Behavior || [];
+  // Add default options
+  attributeDropdown.append("option").text("Select an Attribute").attr("disabled", true).attr("selected", true);
+  behaviorDropdown.append("option").text("Select a Behavior").attr("disabled", true).attr("selected", true);
 
-      // Populate the attribute dropdown
-      attributeDropdown.selectAll("option")
-          .data(attributes)
-          .enter()
-          .append("option")
-          .text(function(d) { return d; })
-          .attr("value", function(d) { return d; });
+  // Populate the attribute dropdown
+  attributeDropdown.selectAll("option")
+    .data(globalState.allAttributes)
+    .enter()
+    .append("option")
+    .text(function(d) { return d; })
+    .attr("value", function(d) { return d; });
 
-      // Populate the behavior dropdown
-      behaviorDropdown.selectAll("option")
-          .data(behaviors)
-          .enter()
-          .append("option")
-          .text(function(d) { return d; })
-          .attr("value", function(d) { return d; });
-  } else {
-      // Handle case where no data is available
-      attributeDropdown.append("option").text("No Attributes Available");
-      behaviorDropdown.append("option").text("No Behaviors Available");
-  }
+  // Populate the behavior dropdown
+  behaviorDropdown.selectAll("option")
+    .data(globalState.allBehaviors)
+    .enter()
+    .append("option")
+    .text(function(d) { return d; })
+    .attr("value", function(d) { return d; });
 }
 
+// Function to handle bahaviour selection
+function onBehaviorSelect(event) {
+  var selectedBehavior = event.target.value;
+  globalState.selectedBehavior = selectedBehavior;
+  globalState.selectedCountry = null;
+  globalState.selectedAttribute = null;
+
+  // Clear country and attribute dropdowns
+  var countryDropdown = d3.select("#countryDropdown").node();
+  var attributeDropdown = d3.select("#attributeDropdown").node();
+
+  countryDropdown.selectedIndex = 0;
+  attributeDropdown.selectedIndex = 0;
+
+  // Clear any previous highlights on the map
+  clearMapHighlights();
+
+  // Highlight countries based on the selected behavior
+  updateMapForBehavior(selectedBehavior);
+}
+
+// Function to update the map based on the behavior selection
+function updateMapForBehavior(behavior) {
+  svg.selectAll("path")
+    .classed("highlighted", function(d) {
+      const countryData = globalState.countries.get(d.properties.name);
+      return countryData && countryData.Characteristics 
+             && countryData.Characteristics.Behavior 
+             && countryData.Characteristics.Behavior.includes(behavior);
+    });
+}
 
 // Function to handle attribute selection
 function onAttributeSelect(event) {
   var selectedAttribute = event.target.value;
   globalState.selectedAttribute = selectedAttribute;
+  globalState.selectedCountry = null;
+  globalState.selectedBehavior = null;
 
-  // Update UI based on the selected attribute (and selected country/behavior if necessary)
-  // For example, you might want to filter the map based on the selected attribute
+  // Clear country and behavior dropdowns
+  var countryDropdown = d3.select("#countryDropdown").node();
+  var behaviorDropdown = d3.select("#behaviorDropdown").node();
+
+  countryDropdown.selectedIndex = 0; // Reset to the first option, assuming it's a placeholder like "Select a Country"
+  behaviorDropdown.selectedIndex = 0; // Reset to the first option, assuming it's a placeholder like "Select a Behavior"
+
+  // Clear any previous highlights on the map
+  clearMapHighlights();
+
+  // Highlight countries based on the selected attribute
+  updateMapForAttribute(selectedAttribute);
 }
 
-// Function to handle behavior selection
-function onBehaviorSelect(event) {
-  var selectedBehavior = event.target.value;
-  globalState.selectedBehavior = selectedBehavior;
-
-  // Update UI based on the selected behavior (and selected country/attribute if necessary)
-  // Similar to above, adjust the map or other UI elements based on the behavior
+// Function to update the map based on the attribute selection
+function updateMapForAttribute(attribute) {
+  svg.selectAll("path")
+    .classed("highlighted", function(d) {
+      const countryData = globalState.countries.get(d.properties.name);
+      return countryData && countryData.Characteristics 
+             && countryData.Characteristics.PhysicalAppearance 
+             && countryData.Characteristics.PhysicalAppearance.includes(attribute);
+    });
 }
 
+// Function to clear the hightlights on the map based
+function clearMapHighlights() {
+  svg.selectAll("path.highlighted").classed("highlighted", false);
+}
+
+// Update country dropdown
+function updateDropdownSelection(selectedCountryName) {
+  var countryDropdown = d3.select("#countryDropdown");
+  countryDropdown.property("value", selectedCountryName);
+
+}
 
 // Function to display boogeyman card with no information
 function displayNoBoogeymanInfo(countryName) {
-  // Set boogeyman card for no information available
   document.getElementById("boogeymanCard").style.display = "block";
   document.getElementById("boogeymanImage").style.backgroundImage = "none";
   document.getElementById("boogeymanName").innerText = "No Information Available";
@@ -246,14 +293,11 @@ function updateBoogeymanCard(boogeymanInfo) {
   }
 
   // Update the boogeyman card with the information from boogeymanInfo
-  // For example, setting the name, description, image, etc.
   document.getElementById("boogeymanName").innerText = boogeymanInfo.Name;
   document.getElementById("boogeymanCountry").innerText = boogeymanInfo.Country;
   document.querySelector(".boogeyman-description").innerText = boogeymanInfo.Description;
   document.getElementById("boogeymanImage").style.backgroundImage = `url(${boogeymanInfo.Image})`;
 }
 
-
-
-// Call the loadData function when the page loads
+// loadData function when the page loads
 loadData();
