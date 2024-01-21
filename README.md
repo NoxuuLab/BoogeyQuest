@@ -32,16 +32,21 @@ This project was created for the course on **Data Visualization** , run by [Isaa
 **Date**: _Autumn semester, 2023_
 
 ## Dataset Overview
+
 **Origin and Inspiration**
+
 The BoogeyQuest dataset is a compilation of boogeyman stories from various cultures, inspired by a map on TheToyZone website. This dataset extends their work, focusing on unique characteristics and narratives of these mythical entities.
 
 **Significance**
+
 Folk tales, particularly boogeyman stories, are vital in understanding common cultural fears and values. This project aims to highlight universal traits among these figures and their role in different societies.
 
 **Data Collection**
+
 Creating the dataset posed a challenge due to limited structured data on global boogeyman myths. The project began with data from TheToyZone's visualization, which was expanded to include detailed information about each boogeyman. As i didn't have time to make research about the common characteristics by mysself i decided to use GPT to write description of the named boogeymans. 
 
 **Methodology**
+
 To manage the breadth of data, GPT from OpenAI was used to generate detailed descriptions and traits in JSON format.I wrote short script to in OpenAI API to generate the commons descriptions for me. This AI-assisted approach enabled the creation of a rich dataset but also implies that the data may not have undergone thorough cultural verification.
 
 **Dataset Characteristics**
