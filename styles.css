@@ -36,17 +36,24 @@ body {
     height: 100%;
    
 }
-  .boogeyman-card {
-    width: 397px; 
-    height: 729px; 
-    position: relative; 
-    border-radius: 9.80px; 
-    border: 0.98px #E2E2E8 solid; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    display: flex;
-  }
+
+.highlighted {
+  stroke: #ff0000 !important;
+  stroke-width: 2;
+  fill: #ffaaaa !important;
+}
+
+.boogeyman-card {
+  width: 397px; 
+  height: 729px; 
+  position: relative; 
+  border-radius: 9.80px; 
+  border: 0.98px #E2E2E8 solid; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: flex;
+}
 
   .boogeyman-name {
     color: black;
@@ -80,16 +87,50 @@ body {
     word-wrap: break-word;
   }
 
-  .boogeyman-header {
-    color: black;
-    font-size: 16px;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    word-wrap: break-word;
-  }
-  
+.country {
+  stroke: transparent;
+  opacity: 0.8;
+}
 
-  /* Add styling for countries without boogeyman information in the dropdown */
+.country-with-boogeyman {
+  fill: blue;
+}
+
+.selected-country {
+  opacity: 1;
+  stroke: black;
+}
+
+.country-hover {
+  opacity: 1;
+  stroke: black;
+}
+
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  background: lightgrey;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+
+
+
+
+.boogeyman-header {
+  color: black;
+  font-size: 16px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+
+/* Add styling for countries without boogeyman information in the dropdown */
 #countryDropdown option.no-boogeyman {
-  font-style: italic;
+font-style: italic;
 }

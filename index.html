@@ -14,40 +14,26 @@
 
 
     <div class="main-container">
-        <div class="map-container" id="mapContainer"></div>
+        <div class="mapContainer" id="mapContainer"></div>
         
         <div class="boogeyman-card" id="boogeymanCard">
 
             <div class="country-selector">
                 <label for="countryDropdown">Select a Country:</label>
-                <select id="countryDropdown" onchange="selectCountry()"></select>
+                <select id="countryDropdown"></select>
+
           </div>
+          <div id="countryList"></div>
 
           <div class="attribute-selector">
-            <label for="attributeDropdown">Select Physical Appearance:</label>
-            <select id="attributeDropdown" onchange="selectAttribute('PhysicalAppearance')"></select>
+            <label for="attributeDropdown">Select an Attribute:</label>
+            <select id="attributeDropdown"></select>
         </div>
-
-        <div class="attribute-selector" id="genderSelector">
-            <label for="genderDropdown">Select Gender:</label>
-            <select id="genderDropdown" onchange="selectAttribute('gender')"></select>
-        </div>
-        
-        <div class="attribute-selector" id="behaviorSelector">
-            <label for="behaviorDropdown">Select Behavior:</label>
-            <select id="behaviorDropdown" onchange="selectAttribute('Behavior')"></select>
-        </div>
-        
-        <div class="attribute-selector" id="modusOperandiSelector">
-            <label for="modusOperandiDropdown">Select Modus Operandi:</label>
-            <select id="modusOperandiDropdown" onchange="selectAttribute('ModusOperandi')"></select>
-        </div>
-        
-        <div class="attribute-selector" id="commonAttributesSelector">
-            <label for="commonAttributesDropdown">Select Common Attributes:</label>
-            <select id="commonAttributesDropdown" onchange="selectAttribute('CommonAttributes')"></select>
-        </div>
-
+        <div class="behavior-selector">
+            <label for="behaviorDropdown">Select a Behavior:</label>
+            <select id="behaviorDropdown"></select>
+          </div>
+    
 
 
 
@@ -59,7 +45,7 @@
                 <div class="boogeyman-header" >Description:</div>
                 <p class="boogeyman-description"></p>
                 
-            
+              
         </div>
 
 <svg id="map"></svg>
