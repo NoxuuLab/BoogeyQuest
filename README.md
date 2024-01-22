@@ -14,7 +14,7 @@ BoogeyQuest is an educational and interactive project that ventures into the ric
 - [Project Structure](#project-structure)
 - [How to Use](#how-to-use)
 - [Acknowledgements](#acknowledgements)
-- [Data Sources](#data-sources)
+- [References](#references)
 
 
 ## Introduction
@@ -91,8 +91,7 @@ Read the Boogeyman Card: After selecting a country or applying filters, read the
 
 Thanks to [Isaac Pante](https://github.com/ipante) for very inspiring teaching.
 
-## Data Sources
-List and describe the data sources used in your project. Include links or references to the datasets and any relevant information about the data.
+## References
 
 **map**  
 [https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson](https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson)
